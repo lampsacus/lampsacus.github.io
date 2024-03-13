@@ -228,7 +228,7 @@ e<sup>i&#952;</sup> = cos &#952; + i sen &#952;
 <h2 id="cos-y-sen"><em>cos</em> y <em>sen</em>&hellip;</h2>
 <p>se refieren por supuesto a las funciones trigonométricas coseno y seno respectivamente.</p>
 <p>En matemáticas, el seno y el coseno son funciones trigonométricas de un ángulo. El seno y el coseno de un ángulo agudo se definen en el contexto de un triángulo rectángulo: para el ángulo especificado, su seno es la relación entre la longitud del lado opuesto a ese ángulo y la longitud del lado más largo del triángulo (la hipotenusa), y el coseno es la razón de la longitud del cateto adyacente a la de la hipotenusa.</p>
-<img src="/img/Triangulo-Sen-Cos.svg" alt="Triángulo: Seno y Coseno" width="50%"/>
+<img src="/assets/images/Triangulo-Sen-Cos.svg" alt="Triángulo: Seno y Coseno" width="50%"/>
 <p>Valdría la pena en este momento escribir con palabras lo que dice esta fórmula en castellano antes de proceder, para volver a apreciar en su conjunto la joya que es:</p>
 <p>Dice:</p>
 <p><em>El límite de (1+t/n)<sup>(n)(u)</sup> mientras n continúa al infinito elevado al poder del producto del número imaginario y un ángulo es igual a la suma del coseno del ángulo más el producto del número imaginario y el seno del ángulo.</em></p>
@@ -238,7 +238,7 @@ e<sup>i&#952;</sup> = cos &#952; + i sen &#952;
 <p>¡Vaya ocurrencia! Y este no es el final.</p>
 <p>Por alguna razón, que va más allá del alcance de este artículo, Euler decidió sustituir el valor del ángulo θ por π, otro número trascendental e irracional. Con ello extendió el reino de la trigonometría.</p>
 <p>La palabra trigonometría proviene del griego τριγωνο trigōno o triángulo y μετρον metron o medida. ¿Pero que tal si aplicamos sus principios al círculo, como hizo Euler? A fin de cuentas, si nos fijamos en la siguiente figura podemos percibir la relación entre la geometría del círculo y la trigonometría. Adicionemos además coordenadas:</p>
-<img src="/img/Trigonometria.webp" alt="Triángulo y Círculo: Seno y Coseno" width="80%"/>
+<img src="/assets/images/Trigonometria.webp" alt="Triángulo y Círculo: Seno y Coseno" width="60%"/>
 <p>El resultado, entonces, cuando θ = π:</p>
 <p style="text-align: center;">
 e<sup>i&#952;</sup> = cos &#952; + i sen &#952;
