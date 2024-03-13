@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Libro I de los Anales de Tácito
+title: Eduardo Alemán's Website
 ---
+**Libro I de los Anales de Tácito**
+
 La copia más antigua del primer libro de los Anales manuscrito por un monje benedictino alrededor de los años 1000-1100 e. c. ha sido digitalizado y está actualmente disponible en el repositorio digital de la [Biblioteca Medicea Laurenziana](http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.68.1&Date=1001-1100). 
 
 De la siguiente traducción al castellano: Tácito, Cayo Cornelio. Anales. Libros I-VI. España, BIBLIOTECA CLÁSICA GREDOS Nº 19 - Introducción, traducción y notas de José L. Moralejo, 1979.
