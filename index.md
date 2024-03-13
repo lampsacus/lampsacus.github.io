@@ -15,6 +15,3 @@ layout: default
 ---
 
 #### Fotografía
-
-
-
