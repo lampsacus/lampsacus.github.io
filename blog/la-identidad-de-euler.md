@@ -3,7 +3,6 @@ layout: default
 title: Eduardo Alemán's Website
 ---
 
-
 <main>
 <h2 id="la-fórmula-más-notable-en-matemáticas">La fórmula más notable en matemáticas</h2>
 <p>En una de sus famosas conferencias de Física, Richard Feynman le dedica una clase completa a &ldquo;una de las fórmulas más notables, casi asombrosas, de todas las matemáticas.&rdquo; Al comenzar, Feynman explica que &ldquo;desde el punto de vista del físico, podríamos presentar esta fórmula en dos minutos más o menos, y terminar con ella. Pero la ciencia es tanto para el disfrute intelectual como para la utilidad práctica, así que en lugar de dedicar unos minutos a esta asombrosa joya, rodearemos la joya con su engaste adecuado en el gran diseño de esa rama de las matemáticas que se llama álgebra elemental.&rdquo; Un poco antes de culminar, la llama además &ldquo;la fórmula más notable en matemáticas&rdquo;.</p>
@@ -293,4 +292,3 @@ code.has-jax {font: inherit;
               border: inherit;
               color: #515151;}
 </style>
-
