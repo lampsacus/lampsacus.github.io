@@ -1,14 +1,7 @@
-<html lang="es-es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>La identidad de Euler | Espacio Digital de Eduardo Alemán</title>
-    <link rel="stylesheet" href="../../../css/style.css" />
-    <link rel="stylesheet" href="../../../css/fonts.css" />
-    
-  </head>
-
-  <body>
+---
+layout: default
+title: Eduardo Alemán's Website
+---
 
 
 <main>
