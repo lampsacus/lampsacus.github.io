@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Anales de Tácito](/libros/anales-libro-1.md)
 
 There should be whitespace between paragraphs.
 
@@ -98,7 +98,7 @@ end
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching]()
 
 
 ### Definition lists can be used with HTML syntax.
