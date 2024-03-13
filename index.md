@@ -8,4 +8,4 @@ layout: default
 
 #### Escritos
 
-[La Identidad de Euler] (/blog/la-identidad-de-euler.md)
+[La Identidad de Euler](/blog/la-identidad-de-euler.md)
