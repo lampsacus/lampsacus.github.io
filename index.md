@@ -18,6 +18,6 @@ layout: default
 ---
 
 #### Fotografía
-<br />
 [Bukharan Markhor](/assets/gallery/Bukharan%20markhor.jpg)
+[El sol](/assets/gallery/El%20sol.jpg)
 
