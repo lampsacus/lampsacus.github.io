@@ -3,6 +3,8 @@ layout: default
 ---
 **Jacques Monod: El segundo secreto de la vida**
 
+[![Jacques Monod 1971](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Jacques_Monod_1971.jpg/256px-Jacques_Monod_1971.jpg)](https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg "Farabola, Public domain, via Wikimedia Commons")
+
 Jacques Monod publicó su tratado filosófico _El azar y la necesidad_ en el año 1970. Anteriormente había compartido el premio Nobel de fisiología o medicina junto a François Jacob y André Lwoff por elucidar el mecanismo de formación de proteínas en las células a través del mensajero-RNA.
 
 Durante la ocupación nazi de Francia, Monod vivió una doble vida, diseñando experimentos en su laboratorio del Instituto Pasteur durante el día y llevando a cabo operaciones clandestinas como parte de la Resistencia por la noche. Llegó a ser promovido a comandante de las Forces françaises de l’Intérieur, en cuyo rol, según Sean B. Carroll, coordinó sabotajes y el asesinato de traidores que colaboraron con el Tercer Reich. En el verano de 1944, dirigió junto a otros oficiales los actos de insurrección que permitieron la entrada del general Patton a Paris y la eventual liberación de la ciudad.
