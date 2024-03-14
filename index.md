@@ -9,7 +9,7 @@ layout: default
 ---
 
 #### Escritos
-
+<br />
 [La Identidad de Euler](/blog/la-identidad-de-euler.md)
 
 ---
