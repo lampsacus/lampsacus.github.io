@@ -1,10 +1,7 @@
 ---
 layout: default 
 ---
-
-[Jacques Monod](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Jacques_Monod_1971.jpg)
-
-El segundo secreto de la vida
+**Jacques Monod: El segundo secreto de la vida**
 
 Jacques Monod publicó su tratado filosófico _El azar y la necesidad_ en el año 1970. Anteriormente había compartido el premio Nobel de fisiología o medicina junto a François Jacob y André Lwoff por elucidar el mecanismo de formación de proteínas en las células a través del mensajero-RNA.
 
