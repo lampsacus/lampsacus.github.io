@@ -1,6 +1,6 @@
 title: Eduardo Alemán's Website
 description:
-show_downloads: false
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-tactile
 include:
