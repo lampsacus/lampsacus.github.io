@@ -1,5 +1,6 @@
 ---
 title: Libro I de los Anales de Tácito
+layout: default
 date: 2022-05-31
 categories:
   - anales
