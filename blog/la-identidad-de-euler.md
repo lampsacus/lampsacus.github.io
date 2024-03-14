@@ -1,6 +1,5 @@
 ---
 layout: default
-title: La identidad de Euler
 ---
 
 <main>
