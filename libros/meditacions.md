@@ -107,7 +107,7 @@ They kill us, they cut us limit from limb, they hunt us with execrations! How do
 
 53\. «Carest thou to be praised by a man who execrates himself thrice within the hour? to win the approval of a man who wins not his own? Can he be said to win his own approval who regrets almost every thing he does?»
 
-![Busto de Marco Aurelio](/img/Marco_Aurelio_ANSA_I_13_56653.webp)
+![Busto de Marco Aurelio](/assets/images/Busto_de_Marcus_Aurelius.jpg)
 
 Marcus Aurelius  
 Cabeza de retrato, busto agregado  
