@@ -19,3 +19,5 @@ layout: default
 
 #### Fotografía
 <br />
+[Bukharan Markhor](/assets/gallery/Bukharan%20markhor.jpg)
+
