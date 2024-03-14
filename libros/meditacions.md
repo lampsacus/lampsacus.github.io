@@ -6,6 +6,7 @@ categories:
 lastmod: 2022-06-27T12:49:47.639Z
 ---
 **Las Meditaciones de Marcus Aurelius - Excerpta (en Inglés)**
+
 ![Busto de Marco Aurelio](https://upload.wikimedia.org/wikipedia/commons/1/11/Marcus_Aurelius_Louvre_MR561_n02_%28cropped%29.jpg)
 
 Retrato del emperador Marco Aurelio (tipo III). Obras de arte romanas del período antonino. Descubierto en Acqua Traversa, cerca de Roma, 1674.
