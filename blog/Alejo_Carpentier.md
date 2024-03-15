@@ -17,5 +17,3 @@ Bloom, Harold. _The Western Canon: the Books and School of the Ages_. Basingsto
 Carpentier, Alejo. _El Reino De Este Mundo ; Los Pasos Perdidos_. Mexico, D.F.: Siglo Veintiuno Editores, 1985.
 
 ![Alejo Carpentier](/assets/images/Alejo_Carpentier.webp)
-
-Imagen de [Fair use](//en.wikipedia.org/wiki/File:Alejo_Carpentier.jpg "Fair use"), [Link](https://en.wikipedia.org/w/index.php?curid=12545760)
