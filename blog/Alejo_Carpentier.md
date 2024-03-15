@@ -2,9 +2,7 @@
 layout: default
 ---
 
-###
-
-Los Pasos Perdidos
+**Los Pasos Perdidos**
 
 Al comienzo de su ensayo “Borges, Neruda y Pessoa: el Whitman Hispano-Portugués” publicado en su libro _El Cánon Occidental_ el crítico literario estadounidense Harold Bloom nos recuerda que Alejo Carpentier fue uno de los tres fundadores del _boom_ de la literatura hispano-americana del siglo XX (junto a Borges y a Neruda). Bloom, además, vaticina que el tiempo se encargará de ubicar a Carpentier en la cúspide como el más importante de todos los escritores latinoamericanos de su tiempo.
 
@@ -18,6 +16,6 @@ Bloom, Harold. _The Western Canon: the Books and School of the Ages_. Basingsto
 
 Carpentier, Alejo. _El Reino De Este Mundo ; Los Pasos Perdidos_. Mexico, D.F.: Siglo Veintiuno Editores, 1985.
 
-![Alejo Carpentier](/img/Alejo_Carpentier.webp)
+![Alejo Carpentier](/assets/images/Alejo_Carpentier.webp)
 
 Imagen de [Fair use](//en.wikipedia.org/wiki/File:Alejo_Carpentier.jpg "Fair use"), [Link](https://en.wikipedia.org/w/index.php?curid=12545760)
