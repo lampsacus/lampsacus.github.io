@@ -27,4 +27,6 @@ layout: default
 [Bukharan Markhor](/assets/gallery/Bukharan%20markhor.jpg)
 //
 [El sol](/assets/gallery/El%20sol.jpg)
+//
+[Antílope](/assets/gallery/Antílope.jpg)
 
