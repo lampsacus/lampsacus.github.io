@@ -8,7 +8,7 @@ Al comienzo de su ensayo “Borges, Neruda y Pessoa: el Whitman Hispano-Portugu�
 
 Dentro del magnífico opus carpenteriano, _Los Pasos Perdidos_ es la primera novela del autor que leí y continúa siendo mi favorita. Contemplamos al leerla el accionar de personajes en conflicto con el tiempo y la naturaleza. Un fragmento:
 
-Fragmento, Los Pasos Perdidos, de Alejo Carpentier.
+Fragmento, _Los Pasos Perdidos_, de Alejo Carpentier.
 
 "Es indudable que la naturaleza que aquí nos circunda es implacable, terrible, a pesar de su belleza. Pero los que en medio de ella viven la consideran menos mala, más tratable, que los espantos y sobresaltos, las crueldades frías, las amenazas siempre renovadas, del mundo de allá. Aquí, las plagas, los padecimientos posibles, los peligros naturales, son aceptados de antemano: forman parte de un Orden que tiene sus rigores. La Creación no es algo divertido, y todos lo admiten por instinto, aceptando el papel asignado a cada cual en la vasta tragedia de lo creado. Pero es tragedia con unidades de tiempo, de acción y de lugar, donde la misma muerte opera por acción de mandatarios conocidos, cuyos trajes de veneno, de escama, de fuego, de miasmas, se acompañan del rayo del trueno que siguen usando, en días de ira, los dioses de más larga residencia entre nosotros. A la luz del sol o al calor de la hoguera, los hombres que aquí viven sus destinos se contentan de cosas muy simples, hallando motivo de júbilo en la tibieza de una mañana, una pesca abundante, la lluvia que cae tras de la sequía, con explosiones de alegría colectiva, de cantos y de tambores, promovidos por sucesos muy sencillos como fue el de nuestra llegada."
 
