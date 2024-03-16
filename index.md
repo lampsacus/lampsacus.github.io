@@ -5,7 +5,6 @@ layout: default
 #### Tácito
 
 [Anales: Libro I](/libros/libro-i-anales-tacito.md)<br>
-[Anales: Libro II](/libros/libro-ii-anales-tacito.md)
 
 #### Marcus Aurelius
 
