@@ -31,4 +31,6 @@ layout: default
 [Antílope](/assets/gallery/Antílope.jpg)
 //
 [Chimpancés](/assets/gallery/chimps.jpg)
+//
+[Jirafa](/assets/gallery/jirafa.jpg)
 
