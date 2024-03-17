@@ -29,4 +29,6 @@ layout: default
 [El sol](/assets/gallery/El%20sol.jpg)
 //
 [Antílope](/assets/gallery/Antílope.jpg)
+//
+[Chimpancés](/assets/gallery/chimps.jpg)
 
