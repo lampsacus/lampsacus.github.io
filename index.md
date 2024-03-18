@@ -2,6 +2,10 @@
 layout: default
 ---
 
+#### Platón
+
+[Fedro](/libros/fedro.md)
+
 #### Tácito
 
 [Anales: Libro I](/libros/libro-i-anales-tacito.md)<br>
