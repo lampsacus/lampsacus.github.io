@@ -454,7 +454,7 @@ héroes, Madrid, 1981, págs. 44 y sigs.
 
 # FEDÓN
 
-## EQUÉCRATES, FEDÓN[^1]
+## EQUÉCRATES, FEDÓN[^9]
 
 \[57a\] EQUÉCRATES. --- ¿Estuviste tú mismo, Fedón, junto a Sócrates el
 día aquel en que bebió el veneno en la cárcel, o se lo has oído contar a
@@ -3870,7 +3870,7 @@ Al verlo, Critón le cerró la boca y los ojos.
 hombre, podemos decir nosotros, de los que entonces conocimos, y, en
 modo muy destacado, el más inteligente y más justo.
 
-[^1]: La escena inicial del diálogo, el encuentro entre Equécrates y Fedón,
+[^9]: La escena inicial del diálogo, el encuentro entre Equécrates y Fedón,
 tiene lugar en la patria del primero, Fliunte, una pequeña ciudad del
 Peloponeso, situada al SO. de Corinto. Allí Éurito de Tarento, un
 discípulo de Filolao, había fundado un círculo pitagórico al que
