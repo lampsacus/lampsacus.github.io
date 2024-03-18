@@ -338,7 +338,7 @@ el mito va en el mismo sentido que los argumentos anteriores, y, de
 otro, está presentado con unas claras cautelas acerca de su exactitud.
 Con todo, el mito es un elemento de primera importancia en ese discurso
 de persuasión que Sócrates se propone. Como un último conjuro. Y Platón
-se ha esmerado en su composición, como L. Robin y W. C. K. Guthrie [^6] han
+se ha esmerado en su composición, como L. Robin y W. C. K. Guthrie[^6] han
 comentado. Combinando elementos tradicionales homéricos, rasgos de las
 iniciaciones órficas, creencias populares, y trazos de la cosmología
 jónica y pitagórica, con algunas pinceladas propias, traza Platón una
@@ -346,7 +346,7 @@ fantástica pintura del mundo subterráneo y supraterrestre, con un mágico
 colorido.
 
 Después de advertir con qué esmero se cuida el decorado, reconoceremos,
-de acuerdo con C. Eggers [^7], que lo importante en el mito es «su sentido,
+de acuerdo con C. Eggers[^7], que lo importante en el mito es «su sentido,
 sentido ante todo funcional». «Siempre en función de los intereses de
 sus argumentaciones», los mitos escatológicos de Platón presentan una
 variedad de matices muy significativa. El del Gorgias subraya el valor
@@ -452,9 +452,9 @@ mismo en Platón, ver la síntesis de J. VIVES, Génesis y evolución de la
 especialmente en la República, cf. C. GARCÍA GUAL, Mitos, viajes,
 héroes, Madrid, 1981, págs. 44 y sigs.
 
-FEDÓN
+# FEDÓN
 
-EQUÉCRATES, FEDÓN1
+## EQUÉCRATES, FEDÓN[^1]
 
 \[57a\] EQUÉCRATES. --- ¿Estuviste tú mismo, Fedón, junto a Sócrates el
 día aquel en que bebió el veneno en la cárcel, o se lo has oído contar a
@@ -3870,7 +3870,7 @@ Al verlo, Critón le cerró la boca y los ojos.
 hombre, podemos decir nosotros, de los que entonces conocimos, y, en
 modo muy destacado, el más inteligente y más justo.
 
-1 La escena inicial del diálogo, el encuentro entre Equécrates y Fedón,
+[^1]: La escena inicial del diálogo, el encuentro entre Equécrates y Fedón,
 tiene lugar en la patria del primero, Fliunte, una pequeña ciudad del
 Peloponeso, situada al SO. de Corinto. Allí Éurito de Tarento, un
 discípulo de Filolao, había fundado un círculo pitagórico al que
