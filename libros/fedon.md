@@ -51,7 +51,7 @@ situar primero el Fedón, donde la exposición de la teoría de las ideas
 se hace con un énfasis especial, con una formulación más completa y
 explícita. Al gran tema de la inmortalidad del alma le sucede la
 discusión del impulso erótico que mueve el universo hacia lo eterno y
-divino[^1]. Y el tema del amor retorna en el Fedro, en un tono diverso al
+divino.[^1] Y el tema del amor retorna en el Fedro, en un tono diverso al
 de la charla del simposio, pero con la misma exaltación y poesía.
 
 Junto con la madurez filosófica destaca la prodigiosa factura literaria
