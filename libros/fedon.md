@@ -221,7 +221,7 @@ préstamo a los misterios concluyen en la Idea; todas las esperanzas de
 los misterios se transforman en certidumbre de inmortalidad, fundada en
 el parentesco del alma con la Idea; todas las verosimilitudes pasajeras
 de la leyenda y del mito no sirven sino como escalones hacia la ciencia
-de la Dialéctica, cuyo objetivo es la intuición infalible de la Idea»4.
+de la Dialéctica, cuyo objetivo es la intuición infalible de la Idea».[^4]
 Hay, pues, como señala Diès, una transposición de lo religioso a lo
 intelectual; y ese idealismo de Platón pretende fundarse en un método
 puramente intelectual, ya que el método dialéctico es una construcción
@@ -304,7 +304,7 @@ subrayar de nuevo el talento literario de este gran filósofo. Pero, para
 abreviar, quiero citar unas líneas de A. Diès, que recogen lo esencial
 de lo que conviene resaltar:
 
-Hay una gradación en las pruebas presentadas para demostrar la
+*Hay una gradación en las pruebas presentadas para demostrar la
 inmortalidad del alma. Del argumento del ciclo al de la reminiscencia,
 de la reminiscencia al parentesco del alma con las Ideas, de la
 simplicidad del alma a la incompatibilidad de los contrarios, aumenta,
@@ -327,7 +327,7 @@ dioses, ven el sol, la luna y los astros en su realidad verdadera, y
 este espectáculo dichoso del mundo real no es más que una de esas
 transposiciones inversas que sirven para materializar, con grados
 diversos, lo inmaterial, para refractar, en los planos sucesivos de la
-intuición sensible, la contemplación de las Ideas5.
+intuición sensible, la contemplación de las Ideas.*[^5]
 
 3.  El mito final
 
@@ -338,7 +338,7 @@ el mito va en el mismo sentido que los argumentos anteriores, y, de
 otro, está presentado con unas claras cautelas acerca de su exactitud.
 Con todo, el mito es un elemento de primera importancia en ese discurso
 de persuasión que Sócrates se propone. Como un último conjuro. Y Platón
-se ha esmerado en su composición, como L. Robin y W. C. K. Guthrie6 han
+se ha esmerado en su composición, como L. Robin y W. C. K. Guthrie [^6] han
 comentado. Combinando elementos tradicionales homéricos, rasgos de las
 iniciaciones órficas, creencias populares, y trazos de la cosmología
 jónica y pitagórica, con algunas pinceladas propias, traza Platón una
@@ -346,7 +346,7 @@ fantástica pintura del mundo subterráneo y supraterrestre, con un mágico
 colorido.
 
 Después de advertir con qué esmero se cuida el decorado, reconoceremos,
-de acuerdo con C. Eggers7, que lo importante en el mito es «su sentido,
+de acuerdo con C. Eggers [^7], que lo importante en el mito es «su sentido,
 sentido ante todo funcional». «Siempre en función de los intereses de
 sus argumentaciones», los mitos escatológicos de Platón presentan una
 variedad de matices muy significativa. El del Gorgias subraya el valor
@@ -357,7 +357,7 @@ de su destino.
 
 Hay en ese recuento platónico una progresiva reelaboración de los
 detalles. En el Gorgias el esquema mítico es más simple, en la República
-se nos ofrece la forma más elaborada8. Los mitos, como Platón sabe muy
+se nos ofrece la forma más elaborada.[^8] Los mitos, como Platón sabe muy
 bien, tienen un encanto propio y uno puede admitirlos así, como un
 hechizo seductor, y aceptarlos como una forma de encantamiento (114d). A
 punto de despedirse de la vida, el discutidor y escéptico Sócrates, a
@@ -440,15 +440,15 @@ Greek Philosophy, vol. IV, Cambridge, 1975, pág. 325.
 mismo en Platón, ver la síntesis de J. VIVES, Génesis y evolución de la
 ética platónica, Madrid, 1970, págs. 126-85.
 
-4 A. DIÈS, Autour de Platon, 2.a ed., París, 1972, págs. 445-6.
+[^4]: A. DIÈS, Autour de Platon, 2.a ed., París, 1972, págs. 445-6.
 
-5 DIÈS, ibid., págs. 446-7.
+[^5]: DIÈS, ibid., págs. 446-7.
 
-6 GUTHRIE, A History..., vol. IV, págs. 361 y sigs.
+[^6]: GUTHRIE, A History..., vol. IV, págs. 361 y sigs.
 
-7 C. EGGERS, Platón. Fedón, Buenos Aires, 1971, págs. 58 y sigs.
+[^7]: C. EGGERS, Platón. Fedón, Buenos Aires, 1971, págs. 58 y sigs.
 
-8 Sobre el tema mítico del viaje al mundo de ultratumba en Platón,
+[^8]: Sobre el tema mítico del viaje al mundo de ultratumba en Platón,
 especialmente en la República, cf. C. GARCÍA GUAL, Mitos, viajes,
 héroes, Madrid, 1981, págs. 44 y sigs.
 
