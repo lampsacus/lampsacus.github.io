@@ -454,7 +454,7 @@ héroes, Madrid, 1981, págs. 44 y sigs.
 
 # FEDÓN
 
-## EQUÉCRATES, FEDÓN[^9]
+## EQUÉCRATES, FEDÓN [^f1]
 
 \[57a\] EQUÉCRATES. --- ¿Estuviste tú mismo, Fedón, junto a Sócrates el
 día aquel en que bebió el veneno en la cárcel, o se lo has oído contar a
@@ -463,7 +463,7 @@ otro?
 FEDÓN. --- Yo mismo estuve allí, Equécrates.
 
 EQU. --- ¿Qué es, entonces, lo que dijo el hombre antes de su muerte? ¿Y
-cómo murió?.[^10] Que me gustaría mucho escuchártelo. Pues ninguno de los
+cómo murió?.[^f2] Que me gustaría mucho escuchártelo. Pues ninguno de los
 ciudadanos de Fliunte, por ahora, va de viaje a Atenas, ni ha llegado
 \[b\] de allí ningún extranjero que nos pudiera dar noticias claras
 acerca de esos hechos, de no ser que él murió después de haber bebido el
@@ -3870,9 +3870,9 @@ Al verlo, Critón le cerró la boca y los ojos.
 hombre, podemos decir nosotros, de los que entonces conocimos, y, en
 modo muy destacado, el más inteligente y más justo.
 
-[^9]: La escena inicial del diálogo, el encuentro entre Equécrates y Fedón, tiene lugar en la patria del primero, Fliunte, una pequeña ciudad del Peloponeso, situada al SO. de Corinto. Allí Éurito de Tarento, un discípulo de Filolao, había fundado un círculo pitagórico al que pertenecía Equécrates. Que éste sea un pitagórico, como Simmias y Cebes, los interlocutores de Sócrates en el diálogo, resulta muy significativo. El tema de la inmortalidad del alma les parecería, sin duda,especialmente atractivo a estos filósofos de una escuela bien conocida por sus afanes trascendentes.--- Fedón, testigo de los últimos coloquios y momentos de Sócrates, está representado como un joven al que el viejo maestro trata con un cariñoso afecto. Tenemos pocos datos más sobre él. Se contaba que era de noble familia, pero que fue esclavizado y rescatado por un socrático; pero esta anécdota entra dentro de un tipo novelesco que hace dudosa su autenticidad. Fundó una escuela de filosofía en su ciudad de Élide, y se le atribuía algún diálogo, según cuenta Diógenes Laercio.--- Se ha dicho que el motivo de Platón para hacer de Fedón el narrador de las últimas conversaciones de Sócrates pudo ser que él se las refirió al propio Platón, ausente de la escena. La narración se interrumpe en dos momentos por los comentarios de Equécrates ---en 88c-89a y 102a---, que subrayan con qué interés sigue la discusión relatada, y recuerdan al lector el marco inicial del diálogo.
+[^f1]: La escena inicial del diálogo, el encuentro entre Equécrates y Fedón, tiene lugar en la patria del primero, Fliunte, una pequeña ciudad del Peloponeso, situada al SO. de Corinto. Allí Éurito de Tarento, un discípulo de Filolao, había fundado un círculo pitagórico al que pertenecía Equécrates. Que éste sea un pitagórico, como Simmias y Cebes, los interlocutores de Sócrates en el diálogo, resulta muy significativo. El tema de la inmortalidad del alma les parecería, sin duda,especialmente atractivo a estos filósofos de una escuela bien conocida por sus afanes trascendentes.--- Fedón, testigo de los últimos coloquios y momentos de Sócrates, está representado como un joven al que el viejo maestro trata con un cariñoso afecto. Tenemos pocos datos más sobre él. Se contaba que era de noble familia, pero que fue esclavizado y rescatado por un socrático; pero esta anécdota entra dentro de un tipo novelesco que hace dudosa su autenticidad. Fundó una escuela de filosofía en su ciudad de Élide, y se le atribuía algún diálogo, según cuenta Diógenes Laercio.--- Se ha dicho que el motivo de Platón para hacer de Fedón el narrador de las últimas conversaciones de Sócrates pudo ser que él se las refirió al propio Platón, ausente de la escena. La narración se interrumpe en dos momentos por los comentarios de Equécrates ---en 88c-89a y 102a---, que subrayan con qué interés sigue la discusión relatada, y recuerdan al lector el marco inicial del diálogo.
 
-[^10]: La traducción no recoge bien el matiz del texto kaì pôs eteleúta; que emplea el pretérito imperfecto y ese verbo, que propiamente significa «acabar», como un cierto eufemismo, para indicar que lo que le interesa a Equécrates no es el hecho en sí, sino los pormenores y la conducta de Sócrates a lo largo de su encuentro con la muerte: «¿Cómo se enfrentaba a su fin?». Poco después repite, en 58c, con términos más precisos la pregunta. El hecho en sí es sabido, pero las circunstancias, los gestos y las palabras son lo importante. Recuérdese que para los antiguos esa actitud final era muy indicativa de la grandeza moral del personaje en cuestión.
+[^f2]: La traducción no recoge bien el matiz del texto kaì pôs eteleúta; que emplea el pretérito imperfecto y ese verbo, que propiamente significa «acabar», como un cierto eufemismo, para indicar que lo que le interesa a Equécrates no es el hecho en sí, sino los pormenores y la conducta de Sócrates a lo largo de su encuentro con la muerte: «¿Cómo se enfrentaba a su fin?». Poco después repite, en 58c, con términos más precisos la pregunta. El hecho en sí es sabido, pero las circunstancias, los gestos y las palabras son lo importante. Recuérdese que para los antiguos esa actitud final era muy indicativa de la grandeza moral del personaje en cuestión.
 
 3 El mito refiere que el poderoso Minos, rey de Creta, obligaba a los
 atenienses a enviar cada nueve años en una nave a siete muchachos y
