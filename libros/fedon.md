@@ -193,7 +193,7 @@ comienza por destacar cómo es la existencia que el auténtico filósofo
 elige. Ya antes (p. ej. en la Apología 29d, 30a), Sócrates había
 expuesto que lo fundamental era la therapeía tês psychês «el cuidado del
 alma»; pero ahora intenta infundir al lema una mayor carga ética y aun
-metafísica3. En la última lección ---que es, como siempre, un
+metafísica.[^3] En la última lección ---que es, como siempre, un
 coloquio---, Sócrates expone el fundamento último de su fe en la
 inmortalidad.
 
@@ -436,7 +436,7 @@ Greek Philosophy, vol. IV, Cambridge, 1975, pág. 325.
 [^2]: Ver P. FRIEDLAENDER, Plato. An Introduction, trad. ingl., Londres,
 1958, págs. 239 y sigs.
 
-3 La literatura sobre el tema es muy amplia. Para el desarrollo del
+[^3]: La literatura sobre el tema es muy amplia. Para el desarrollo del
 mismo en Platón, ver la síntesis de J. VIVES, Génesis y evolución de la
 ética platónica, Madrid, 1970, págs. 126-85.
 
