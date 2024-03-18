@@ -24,9 +24,9 @@ layout: default
 ---
 
 #### Fotografía
-[Bukharan Markhor](/assets/gallery/Bukharan%20markhor.jpg)
+[Bukharan Markhor](/assets/gallery/Bukharan_markhor.jpg)
 //
-[El sol](/assets/gallery/El%20sol.jpg)
+[El sol](/assets/gallery/El_sol.jpg)
 //
 [Antílope](/assets/gallery/Antílope.jpg)
 //
@@ -34,5 +34,5 @@ layout: default
 //
 [Jirafa](/assets/gallery/jirafa.jpg)
 //
-[Flor de cereza](/assets/gallery/flor%20de%20cereza.jpg)
+[Flor de cereza](/assets/gallery/flor_de_cereza.jpg)
 
