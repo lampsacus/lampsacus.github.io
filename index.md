@@ -33,4 +33,6 @@ layout: default
 [Chimpancés](/assets/gallery/chimps.jpg)
 //
 [Jirafa](/assets/gallery/jirafa.jpg)
+//
+[Flor de cereza](/assets/gallery/flor%20de%20cereza.jpg)
 
