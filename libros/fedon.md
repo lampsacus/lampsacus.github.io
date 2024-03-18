@@ -144,7 +144,7 @@ podría corresponder, ciertamente, a Sócrates en sus primeras fases,
 incluyendo la superación crítica de los enfoques de Anaxágoras y la
 afirmación de una teleología en la naturaleza) parece ajustarse muy bien
 al propio proceso experimentado por Platón, según cuenta en su Carta
-VII2. Esa «segunda navegación», o deúteros ploûs, que aquí se aconseja,
+VII.[^2] Esa «segunda navegación», o deúteros ploûs, que aquí se aconseja,
 tras el rechazo del método que consistiría en observar la realidad en sí
 misma, es un método platónico, que se funda en la contemplación de las
 Ideas para llegar así a «algo satisfactorio», que luego ---en la
@@ -433,7 +433,7 @@ Thought (1935), Londres, 1970, págs. 129-30. Sobre el mismo tema de la
 anterioridad de uno u otro diálogo, véase W. K. C. GUTHRIE, A History of
 Greek Philosophy, vol. IV, Cambridge, 1975, pág. 325.
 
-2 Ver P. FRIEDLAENDER, Plato. An Introduction, trad. ingl., Londres,
+[^2]: Ver P. FRIEDLAENDER, Plato. An Introduction, trad. ingl., Londres,
 1958, págs. 239 y sigs.
 
 3 La literatura sobre el tema es muy amplia. Para el desarrollo del
