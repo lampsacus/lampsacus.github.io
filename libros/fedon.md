@@ -425,7 +425,7 @@ lectura en unos pocos pasajes, que anotamos a continuación.
 
 C. GARCÍA GUAL
 
-[^1] Sobre la anterioridad del Fedón frente al Banquete, véase, p. ej., J.
+[^1]: Sobre la anterioridad del Fedón frente al Banquete, véase, p. ej., J.
 E. RAVEN, Plato's Thought in the Making, Cambridge, 1965, páginas 105 y
 sigs. Y sobre el contraste entre el ascetismo del Fedón y el tono jovial
 de la atmósfera festiva del Banquete, cf. G. M. A. GRUBE, Plato's
