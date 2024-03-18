@@ -4,7 +4,7 @@ layout: default
 
 #### Platón
 
-[Fedro](/libros/fedro.md)
+[Fedón](/libros/fedon.md)
 
 #### Tácito
 
