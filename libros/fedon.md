@@ -3870,28 +3870,8 @@ Al verlo, Critón le cerró la boca y los ojos.
 hombre, podemos decir nosotros, de los que entonces conocimos, y, en
 modo muy destacado, el más inteligente y más justo.
 
-[^9]: La escena inicial del diálogo, el encuentro entre Equécrates y Fedón,
-tiene lugar en la patria del primero, Fliunte, una pequeña ciudad del
-Peloponeso, situada al SO. de Corinto. Allí Éurito de Tarento, un
-discípulo de Filolao, había fundado un círculo pitagórico al que
-pertenecía Equécrates. Que éste sea un pitagórico, como Simmias y Cebes,
-los interlocutores de Sócrates en el diálogo, resulta muy significativo.
-El tema de la inmortalidad del alma les parecería, sin duda,
-especialmente atractivo a estos filósofos de una escuela bien conocida
-por sus afanes trascendentes.--- Fedón, testigo de los últimos coloquios
-y momentos de Sócrates, está representado como un joven al que el viejo
-maestro trata con un cariñoso afecto. Tenemos pocos datos más sobre él.
-Se contaba que era de noble familia, pero que fue esclavizado y
-rescatado por un socrático; pero esta anécdota entra dentro de un tipo
-novelesco que hace dudosa su autenticidad. Fundó una escuela de
-filosofía en su ciudad de Élide, y se le atribuía algún diálogo, según
-cuenta Diógenes Laercio.--- Se ha dicho que el motivo de Platón para
-hacer de Fedón el narrador de las últimas conversaciones de Sócrates
-pudo ser que él se las refirió al propio Platón, ausente de la escena.
-La narración se interrumpe en dos momentos por los comentarios de
-Equécrates ---en 88c-89a y 102a---, que subrayan con qué interés sigue
-la discusión relatada, y recuerdan al lector el marco inicial del
-diálogo.
+[^9]: La escena inicial del diálogo, el encuentro entre Equécrates y Fedón, tiene lugar en la patria del primero, Fliunte, una pequeña ciudad del Peloponeso, situada al SO. de Corinto. Allí Éurito de Tarento, un discípulo de Filolao, había fundado un círculo pitagórico al que pertenecía Equécrates. Que éste sea un pitagórico, como Simmias y Cebes, los interlocutores de Sócrates en el diálogo, resulta muy significativo. El tema de la inmortalidad del alma les parecería, sin duda,especialmente atractivo a estos filósofos de una escuela bien conocida
+por sus afanes trascendentes.--- Fedón, testigo de los últimos coloquios y momentos de Sócrates, está representado como un joven al que el viejo maestro trata con un cariñoso afecto. Tenemos pocos datos más sobre él. Se contaba que era de noble familia, pero que fue esclavizado y rescatado por un socrático; pero esta anécdota entra dentro de un tipo novelesco que hace dudosa su autenticidad. Fundó una escuela de filosofía en su ciudad de Élide, y se le atribuía algún diálogo, según cuenta Diógenes Laercio.--- Se ha dicho que el motivo de Platón para hacer de Fedón el narrador de las últimas conversaciones de Sócrates pudo ser que él se las refirió al propio Platón, ausente de la escena. La narración se interrumpe en dos momentos por los comentarios de Equécrates ---en 88c-89a y 102a---, que subrayan con qué interés sigue la discusión relatada, y recuerdan al lector el marco inicial del diálogo.
 
 2 La traducción no recoge bien el matiz del texto kaì pôs eteleúta; que
 emplea el pretérito imperfecto y ese verbo, que propiamente significa
