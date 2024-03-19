@@ -528,7 +528,7 @@ EQU. --- ¿Estaban algunos forasteros?
 FED. --- Sí, Simmias el de Tebas, y Cebes y Fedondas; \[c\] y de Mégara,
 Euclides y Terpsión.
 
-EQU. --- ¿Qué más? ¿Estuvieron Aristipo y Cleómbroto7?
+EQU. --- ¿Qué más? ¿Estuvieron Aristipo y Cleómbroto?[^f7]
 
 FED. --- No, ciertamente. Se decía que estaban en Egina.
 
@@ -3853,60 +3853,15 @@ modo muy destacado, el más inteligente y más justo.
 
 [^f3]: El mito refiere que el poderoso Minos, rey de Creta, obligaba a los atenienses a enviar cada nueve años en una nave a siete muchachos y siete muchachas para ser devorados por el monstruo del Laberinto, y que Teseo, el hijo del rey Egeo, logró, al fin, acabar con tan feroz tributo dando muerte al Minotauro, con a ayuda de Ariadna (véase PLUTARCO, *Teseo* 15 ss.). La peregrinación (*theōría*) anual a Delos es una rememoración ritual del mito. Puede, quizás, resultar irónico que la ciudad cuide de «purificarse» mediante tales ritos, mientras ha condenado a muerte a un hombre como Sócrates. También éste se ha cuidado de «purificar su vida». La alusión al mito contiene, pues, ciertas connotaciones sugestivas, ya que también Sócrates se considera un servidor de Apolo (en 60b, 61c y 85b). La relación más íntima entre ese viaje salvador de Teseo, al frente de los catorce jóvenes, y el coloquio de Sócrates con sus amigos ---de los que se nombra a catorce---, tal como sugirió K. Dorter, nos parece forzar en exceso la alusión. Que *theōría* signifique, tanto «viaje» y «peregrinación» como «teoría» y «contemplación», es probablemente más sugerente para nosotros que para un hablante griego.
 
-[^f4]: Acaso la dilación, que antes se consideró como «una cierta suerte»
-(týchē tis), puede ser vista como «un destino divino» (theía moîra). La
-expresión theía moîra, que aparece otras veces en Platón (cf. Prot.
-322a, Fedr. 230a, Apol. 33c, Carta VII 326b) alude al «lote» asignado
-por la divinidad a alguien, o bien a la «intervención divina» en los
-asuntos humanos. La expresión va perdiendo fuerza, y ya en Platón
-(Rep. 592a) se habla de una «suerte divina» (theía týchē). Es de notar
-cómo Platón acentúa la religiosidad de la muerte de Sócrates, al que la
-ciudad de Atenas ha condenado por impío.
+[^f4]: Acaso la dilación, que antes se consideró como «una cierta suerte» (týchē tis), puede ser vista como «un destino divino» (*theía moîra*). La expresión theía moîra, que aparece otras veces en Platón (cf. Prot. 322a, Fedr. 230a, Apol. 33c, Carta VII 326b) alude al «lote» asignado por la divinidad a alguien, o bien a la «intervención divina» en los asuntos humanos. La expresión va perdiendo fuerza, y ya en Platón (Rep. 592a) se habla de una «suerte divina» (*theía týchē*). Es de notar cómo Platón acentúa la religiosidad de la muerte de Sócrates, al que la ciudad de Atenas ha condenado por impío.
 
-[^f5]: En esa «cierta mezcla... combinación de placer y a la vez de pesar»,
-aflora un tema crucial del diálogo: la existencia y cruce de los
-contrarios. Pero no creemos que aquí tenga otra función que la
-representación de ese estado ambiguo sentimental que testimonia Fedón.
+[^f5]: En esa «cierta mezcla... combinación de placer y a la vez de pesar», aflora un tema crucial del diálogo: la existencia y cruce de los contrarios. Pero no creemos que aquí tenga otra función que la representación de ese estado ambiguo sentimental que testimonia Fedón.
 
-[^f6]: Entre los presentes están algunos de los más conocidos discípulos como
-el apasionado Apolodoro, mencionado en el Banquete y en la Apología
-(34a), Esquines «el socrático», y Antístenes, el fundador de la escuela
-cínica. Epígenes es también un adepto de Sócrates (cf. JENOFONTE, Mem.
-III 12), y Hermógenes, hermano del rico Calias, hijo de Hipónico, es uno
-de los dialogantes del Crátilo. Ctesipo está mencionado en el Eutidemo y
-en el Lisis. Critón, compañero de demo y casi de la misma edad que
-Sócrates, es el personaje que conocemos por el diálogo de su nombre.
-Está acompañado por su hijo, el bello Critobulo (que reaparece en el
-Banquete de Jenofonte). Menéxeno es el joven que da su nombre a otro
-diálogo platónico.--- Platón se cita a sí mismo tres veces en los
-Diálogos. Dos en la Apología (34a, 38b), para resaltar su presencia en
-el juicio, y ésta, para señalar su ausencia en el momento de la muerte
-de Sócrates.
+[^f6]: Entre los presentes están algunos de los más conocidos discípulos como el apasionado Apolodoro, mencionado en el Banquete y en la Apología (34a), Esquines «el socrático», y Antístenes, el fundador de la escuela cínica. Epígenes es también un adepto de Sócrates (cf. JENOFONTE, Mem. III 12), y Hermógenes, hermano del rico Calias, hijo de Hipónico, es uno de los dialogantes del Crátilo. Ctesipo está mencionado en el Eutidemo y en el Lisis. Critón, compañero de demo y casi de la misma edad que Sócrates, es el personaje que conocemos por el diálogo de su nombre. Está acompañado por su hijo, el bello Critobulo (que reaparece en el Banquete de Jenofonte). Menéxeno es el joven que da su nombre a otro diálogo platónico.--- Platón se cita a sí mismo tres veces en los Diálogos. Dos en la Apología (34a, 38b), para resaltar su presencia en el juicio, y ésta, para señalar su ausencia en el momento de la muerte de Sócrates.
 
-[^f7]: Cebes y Simmias proceden de Tebas, del grupo de discípulos del
-pitagórico Filolao. De Fedondas y de Terpsión no se sabe nada más. De
-Euclides de Mégara (que vivió entre 450 y 380) sabemos algo más, por lo
-que nos cuenta DIÓGENES LAERCIO (en II 106) y algunas otras citas
-antiguas. Fundó su propia escuela en Mégara, y cultivó especialmente la
-dialéctica y una teoría metafísica de corte parmenídeo. Junto con
-Antístenes, y con el ausente Aristipo, es uno de los miembros
-destacados, ya de mediana edad y con una filosofía propia, entre los
-socráticos. Aristipo de Cirene, el hedonista, es un personaje muy
-interesante, con su doctrina sobre el placer como bien supremo, tan
-opuesta a la de Antístenes o a la de Platón. Cleómbroto de Ambracia se
-suicidó, según una famosa anécdota, tras leer el Fedón, no sabemos si
-convencido de la inmortalidad de su alma o por el remordimiento de haber
-faltado a tan hermoso coloquio.--- Para más datos sobre estos
-personajes, en especial sobre Esquines, Antístenes y Aristipo, remito a
-W. C. K. GUTHRIE, A History of Greek Philosophy, III, Cambridge, 1969,
-págs. 389 y sigs.
+[^f7]: Cebes y Simmias proceden de Tebas, del grupo de discípulos del pitagórico Filolao. De Fedondas y de Terpsión no se sabe nada más. De Euclides de Mégara (que vivió entre 450 y 380) sabemos algo más, por lo que nos cuenta DIÓGENES LAERCIO (en II 106) y algunas otras citas antiguas. Fundó su propia escuela en Mégara, y cultivó especialmente la dialéctica y una teoría metafísica de corte parmenídeo. Junto con Antístenes, y con el ausente Aristipo, es uno de los miembros destacados, ya de mediana edad y con una filosofía propia, entre los socráticos. Aristipo de Cirene, el hedonista, es un personaje muy interesante, con su doctrina sobre el placer como bien supremo, tan opuesta a la de Antístenes o a la de Platón. Cleómbroto de Ambracia se suicidó, según una famosa anécdota, tras leer el Fedón, no sabemos si convencido de la inmortalidad de su alma o por el remordimiento de haber faltado a tan hermoso coloquio.--- Para más datos sobre estos personajes, en especial sobre Esquines, Antístenes y Aristipo, remito a W. C. K. GUTHRIE, A History of Greek Philosophy, III, Cambridge, 1969, págs. 389 y sigs.
 
-[^f8]: Los Once son los magistrados que tienen a su cuidado las prisiones y
-el cumplimiento de las penas impuestas en ellas, de acuerdo con la
-constitución ateniense. Cf. ARISTÓTELES, Const. aten. 52, 1. Estos
-funcionarios corresponden a uno por cada tribu y uno más como
-secretario. En tiempos de Demetrio de Falero se les dio el nombre de
-nomophýlakes «guardianes de la ley».
+[^f8]: Los Once son los magistrados que tienen a su cuidado las prisiones y el cumplimiento de las penas impuestas en ellas, de acuerdo con la constitución ateniense. Cf. ARISTÓTELES, Const. aten. 52, 1. Estos funcionarios corresponden a uno por cada tribu y uno más como secretario. En tiempos de Demetrio de Falero se les dio el nombre de *nomophýlakes* «guardianes de la ley».
 
 9 Jantipa ha pasado, posteriormente, a Platón, como prototipo de mujer
 del filósofo, pendenciera y gruñona. Ya JENOFONTE, en Mem. II 2, 7, dice
