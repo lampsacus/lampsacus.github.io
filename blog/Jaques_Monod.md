@@ -1,7 +1,7 @@
 ---
 layout: default 
 ---
-**Jacques Monod: El segundo secreto de la vida**
+<h4>Jacques Monod: El segundo secreto de la vida</h4>
 
 [![Jacques Monod 1971](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Jacques_Monod_1971.jpg/256px-Jacques_Monod_1971.jpg)](https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg "Farabola, Public domain, via Wikimedia Commons")
 

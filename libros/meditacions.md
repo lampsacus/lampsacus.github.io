@@ -5,7 +5,7 @@ categories:
   - filosofia
 lastmod: 2022-06-27T12:49:47.639Z
 ---
-**Las Meditaciones de Marcus Aurelius - Excerpta (en Inglés)**
+<h4>Las Meditaciones de Marcus Aurelius - Excerpta (en Inglés)</h4>
 
 ![Busto de Marco Aurelio](https://upload.wikimedia.org/wikipedia/commons/1/11/Marcus_Aurelius_Louvre_MR561_n02_%28cropped%29.jpg)
 

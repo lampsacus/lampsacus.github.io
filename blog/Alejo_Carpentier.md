@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**Los Pasos Perdidos**
+<h4>Los Pasos Perdidos</h4>
 
 Al comienzo de su ensayo “Borges, Neruda y Pessoa: el Whitman Hispano-Portugués” publicado en su libro _El Cánon Occidental_ el crítico literario estadounidense Harold Bloom nos recuerda que Alejo Carpentier fue uno de los tres fundadores del _boom_ de la literatura hispano-americana del siglo XX (junto a Borges y a Neruda). Bloom, además, vaticina que el tiempo se encargará de ubicar a Carpentier en la cúspide como el más importante de todos los escritores latinoamericanos de su tiempo.
 

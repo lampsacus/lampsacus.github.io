@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-**Libro I de los Anales de Tácito**
+<h4>>Libro I de los Anales de Tácito</h4>
 
 La copia más antigua del primer libro de los Anales manuscrito por un monje benedictino alrededor de los años 1000-1100 e. c. ha sido digitalizado y está actualmente disponible en el repositorio digital de la [Biblioteca Medicea Laurenziana](http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.68.1&Date=1001-1100). 
 
