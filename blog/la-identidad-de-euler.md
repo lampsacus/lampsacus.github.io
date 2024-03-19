@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main>
-<h4 id="la-fórmula-más-notable-en-matemáticas">La identidad de Euler: La fórmula más notable en matemáticas</h4><br>
+<h4 id="la-fórmula-más-notable-en-matemáticas">La identidad de Euler: La fórmula más notable en matemáticas</h4>
 <p>En una de sus famosas conferencias de Física, Richard Feynman le dedica una clase completa a &ldquo;una de las fórmulas más notables, casi asombrosas, de todas las matemáticas.&rdquo; Al comenzar, Feynman explica que &ldquo;desde el punto de vista del físico, podríamos presentar esta fórmula en dos minutos más o menos, y terminar con ella. Pero la ciencia es tanto para el disfrute intelectual como para la utilidad práctica, así que en lugar de dedicar unos minutos a esta asombrosa joya, rodearemos la joya con su engaste adecuado en el gran diseño de esa rama de las matemáticas que se llama álgebra elemental.&rdquo; Un poco antes de culminar, la llama además &ldquo;la fórmula más notable en matemáticas&rdquo;.</p>
 <p>La formula a la que Feynman se refiere es la famosa fórmula de Euler que su autor Leonhard  Euler popularizó en el capítulo 8 del <em>Introductio in analysin infinitorum</em> o Introducción al análisis del infinito. Euler sentó las bases del análisis matemático con su <em>Introductio</em>, que se ha llegado a comparar con los <em>Elementos</em> de Euclides por su significado para las matemáticas. La fórmula, como nos dice Feynman, es la siguiente:</p>
 <p style="text-align: center;">
