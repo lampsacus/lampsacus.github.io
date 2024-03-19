@@ -498,14 +498,14 @@ encontrarme allí. Pues no me inundaba un sentimiento de compasión como a
 quien asiste a la muerte de un amigo íntimo, ya que se le veía un hombre
 feliz, Equécrates, tanto por su comportamiento como por sus palabras,
 con tanta serenidad y tanta nobleza murió. De manera que me pareció que,
-al marchar al Hades, no se iba sin un destino divino4, y que, además, al
+al marchar al Hades, no se iba sin un destino divino[^f4], y que, además, al
 llegar allí, gozaría de dicha como nunca ningún otro. Por eso, pues, no
 me entraba, \[59a\] en absoluto, compasión, como parecería ser natural
 en quien asiste a un acontecimiento fúnebre; pero tampoco placer como
 cuando nosotros hablábamos de filosofía como teníamos por costumbre
 ---porque, en efecto, los coloquios eran de ese género---, sino que
 simplemente tenía en mí un sentimiento extraño, como una cierta mezcla
-en la que hubiera una combinación de placer y, a la vez, de pesar5, al
+en la que hubiera una combinación de placer y, a la vez, de pesar[^f5], al
 reflexionar en que él estaba a punto de morir. Y todos los presentes nos
 encontrábamos en una disposición parecida, a ratos riendo, a veces
 llorando, y de manera destacada \[b\] uno de nosotros, Apolodoro ---que
@@ -521,7 +521,7 @@ EQU. --- ¿Quiénes eran, Fedón, los allí presentes?
 FED. --- De los del país estaba ese Apolodoro, y Critobulo y su padre, y
 además Hermógenes, Epígenes, Esquines y Antístenes. También estaba
 Ctesipo el de Peania, y Menéxeno y algunos más de sus paisanos. Platón
-estaba enfermo, creo6.
+estaba enfermo, creo[^f6].
 
 EQU. --- ¿Estaban algunos forasteros?
 
@@ -555,7 +555,7 @@ llegamos y, saliéndonos al encuentro el portero que solía atendernos,
 nos dijo que esperáramos y no nos presentásemos antes de que él nos lo
 indicara.
 
-Es que los Once8 ---dijo--- desatan (de los grilletes) a Sócrates y le
+Es que los Once[^f8] ---dijo--- desatan (de los grilletes) a Sócrates y le
 comunican que hoy morirá.
 
 En fin, no tardó mucho rato en volver y nos invitó \[60a\] a entrar. Al
@@ -3853,7 +3853,7 @@ modo muy destacado, el más inteligente y más justo.
 
 [^f3]: El mito refiere que el poderoso Minos, rey de Creta, obligaba a los atenienses a enviar cada nueve años en una nave a siete muchachos y siete muchachas para ser devorados por el monstruo del Laberinto, y que Teseo, el hijo del rey Egeo, logró, al fin, acabar con tan feroz tributo dando muerte al Minotauro, con a ayuda de Ariadna (véase PLUTARCO, *Teseo* 15 ss.). La peregrinación (*theōría*) anual a Delos es una rememoración ritual del mito. Puede, quizás, resultar irónico que la ciudad cuide de «purificarse» mediante tales ritos, mientras ha condenado a muerte a un hombre como Sócrates. También éste se ha cuidado de «purificar su vida». La alusión al mito contiene, pues, ciertas connotaciones sugestivas, ya que también Sócrates se considera un servidor de Apolo (en 60b, 61c y 85b). La relación más íntima entre ese viaje salvador de Teseo, al frente de los catorce jóvenes, y el coloquio de Sócrates con sus amigos ---de los que se nombra a catorce---, tal como sugirió K. Dorter, nos parece forzar en exceso la alusión. Que *theōría* signifique, tanto «viaje» y «peregrinación» como «teoría» y «contemplación», es probablemente más sugerente para nosotros que para un hablante griego.
 
-4 Acaso la dilación, que antes se consideró como «una cierta suerte»
+[^f4]: Acaso la dilación, que antes se consideró como «una cierta suerte»
 (týchē tis), puede ser vista como «un destino divino» (theía moîra). La
 expresión theía moîra, que aparece otras veces en Platón (cf. Prot.
 322a, Fedr. 230a, Apol. 33c, Carta VII 326b) alude al «lote» asignado
@@ -3863,12 +3863,12 @@ asuntos humanos. La expresión va perdiendo fuerza, y ya en Platón
 cómo Platón acentúa la religiosidad de la muerte de Sócrates, al que la
 ciudad de Atenas ha condenado por impío.
 
-5 En esa «cierta mezcla... combinación de placer y a la vez de pesar»,
+[^f5]: En esa «cierta mezcla... combinación de placer y a la vez de pesar»,
 aflora un tema crucial del diálogo: la existencia y cruce de los
 contrarios. Pero no creemos que aquí tenga otra función que la
 representación de ese estado ambiguo sentimental que testimonia Fedón.
 
-6 Entre los presentes están algunos de los más conocidos discípulos como
+[^f6]: Entre los presentes están algunos de los más conocidos discípulos como
 el apasionado Apolodoro, mencionado en el Banquete y en la Apología
 (34a), Esquines «el socrático», y Antístenes, el fundador de la escuela
 cínica. Epígenes es también un adepto de Sócrates (cf. JENOFONTE, Mem.
@@ -3883,7 +3883,7 @@ Diálogos. Dos en la Apología (34a, 38b), para resaltar su presencia en
 el juicio, y ésta, para señalar su ausencia en el momento de la muerte
 de Sócrates.
 
-7 Cebes y Simmias proceden de Tebas, del grupo de discípulos del
+[^f7]: Cebes y Simmias proceden de Tebas, del grupo de discípulos del
 pitagórico Filolao. De Fedondas y de Terpsión no se sabe nada más. De
 Euclides de Mégara (que vivió entre 450 y 380) sabemos algo más, por lo
 que nos cuenta DIÓGENES LAERCIO (en II 106) y algunas otras citas
@@ -3901,7 +3901,7 @@ personajes, en especial sobre Esquines, Antístenes y Aristipo, remito a
 W. C. K. GUTHRIE, A History of Greek Philosophy, III, Cambridge, 1969,
 págs. 389 y sigs.
 
-8 Los Once son los magistrados que tienen a su cuidado las prisiones y
+[^f8]: Los Once son los magistrados que tienen a su cuidado las prisiones y
 el cumplimiento de las penas impuestas en ellas, de acuerdo con la
 constitución ateniense. Cf. ARISTÓTELES, Const. aten. 52, 1. Estos
 funcionarios corresponden a uno por cada tribu y uno más como
@@ -4615,3 +4615,25 @@ distancia de la muerte del maestro, iba a tener interés en recordar una
 frase tan trivial. En todo caso, sí que es intención platónica destacar
 cómo, en sus últimos momentos, el Sócrates al que se condenó por
 impiedad se mostraba piadoso con los dioses tradicionales.
+
+BIBLIOTECA CLÁSICA GREDOS, 93
+
+Asesor para la sección griega: CARLOS GARCÍA GUAL.
+
+Según las normas de la B. C. G., las traducciones de este volumen han
+sido revisadas respectivamente, por LUIS ALBERTO DE CUENCA Y PRADO, JOSÉ
+LUIS NAVARRO Y CARLOS GARCÍA GUAL.
+
+© EDITORIAL GREDOS, S. A. U., 2008
+
+López de Hoyos, 141, 28002 Madrid.
+
+www.editorialgredos.com
+
+Las traducciones, introducciones y notas han sido llevadas a cabo por:
+CARLOS GARCÍA GUAL (Fedón), M. MARTÍNEZ HERNÁNDEZ (Banquete) y E. LLEDÓ
+ÍÑIGO (Fedro).
+
+REF: GEBO208
+
+ISBN 9788424931063
