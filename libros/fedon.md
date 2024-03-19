@@ -1,32 +1,9 @@
 ---
 layout: default
 ---
+<h4>Fedón</h4>
 
-BIBLIOTECA CLÁSICA GREDOS, 93
-
-Asesor para la sección griega: CARLOS GARCÍA GUAL.
-
-Según las normas de la B. C. G., las traducciones de este volumen han
-sido revisadas respectivamente, por LUIS ALBERTO DE CUENCA Y PRADO, JOSÉ
-LUIS NAVARRO Y CARLOS GARCÍA GUAL.
-
-© EDITORIAL GREDOS, S. A. U., 2008
-
-López de Hoyos, 141, 28002 Madrid.
-
-www.editorialgredos.com
-
-Las traducciones, introducciones y notas han sido llevadas a cabo por:
-CARLOS GARCÍA GUAL (Fedón), M. MARTÍNEZ HERNÁNDEZ (Banquete) y E. LLEDÓ
-ÍÑIGO (Fedro).
-
-REF: GEBO208
-
-ISBN 9788424931063
-
-FEDÓN
-
-INTRODUCCIÓN
+Introducción
 
 1.  La situación del «Fedón» en el conjunto de la obra platónica
 
