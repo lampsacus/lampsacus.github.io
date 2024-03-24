@@ -43,7 +43,7 @@ layout: default
 ---
 
 #### Enlaces
-[Github](https://github.com/lampsacus/lampsacus.github.io)
+[GitHub](https://github.com/lampsacus/lampsacus.github.io)
 //
 [Unsplash](https://unsplash.com/@ealeman)
 //
