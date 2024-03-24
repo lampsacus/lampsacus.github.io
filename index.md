@@ -44,3 +44,7 @@ layout: default
 
 #### Enlaces
 [JAMStack](https://jamstack.org/)
+//
+[MDN Web Docs](https://developer.mozilla.org/en-US/)
+//
+[Udemy](https://www.udemy.com/)
