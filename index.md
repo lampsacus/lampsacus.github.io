@@ -40,3 +40,7 @@ layout: default
 //
 [Flor de cereza](/assets/gallery/flor_de_cereza.jpg)
 
+---
+
+#### Enlaces
+[JAMStack](https://jamstack.org/)
