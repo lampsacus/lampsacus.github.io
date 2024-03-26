@@ -66,3 +66,5 @@ layout: default
 [MDN Web Docs](https://developer.mozilla.org/en-US/)
 //
 [Udemy](https://www.udemy.com/)
+//
+[Markdown Guide](https://www.markdownguide.org)
