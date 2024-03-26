@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<figure>
+    <img src="/assets/images/octocat-icon.png"
+         alt="GitHub Octocat Icon">
+    <figcaption>GitHub Octocat Icon.</figcaption>
+</figure>
+
 #### Lecturas
 
 | Autor    | Título|
