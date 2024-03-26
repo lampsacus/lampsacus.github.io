@@ -49,16 +49,12 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  <a target="_blank" href="/assets/images/en_la_playa_Jinshitan_Dalian.jpg">
+    <img src="/assets/images/en_la_playa_Jinshitan_Dalian.jpg" alt="jīn shí tān" width="314" height="177">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">En la playa jīn shí tān, Dalian</div>
 </div>
 </body>
----
-<figure><img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228" /><figcaption>En la muralla china</figcaption></figure>
-
-<figure><img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228" /><figcaption>En Katmandú</figcaption></figure>
 
 ---
 
