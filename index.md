@@ -56,6 +56,7 @@ layout: default
 |Platón      |[Fedón](/libros/fedon.md) |
 |Tácito  |[Anales: Libro I](/libros/libro-i-anales-tacito.md) |
 |Marcus Aurelius |[Meditaciones](/libros/meditacions.md) |
+|Eric R. Kandel|[In Search of Memory: The Emergence of a New Science of Mind](https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf)|
 
 ---
 
