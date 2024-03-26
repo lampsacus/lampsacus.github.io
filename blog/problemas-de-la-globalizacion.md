@@ -3,7 +3,7 @@ layout: default
 ---
 <h4>Problemas de la globalización</h4>
 
-La historia, se dice, está en los ojos del espectador. Para algunos, las conquistas de Alejandro Magno en el Asia Menor, por ejemplo, resultó en el declive o la erradicación de etnias y culturas, la subyugación de pueblos y la imposición brutal de una cierta identidad greco-macedónica. Tales actos serían hoy en día, sino imposibles, moralmente reprobables, y ciertamente provocarían protesta y condena universal. 
+La historia, se dice, está en los ojos del espectador. Para algunos, las conquistas de Alejandro Magno en el Asia Menor, por ejemplo, resultó en el declive o la erradicación de etnias y culturas, la subyugación de pueblos y la imposición brutal de una cierta identidad greco-macedónica. Tales actos serían hoy en día, sino imposibles, moralmente reprobables, y ciertamente provocarían protesta y condena universal.
 
 Otros, sin embargo, argumentan que no deberíamos apresurarnos en juzgar a Alejandro, hacerlo sería un anacronismo, al fin y al cabo, las guerras de conquista eran entonces comunes y hasta *necesarias*-lo fueros por siglos-. Sin las campañas de Alejandro, no se hubieran formado nuevas y más amplias rutas de intercambio cultural y económico entre el este y el oeste. Con la entrada del discípulo de Aristóteles y sus temibles legiones a los Balcanes, Egipto, Siria, Babilonia y la India, la historia *progresaba* en su afán de integrar a la especie humana. Se gestaba entonces el embrión de la globalización moderna. 
 
