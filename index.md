@@ -1,31 +1,9 @@
 ---
 layout: default
 ---
-
-| :----------- | :----------- |
-| <figure>
-        <img src="/assets/images/en_la_muralla.jpg"
-         alt="En la muralla.">
-    <figcaption>En la muralla.</figcaption>
-</figure>|<figure>
-    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
-    <figcaption>Haz click en el octocat para ir a mi repositorio de Github.</figcaption>
-</figure>|
-|<figure>
-    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
-    <figcaption>Haz click en el octocat para ir a mi repositorio de Github.</figcaption>
-</figure>| <figure>
-    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
-    <figcaption>Haz click en el octocat para ir a mi repositorio de Github.</figcaption>
-</figure>|
-<figure>
-    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
-    <figcaption>Haz click en el octocat para ir a mi repositorio de Github.</figcaption>
-</figure> |
+|----|----|----|
+|:--:|:--:|:--:| 
+|![](/assets/images/en_la_muralla.jpg "En la muralla.")|||
 <br>
 <figure>
     <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
