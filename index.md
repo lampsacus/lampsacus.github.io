@@ -18,7 +18,7 @@ layout: default
 
 ---
 
-#### Escritos
+#### Micro Escritos
 
 [La Identidad de Euler](/blog/la-identidad-de-euler.md)
 
