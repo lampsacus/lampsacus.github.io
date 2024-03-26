@@ -2,53 +2,6 @@
 layout: default
 ---
 
-#### Microensayos
-
-- [Problemas de la globalización](/blog/problemas-de-la-globalizacion.md)
-- [La Identidad de Euler](/blog/la-identidad-de-euler.md)
-- [Jaques Monod: El segundo secreto de la vida](/blog/Jaques_Monod.html)
-- [Alejo Carpentier: Los Pasos Perdidos](/blog/Alejo_Carpentier.md)
-
----
-
-#### Lecturas
-
-| Autor    | Título|
-| :----------- | :----------- |
-|Platón      |[Fedón](/libros/fedon.md) |
-|Tácito  |[Anales: Libro I](/libros/libro-i-anales-tacito.md) |
-|Marcus Aurelius |[Meditaciones](/libros/meditacions.md) |
-|Eric R. Kandel|[In Search of Memory: The Emergence of a New Science of Mind](https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf)|
-
----
-
-#### Enlaces Técnicos
-
-[GitHub](https://github.com/lampsacus/lampsacus.github.io)
-//
-[JAMStack](https://jamstack.org/)
-//
-[MDN Web Docs](https://developer.mozilla.org/en-US/)
-//
-[Udemy](https://www.udemy.com/)
-//
-[Markdown Guide](https://www.markdownguide.org)
-//
-[Stak Overflow](https://stackoverflow.com)
-//
-[Unsplash](https://unsplash.com/@ealeman)
-//
-[Codepen](https://codepen.io/svelts/pen/ogboNV)
-
----
-<figure>
-    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
-    <figcaption>Haz click en el octocat para ir a mi repositorio de Github donde puedes referirte al código fuente de este sitio.</figcaption>
-</figure>
-
----
-
 #### Fotografía
 <style>
   body{
