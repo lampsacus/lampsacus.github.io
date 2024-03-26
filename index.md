@@ -4,7 +4,7 @@ layout: default
 
 <figure>
     <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="Haz click para ir a mi repositorio de Github.">
+         alt="Haz click en el octocat para ir a mi repositorio de Github.">
     <figcaption>Haz click para ir a mi repositorio de Github.</figcaption></a>
 </figure>
 
@@ -20,7 +20,7 @@ layout: default
 
 ---
 
-#### Micro Escritos
+#### Microensayos
 
 [La Identidad de Euler](/blog/la-identidad-de-euler.md)
 
