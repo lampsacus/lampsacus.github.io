@@ -2,10 +2,6 @@
 layout: default
 ---
 
-![Eduardo](/assets/gallery/eduardo.jpg)
-
----
-
 #### Microensayos
 
 - [Problemas de la globalización](/blog/problemas-de-la-globalizacion.md)
