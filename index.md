@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-| :----------- | :----------- |
-|<img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228">|ABC|
+| :-----------: | :-----------" |
+|<img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228">|<img src="/assets/images/en_Katmandu.jpg> alt="En Katmandú" width="304" height="203"|
 
 <br>
 <figure>
