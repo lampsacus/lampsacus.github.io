@@ -38,4 +38,4 @@ section img{
 </section>
 <hr />
 
-<h4><a href="/microensayos.md">Microensayos</a></h4>
+<h4><a href="microensayos.md">Microensayos</a></h4>
