@@ -62,7 +62,6 @@ layout: default
 
 #### Enlaces
 
-<ul>
 [GitHub](https://github.com/lampsacus/lampsacus.github.io)
 //
 [JAMStack](https://jamstack.org/)
@@ -74,6 +73,5 @@ layout: default
 [Markdown Guide](https://www.markdownguide.org)
 //
 [Stak Overflow](https://stackoverflow.com)
-</ul>
 //
 [Unsplash](https://unsplash.com/@ealeman)
