@@ -2,7 +2,7 @@
 layout: default
 ---
 | :-----------: | :-----------: |
-|<img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228">|<img src="/assets/images/en_Katmandu.jpg"> alt="En Katmandú" width="304" height="203"|
+|<img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228">|<img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="203">|
 
 <br>
 <figure>
@@ -37,6 +37,8 @@ layout: default
 [Bukharan Markhor](/assets/gallery/Bukharan_markhor.jpg)
 //
 [El sol](/assets/gallery/El_sol.jpg)
+//
+[La luna](/assets/gallery/luna.jpg)
 //
 [Antílope](/assets/gallery/Antílope.jpg)
 //
