@@ -35,10 +35,10 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  <a target="_blank" href="/assets/images/en_la_muralla.jpg">
+    <img src="/assets/images/en_la_muralla.jpg" alt="En la muralla china" width="304" height="228">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">En la muralla china</div>
 </div>
 
 <div class="gallery">
