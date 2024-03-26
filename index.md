@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![En la muralla.](/assets/images/en_la_muralla.jpg)
+![En la muralla.](/assets/images/en_la_muralla.jpg | width=304)
 
 <br>
 <figure>
