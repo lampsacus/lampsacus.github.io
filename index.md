@@ -54,7 +54,8 @@ div.desc {
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-
+</body>
+---
 <figure><img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228" /><figcaption>En la muralla china</figcaption></figure>
 
 <figure><img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228" /><figcaption>En Katmandú</figcaption></figure>
