@@ -8,7 +8,7 @@ layout: default
 }
 
 section{
-  column-width: 300px;
+  column-width: 200px;
   column-gap: 5px;
   padding: 5px;
 }
@@ -36,3 +36,5 @@ section img{
   <img src="https://images.unsplash.com/photo-1711489463815-c0d92347c5ec?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
   <img src="https://images.unsplash.com/photo-1711493739856-ba8e9272843d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
 </section>
+
+<h4><a href="/microensayos.md">Microensayos</a></h4>
