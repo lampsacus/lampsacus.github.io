@@ -6,17 +6,6 @@ layout: default
 
 <figure><img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228" /><figcaption>En Katmandú</figcaption></figure>
 
-
----
-
-#### Lecturas
-
-| Autor    | Título|
-| :----------- | :----------- |
-|Platón      |[Fedón](/libros/fedon.md) |
-|Tácito  |[Anales: Libro I](/libros/libro-i-anales-tacito.md) |
-|Marcus Aurelius |[Meditaciones](/libros/meditacions.md) |
-
 ---
 
 #### Microensayos
@@ -57,6 +46,16 @@ layout: default
 [Piñón espinoso de las Antillas](/assets/gallery/Erythrina-corallodendron.jpg)
 //
 [Lagarto de cerca de la cordillera de la costa](/assets/gallery/Fence-Lizard.jpg)
+
+---
+
+#### Lecturas
+
+| Autor    | Título|
+| :----------- | :----------- |
+|Platón      |[Fedón](/libros/fedon.md) |
+|Tácito  |[Anales: Libro I](/libros/libro-i-anales-tacito.md) |
+|Marcus Aurelius |[Meditaciones](/libros/meditacions.md) |
 
 ---
 
