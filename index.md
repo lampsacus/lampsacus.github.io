@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#### Leyendo
+#### Lecturas
 
 | Autor    | Título|
 | ----------- | ----------- |
@@ -12,7 +12,7 @@ layout: default
 
 ---
 
-#### Escribiendo
+#### Escritos
 
 [La Identidad de Euler](/blog/la-identidad-de-euler.md)
 
