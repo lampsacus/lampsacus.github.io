@@ -2,7 +2,7 @@
 layout: default
 ---
 | :-----------: | :-----------: |
-|<img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228">|<img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228">|
+|<figure><img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228"><figcaption></figcaption>En la muralla china</figure>|<figure><img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228"><figcaption>En Katmandú</figcaption></figure>|
 
 <br>
 <figure>
