@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## Libros 
-
 ### Platón
 
 [Fedón](/libros/fedon.md)
