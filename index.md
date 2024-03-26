@@ -42,10 +42,10 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  <a target="_blank" href="/assets/images/en_el_botanico.jpg">
+    <img src="/assets/images/en_el_botanico.jpg" alt="En el jardín botánico">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">En el jardín botánico</div>
 </div>
 
 <div class="gallery">
