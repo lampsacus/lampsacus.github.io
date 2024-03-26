@@ -48,7 +48,7 @@ layout: default
 //
 [Colibrí rufo](/assets/gallery/Rufous-Hummingbird-2.jpg)
 //
-[Pycnonotus jocosus o bulbul orfeo](/assets/gallery/Red-whiskered-bulbul-2.jpg)
+[Pycnonotus jocosus o bulbul orfeo](/assets/gallery/Red-whiskered-bulbul.jpg)
 //
 [Piñón espinoso de las Antillas](/assets/gallery/Erythrina-corallodendron.jpg)
 //
