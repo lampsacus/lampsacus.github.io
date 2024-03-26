@@ -12,7 +12,21 @@ layout: default
 ---
 
 #### Fotografía
+<style>
+  body{
+  margin: 0;
+}
 
+section{
+  column-width: 300px;
+  column-gap: 5px;
+  padding: 5px;
+}
+
+section img{
+  width: 100%; 
+}
+</style>
 <section id="gallery">
   <img src="https://images.unsplash.com/photo-1711486749729-e26fa9a1346c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
   <img src="https://images.unsplash.com/photo-1711486694755-b1eb415ed331?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
