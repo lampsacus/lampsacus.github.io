@@ -46,7 +46,7 @@ layout: default
 //
 [Lavanda de mar](/assets/gallery/Sea-Lavender.jpg)
 //
-[Colibrí rufo](/assets/gallery/Rufous-Hummingbird-2.jpg)
+[Colibrí rufo](/assets/gallery/Rufous-Hummingbird.jpg)
 //
 [Pycnonotus jocosus o bulbul orfeo](/assets/gallery/Red-whiskered-bulbul.jpg)
 //
