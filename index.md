@@ -59,7 +59,7 @@ layout: default
 
 ---
 
-#### Enlaces
+#### Enlaces Técnicos
 
 [GitHub](https://github.com/lampsacus/lampsacus.github.io)
 //
