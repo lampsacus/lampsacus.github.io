@@ -91,7 +91,7 @@ div.desc {
 //
 [Antílope](/assets/gallery/Antílope.jpg)
 //
-[Chimpancés](/assets/gallery/chimps.jpg)
+[Chimpancés](/assets/gallery/chimps_2.jpg)
 //
 [Jirafa](/assets/gallery/jirafa.jpg)
 //
