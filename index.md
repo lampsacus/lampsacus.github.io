@@ -2,9 +2,12 @@
 layout: default
 ---
 
-<figure><img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228" /><figcaption>En la muralla china</figcaption></figure>|<figure><img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228" /><figcaption>En Katmandú</figcaption></figure>
+<figure><img src="/assets/images/en_la_muralla.jpg" alt="En la muralla" width="304" height="228" /><figcaption>En la muralla china</figcaption></figure>
+
+<figure><img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228" /><figcaption>En Katmandú</figcaption></figure>
 
 <br>
+
 <figure>
     <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
          alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
