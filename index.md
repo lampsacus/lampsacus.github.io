@@ -13,34 +13,20 @@ layout: default
 
 #### Fotografía
 
-[Bukharan Markhor](/assets/gallery/Bukharan_markhor.jpg)
-//
-[El sol](/assets/gallery/El_sol.jpg)
-//
-[La luna](/assets/gallery/luna.jpg)
-//
-[Antílope](/assets/gallery/Antílope.jpg)
-//
-[Chimpancés](/assets/gallery/chimps_2.jpg)
-//
-[Jirafa](/assets/gallery/jirafa.jpg)
-//
-[Flor de cereza](/assets/gallery/flor_de_cereza.jpg)
-//
-[Garza blanca](/assets/gallery/Snowy-Egret.jpg)
-//
-[Azulejo garganta azul](/assets/gallery/Sialia-mexicana.jpg)
-//
-[Lavanda de mar](/assets/gallery/Sea-Lavender.jpg)
-//
-[Colibrí rufo](/assets/gallery/Rufous-Hummingbird.jpg)
-//
-[Pycnonotus jocosus o bulbul orfeo](/assets/gallery/Red-whiskered-bulbul.jpg)
-//
-[Piñón espinoso de las Antillas](/assets/gallery/Erythrina-corallodendron.jpg)
-//
-[Lagarto de cerca de la cordillera de la costa](/assets/gallery/Fence-Lizard.jpg)
-
+<section>
+  <img src="https://images.unsplash.com/photo-1711486749729-e26fa9a1346c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1711486694755-b1eb415ed331?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1711486654222-ea673899416e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1711486627479-e15e3c892e1b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1710722723444-dcf8d5030e82?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1710716175603-626cf17ad79f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1710709369653-780796b6680c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1701567401695-685580fe4523?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1680482783874-598bfe784736?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1680482021629-6d7a21decd81?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1649806294096-ced670a6f546?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <img src="https://images.unsplash.com/photo-1642904995235-fd93ab6470f3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+</section>
 ---
 
 #### Lecturas
