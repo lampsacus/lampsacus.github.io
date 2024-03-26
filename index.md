@@ -101,15 +101,6 @@ div.desc {
   <img src="https://unsplash.it/700/654?image=388" />
   <img src="https://unsplash.it/700/500?image=423" />
 </section>
-section{
-  column-width: 300px;
-  column-gap: 5px;
-  padding: 5px;
-}
-
-section img{
-  width: 100%; 
-}
 
 [Bukharan Markhor](/assets/gallery/Bukharan_markhor.jpg)
 //
