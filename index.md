@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<boby>
+
 <style>
   body{
   margin: 0;
