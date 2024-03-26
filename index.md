@@ -8,7 +8,7 @@ layout: default
 
 #### Tácito
 
-[Anales: Libro I](/libros/libro-i-anales-tacito.md)</ br>
+[Anales: Libro I](/libros/libro-i-anales-tacito.md)</br>
 
 #### Marcus Aurelius
 
@@ -17,6 +17,7 @@ layout: default
 ---
 
 #### Escritos
+
 [La Identidad de Euler](/blog/la-identidad-de-euler.md)
 //
 [Jaques Monod: El segundo secreto de la vida](/blog/Jaques_Monod.html)
@@ -28,6 +29,7 @@ layout: default
 ---
 
 #### Fotografía
+
 [Bukharan Markhor](/assets/gallery/Bukharan_markhor.jpg)
 //
 [El sol](/assets/gallery/El_sol.jpg)
@@ -57,6 +59,7 @@ layout: default
 ---
 
 #### Enlaces
+
 [GitHub](https://github.com/lampsacus/lampsacus.github.io)
 //
 [Unsplash](https://unsplash.com/@ealeman)
