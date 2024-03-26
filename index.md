@@ -83,7 +83,8 @@ div.desc {
 
 #### Fotografía
 
-<section>
+<section { column-width: 300px; column-gap: 5px; padding: 5px; img{ width: 100%; };}
+
   <img src="https://unsplash.it/700/345?random=1" />
   <img src="https://unsplash.it/700/550?random=2" />
   <img src="https://unsplash.it/700/450?random=3" />
@@ -159,7 +160,7 @@ div.desc {
 //
 [Unsplash](https://unsplash.com/@ealeman)
 //
-[Codepen](https://codepen.io/)
+[Codepen](https://codepen.io/svelts/pen/ogboNV)
 
 ---
 <figure>
