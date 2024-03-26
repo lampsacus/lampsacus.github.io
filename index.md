@@ -2,29 +2,33 @@
 layout: default
 ---
 
-#### Platón
+# Listas
+
+## Libros 
+
+### Platón
 
 [Fedón](/libros/fedon.md)
 
-#### Tácito
+### Tácito
 
 [Anales: Libro I](/libros/libro-i-anales-tacito.md)</br>
 
-#### Marcus Aurelius
+### Marcus Aurelius
 
 [Meditaciones](/libros/meditacions.md)
 
 ---
 
-#### Escritos
+## Escritos
 
-[La Identidad de Euler](/blog/la-identidad-de-euler.md)
-//
-[Jaques Monod: El segundo secreto de la vida](/blog/Jaques_Monod.html)
-//
-[Alejo Carpentier: Los Pasos Perdidos](/blog/Alejo_Carpentier.md)
-//
-[Problemas de la globalización](/blog/problemas-de-la-globalizacion.md)
+### [La Identidad de Euler](/blog/la-identidad-de-euler.md)
+
+### [Jaques Monod: El segundo secreto de la vida](/blog/Jaques_Monod.html)
+
+### [Alejo Carpentier: Los Pasos Perdidos](/blog/Alejo_Carpentier.md)
+
+### [Problemas de la globalización](/blog/problemas-de-la-globalizacion.md)
 
 ---
 
@@ -60,9 +64,8 @@ layout: default
 
 #### Enlaces
 
+<ul>
 [GitHub](https://github.com/lampsacus/lampsacus.github.io)
-//
-[Unsplash](https://unsplash.com/@ealeman)
 //
 [JAMStack](https://jamstack.org/)
 //
@@ -71,3 +74,8 @@ layout: default
 [Udemy](https://www.udemy.com/)
 //
 [Markdown Guide](https://www.markdownguide.org)
+//
+[Stak Overflow](https://stackoverflow.com)
+</ul>
+//
+[Unsplash](https://unsplash.com/@ealeman)
