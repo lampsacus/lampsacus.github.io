@@ -2,6 +2,8 @@
 layout: default
 ---
 
+#### Leyendo
+
 | Autor    | Título|
 | ----------- | ----------- |
 |Platón      | [Fedón](/libros/fedon.md) |
@@ -10,7 +12,7 @@ layout: default
 
 ---
 
-#### Escritos
+#### Escribiendo
 
 [La Identidad de Euler](/blog/la-identidad-de-euler.md)
 
