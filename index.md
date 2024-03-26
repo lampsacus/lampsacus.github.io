@@ -15,7 +15,7 @@ section{
 }
 
 section img{
-  width: 100%; 
+  width: 100%;
 }
 </style>
 <section id="gallery">
