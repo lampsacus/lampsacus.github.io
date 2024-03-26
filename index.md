@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Listas
-
 ## Libros 
 
 ### Platón
