@@ -39,6 +39,20 @@ layout: default
 [Jirafa](/assets/gallery/jirafa.jpg)
 //
 [Flor de cereza](/assets/gallery/flor_de_cereza.jpg)
+//
+[Garza blanca](/assets/gallery/Snowy-Egret.jpg)
+//
+[Azulejo garganta azul](/assets/gallery/Sialia-mexicana.jpg)
+//
+[Lavanda de mar](/assets/gallery/Sea-Lavender.jpg)
+//
+[Colibrí rufo](/assets/gallery/Rufous-Hummingbird-2.jpg)
+//
+[Pycnonotus jocosus o bulbul orfeo](/assets/gallery/Red-whiskered-bulbul-2.jpg)
+//
+[Piñón espinoso de las Antillas](/assets/gallery/Erythrina-corallodendron.jpg)
+//
+[Lagarto de cerca de la cordillera de la costa](/assets/gallery/Fence-Lizard.jpg)
 
 ---
 
