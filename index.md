@@ -13,7 +13,7 @@ layout: default
 #### Lecturas
 
 | Autor    | Título|
-| ----------- | ----------- |
+| :----------- | :----------- |
 |Platón      |[Fedón](/libros/fedon.md) |
 |Tácito  |[Anales: Libro I](/libros/libro-i-anales-tacito.md) |
 |Marcus Aurelius |[Meditaciones](/libros/meditacions.md) |
