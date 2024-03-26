@@ -8,7 +8,7 @@ layout: default
 }
 
 section{
-  column-width: 200px;
+  column-width: 300px;
   column-gap: 5px;
   padding: 5px;
 }
