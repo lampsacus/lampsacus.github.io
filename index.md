@@ -25,9 +25,7 @@ div.desc {
 }
 </style>
 </head>
-<body{
-  margin: 0;
-}>
+<body>
 <div class="gallery">
   <a target="_blank" href="/assets/images/en_Katmandu.jpg">
     <img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228">
