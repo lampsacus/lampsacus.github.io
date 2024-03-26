@@ -3,10 +3,12 @@ layout: default
 ---
 
 <figure>
-    <img src="/assets/images/octocat-icon.png"
-         alt="GitHub Octocat Icon">
-    <figcaption>GitHub Octocat Icon.</figcaption>
+    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
+         alt="GitHub Octocat Icon. Haz click para ir a mi repositorio de Github.">
+    <figcaption>GitHub Octocat Icon. Haz click para ir a mi repositorio de Github.</figcaption></a>
 </figure>
+
+---
 
 #### Lecturas
 
