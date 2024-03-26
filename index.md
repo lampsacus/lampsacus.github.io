@@ -60,6 +60,13 @@ div.desc {
   </a>
   <div class="desc">En Angkor Wat</div>
 </div>
+
+<div class="gallery">
+  <a target="_blank" href="/assets/images/en_chichen_itza.jpg">
+    <img src="/assets/images/en_chichen_itza.jpg" alt="En Chichén Itzá" width="312" height="412">
+  </a>
+  <div class="desc">En Chichén Itzá</div>
+</div>
 </body>
 
 <br>
