@@ -4,8 +4,8 @@ layout: default
 
 <figure>
     <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="GitHub Octocat Icon. Haz click para ir a mi repositorio de Github.">
-    <figcaption>GitHub Octocat Icon. Haz click para ir a mi repositorio de Github.</figcaption></a>
+         alt="Haz click para ir a mi repositorio de Github.">
+    <figcaption>Haz click para ir a mi repositorio de Github.</figcaption></a>
 </figure>
 
 ---
