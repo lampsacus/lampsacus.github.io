@@ -53,8 +53,16 @@ div.desc {
   </a>
   <div class="desc">En la playa jīn shí tān, Dalian</div>
 </div>
+
+<div class="gallery">
+  <a target="_blank" href="/assets/images/en_angkor_wat.jpg">
+    <img src="/assets/images/en_angkor_wat.jpg" alt="En Angkor Wat" width="302" height="202">
+  </a>
+  <div class="desc">En Angkor Wat</div>
+</div>
 </body>
 
+<br>
 ---
 
 #### Microensayos
