@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-|----|----|----|
-|:--:|:--:|:--:| 
-|![](/assets/images/en_la_muralla.jpg "En la muralla." =304x228)|||
+
+![En la muralla.](/assets/images/en_la_muralla.jpg)
+
 <br>
 <figure>
     <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
