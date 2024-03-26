@@ -6,13 +6,6 @@ layout: default
 
 <figure><img src="/assets/images/en_Katmandu.jpg" alt="En Katmandú" width="304" height="228" /><figcaption>En Katmandú</figcaption></figure>
 
-<br>
-
-<figure>
-    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
-         alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
-    <figcaption>Haz click en el octocat para ir a mi repositorio de Github.</figcaption>
-</figure>
 
 ---
 
@@ -82,3 +75,10 @@ layout: default
 [Stak Overflow](https://stackoverflow.com)
 //
 [Unsplash](https://unsplash.com/@ealeman)
+
+---
+<figure>
+    <a href="https://github.com/lampsacus/lampsacus.github.io"><img src="/assets/images/octocat-icon.png"
+         alt="Haz click en el octocat para ir a mi repositorio de Github."></a>
+    <figcaption>Haz click en el octocat para ir a mi repositorio de Github donde puedes referirte al código fuente de este sitio.</figcaption>
+</figure>
