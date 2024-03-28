@@ -38,7 +38,6 @@ section img{
 </section>
 
 ---
----
 
 #### Microensayos
 
