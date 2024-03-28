@@ -3,27 +3,26 @@ layout: default
 ---
 #### Microensayos
 
-[La Identidad de Euler](/blog/la-identidad-de-euler.md) [Jaques Monod: El segundo secreto de la vida](/blog/Jaques_Monod.html) [Alejo Carpentier: Los Pasos Perdidos](/blog/Alejo_Carpentier.md) [Problemas de la globalización](/blog/problemas-de-la-globalizacion.md)
+[La Identidad de Euler](/blog/la-identidad-de-euler.md)
+
+[Jaques Monod: El segundo secreto de la vida](/blog/Jaques_Monod.html) 
+
+[Alejo Carpentier: Los Pasos Perdidos](/blog/Alejo_Carpentier.md) 
+
+[Problemas de la globalización](/blog/problemas-de-la-globalizacion.md)
 
 * * *
 
 #### Lecturas
 
 Platón
-
 [Fedón](/libros/fedon.md)
 
 Tácito
-
 [Anales: Libro I](/libros/libro-i-anales-tacito.md)
 
 Marcus Aurelius
-
 [Meditaciones](/libros/meditacions.md)
-
-Eric R. Kandel
-
-[In Search of Memory: The Emergence of a New Science of Mind](https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf)
 
 * * *
 
