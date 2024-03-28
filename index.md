@@ -37,9 +37,10 @@ section img{
   <img src="https://images.unsplash.com/photo-1711493739856-ba8e9272843d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
 </section>
 
+<hr>
+<p>
 ---
 
-<section>
 #### Microensayos
 
 |||
@@ -50,7 +51,9 @@ section img{
 |[Alejo Carpentier: Los Pasos Perdidos](/blog/Alejo_Carpentier.md)|
 
 ---
-
+</p>
+<hr>
+<p>
 #### Lecturas
 
 | Autor    | Título|
@@ -61,4 +64,4 @@ section img{
 |Eric R. Kandel|[In Search of Memory: The Emergence of a New Science of Mind](https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf)|
 
 ---
-</section>
+</p>
