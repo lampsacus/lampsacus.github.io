@@ -11,7 +11,7 @@ layout: default
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="./blog/problemas-de-la-globalizacion.md">Problemas de la globalización</a></td>
+<td align="left"><a href="/blog/problemas-de-la-globalizacion.md">Problemas de la globalización</a></td>
 <td align="left"></td>
 </tr>
 <tr>
