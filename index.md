@@ -38,30 +38,56 @@ section img{
 </section>
 
 <hr>
-<p>
----
 
-#### Microensayos
-
-|||
-| :----------- | :----------- |
-|[Problemas de la globalización](/blog/problemas-de-la-globalizacion.md)|
-|[La Identidad de Euler](/blog/la-identidad-de-euler.md)|
-|[Jaques Monod: El segundo secreto de la vida](/blog/Jaques_Monod.html)|
-|[Alejo Carpentier: Los Pasos Perdidos](/blog/Alejo_Carpentier.md)|
-
----
-</p>
+<h4 id="microensayos">Microensayos</h4>
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="/blog/problemas-de-la-globalizacion.md">Problemas de la globalización</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><a href="/blog/la-identidad-de-euler.md">La Identidad de Euler</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><a href="/blog/Jaques_Monod.html">Jaques Monod: El segundo secreto de la vida</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><a href="/blog/Alejo_Carpentier.md">Alejo Carpentier: Los Pasos Perdidos</a></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
 <hr>
-<p>
-#### Lecturas
-
-| Autor    | Título|
-| :----------- | :----------- |
-|Platón      |[Fedón](/libros/fedon.md) |
-|Tácito  |[Anales: Libro I](/libros/libro-i-anales-tacito.md) |
-|Marcus Aurelius |[Meditaciones](/libros/meditacions.md) |
-|Eric R. Kandel|[In Search of Memory: The Emergence of a New Science of Mind](https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf)|
-
----
-</p>
+<h4 id="lecturas">Lecturas</h4>
+<table>
+<thead>
+<tr>
+<th align="left">Autor</th>
+<th align="left">Título</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Platón</td>
+<td align="left"><a href="/libros/fedon.md">Fedón</a></td>
+</tr>
+<tr>
+<td align="left">Tácito</td>
+<td align="left"><a href="/libros/libro-i-anales-tacito.md">Anales: Libro I</a></td>
+</tr>
+<tr>
+<td align="left">Marcus Aurelius</td>
+<td align="left"><a href="/libros/meditacions.md">Meditaciones</a></td>
+</tr>
+<tr>
+<td align="left">Eric R. Kandel</td>
+<td align="left"><a href="https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf">In Search of Memory: The Emergence of a New Science of Mind</a></td>
+</tr>
+</tbody></table>
+<hr>
