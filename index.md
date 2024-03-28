@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<section>
 <h4 id="microensayos">Microensayos</h4>
 <table>
 <thead>
@@ -52,6 +53,7 @@ layout: default
 <td align="left"><a href="https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf">In Search of Memory: The Emergence of a New Science of Mind</a></td>
 </tr>
 </tbody></table>
+</section>
 <hr>
 <style>
   body{
