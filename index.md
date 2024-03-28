@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<hr>
-
 <h4 id="microensayos">Microensayos</h4>
 <table>
 <thead>
