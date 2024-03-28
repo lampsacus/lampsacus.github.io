@@ -27,7 +27,7 @@ Marcus Aurelius
 * * *
 
 #### Fotos Recientes
-
+| --- | ----------- |
 | ![](https://images.unsplash.com/photo-1711493739856-ba8e9272843d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ) | ![](https://images.unsplash.com/photo-1711486694755-b1eb415ed331?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | ![](https://images.unsplash.com/photo-1711486654222-ea673899416e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 |
 #### Mas
