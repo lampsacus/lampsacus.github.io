@@ -39,6 +39,7 @@ section img{
 
 ---
 
+<section>
 #### Microensayos
 
 |||
@@ -60,3 +61,4 @@ section img{
 |Eric R. Kandel|[In Search of Memory: The Emergence of a New Science of Mind](https://vinaire.files.wordpress.com/2022/10/in-search-of-memory-by-kandel.pdf)|
 
 ---
+</section>
