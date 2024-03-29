@@ -6,10 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
   </head>
 
   <body>
+    <div class="galleria">
+      <img src="/assets/images/waterfall.webp">
+      <img src="/assets/images/elefante.jpg">
+      <img src="/assets/images/ChichenItza.jpeg">
+  </div>
+  <script>
+      (function() {
+          Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+          Galleria.run('.galleria');
+      }());
+  </script>
     <div id="container">
       <div class="inner">
 
