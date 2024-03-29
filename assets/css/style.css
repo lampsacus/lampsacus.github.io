@@ -1,4 +1,31 @@
 
-body {
-  margin: 50 px 50px 50px 50px;
+element {
+  margin-top: -120px;
+
+  border-top-width: 0px;
+
+  border-top-style: solid;
+
+  border-bottom-width: 0px;
+
+  border-bottom-style: solid;
+
+  border-left-width: 0px;
+
+  border-left-style: solid;
+
+  border-right-width: 0px;
+
+  border-right-style: solid;
+
+  padding-top: 0px;
+
+  padding-bottom: 25px;
+
+  height: 1202px;
+
+  padding-left: 25px;
+
+  padding-right: 25px;
+
 }
