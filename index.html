@@ -6,12 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
-    <script src="/scripts/tcontents.js"></script>
   </head>
 
   <body>
     <h1 class="main-title">Eduardo Alemán</h1>
-
+<script>const toggle = document.querySelector(".toggle");
+  const nav_bar = document.querySelector(".table-of-contents");
+  const list = document.querySelector(".table__list");
+  
+  toggle.addEventListener("click", ()=>{
+    if (toggle.textContent === "hide") {
+      toggle.textContent = "show";
+    }
+    else {
+      toggle.textContent = "hide";
+    }
+    
+    list.classList.toggle("list-invisible");
+    nav_bar.classList.toggle("table-narrow");
+  });</script>
 <nav class="table-of-contents">
   <div class="wrap">
     <h2 class="table__title">Contents</h2>
