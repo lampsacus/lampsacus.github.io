@@ -48,7 +48,7 @@ html{
 body{
     color:var(--text);
     background-color:var(--bg);
-    grid-template-columns:1fr min(90rem,75%) 1fr;
+    grid-template-columns:1fr min(85rem,70%) 1fr;
     margin:0;
     font-size:1.15rem;
     line-height:1;
