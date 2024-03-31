@@ -137,7 +137,21 @@ color: #dcdcdc;
             
             <div style="text-align:center">
               <h2><a id="fotos"></a>Fotos recientes</a></h2>
-              <p>Haz click en las imágenes para expandirlas.</p>
+              <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+              </div>
+              
+              <script>
+              function myFunction(imgs) {
+                var expandImg = document.getElementById("expandedImg");
+                var imgText = document.getElementById("imgtext");
+                expandImg.src = imgs.src;
+                imgText.innerHTML = imgs.alt;
+                expandImg.parentElement.style.display = "block";
+              }
+              </script>
             </div>
             
             <!-- The four columns -->
@@ -167,22 +181,6 @@ color: #dcdcdc;
                 <img src="./assets/images/garzita_blanca.webp" alt="Garzita blanca" style="width:100%" onclick="myFunction(this);">
               </div>
             </div>
-            
-            div class="container">
-              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-              <img id="expandedImg" style="width:100%">
-              <div id="imgtext"></div>
-            </div>
-            
-            <script>
-            function myFunction(imgs) {
-              var expandImg = document.getElementById("expandedImg");
-              var imgText = document.getElementById("imgtext");
-              expandImg.src = imgs.src;
-              imgText.innerHTML = imgs.alt;
-              expandImg.parentElement.style.display = "block";
-            }
-            </script>
             <p><a href="https://unsplash.com/@ealeman">Bajar fotos de alta resolución en mi página de Unsplash</a>.
         </section>
     
