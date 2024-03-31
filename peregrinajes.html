@@ -66,55 +66,50 @@
               font-family: Arial;
             }
             
-            /* The grid: Four equal columns that floats next to each other */
+            .header {
+              text-align: center;
+              padding: 32px;
+            }
+            
+            .row {
+              display: -ms-flexbox; /* IE10 */
+              display: flex;
+              -ms-flex-wrap: wrap; /* IE10 */
+              flex-wrap: wrap;
+              padding: 0 4px;
+            }
+            
+            /* Create four equal columns that sits next to each other */
             .column {
-              float: left;
-              width: 25%;
-              padding: 10px;
+              -ms-flex: 25%; /* IE10 */
+              flex: 25%;
+              max-width: 25%;
+              padding: 0 4px;
             }
             
-            /* Style the images inside the grid */
             .column img {
-              opacity: 0.8; 
-              cursor: pointer; 
+              margin-top: 8px;
+              vertical-align: middle;
+              width: 100%;
             }
             
-            .column img:hover {
-              opacity: 1;
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media screen and (max-width: 800px) {
+              .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+              }
             }
             
-            /* Clear floats after the columns */
-            .row:after {
-              content: "";
-              display: table;
-              clear: both;
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+              }
             }
-            
-            /* The expanding image container */
-            .container {
-              position: relative;
-              display: none;
-            }
-            
-            /* Expanding image text */
-            #imgtext {
-              position: absolute;
-              bottom: 15px;
-              left: 15px;
-              color: white;
-              font-size: 20px;
-            }
-            
-            /* Closable button inside the expanded image */
-            .closebtn {
-              position: absolute;
-              top: 10px;
-              right: 15px;
-              color: white;
-              font-size: 35px;
-              cursor: pointer;
-            }
-
             </style>
             </head>
             <body>
@@ -144,7 +139,6 @@
                 <div class="column">
                   <img src="./assets/images/viajes/Paris/Paris-10.jpg" alt="Una escultura a la entrada del palacio de Versailles" style="width:100%" onclick="myFunction(this);">
                 </div>
-            <!-- The four columns -->
             <div class="row">
               <div class="column">
                 <img src="./assets/images/viajes/Boudha_Stupa.jpg" alt="Stupa Boudha, Katmandú" style="width:100%" onclick="myFunction(this);">
