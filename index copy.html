@@ -175,6 +175,7 @@
         <div style="margin-top: -5em; text-align:center">
           <h3><a id="ensayos"></a>Microensayos</a></h3>
           <p><a href="#globalización">La globalización: Paralelos en la historia.</a></p>
+          <p><a href="#euler">La identidad de Euler: La fórmula más notable en matemáticas</a></p>
           <p><a href="#monod">Jacques Monod: El segundo secreto de la vida</a></p>
           <p><a href="#carpentier">Los Pasos Perdidos de Alejo Carpentier</a></p>
         </div>
@@ -208,29 +209,328 @@
         <p>Hoy en día es Ucrania. En la voz del Kremlin la invasión de Ucrania no sería más que una <em>operación militar especial</em>. Paradójicamente son los Ucranianos los que defienden el modelo integracionista mientras los rusos justifican la invasión con una ideología anti-globalizadora que alude a la erosión de una cierta identidad ruso-eslávica establecida en el siglo X por Oleg de Nóvgorod (ver el artículo de Vladimir Putin <a href="http://en.kremlin.ru/events/president/news/66181">"Sobre la unidad histórica de rusos y ucranianos"</a>). Propaganda aparte, la narrativa de la globalización que se desglosaba a fines del siglo pasado se ha evaporado por completo en la segunda década del siglo XXI. En su lugar viejos nacionalismos resurgen. A la historia al parecer le gusta repetirse. El hecho de que un nuevo conflicto nuclear emane de la guerra entre Rusia y Ucrania resultaría en la destrucción de la especie humana y el fin verdadero de la historia.</p>
 
         <p>Fin.</p>
-  </section>
+      </section>
 
       <section style="margin-top: 0.5em; text-align:left">
 
-      <h4 id="monod">Jaques Monod: El segundo secreto de la vida</h4>
+        <h4 id="euler">La identidad de Euler: La fórmula más notable en matemáticas</h4>
+        
+        <p>En una de sus famosas conferencias de Física, Richard Feynman le dedica una clase completa a &ldquo;una de las fórmulas más notables, casi asombrosas, de todas las matemáticas.&rdquo; Al comenzar, Feynman explica que &ldquo;desde el punto de vista del físico, podríamos presentar esta fórmula en dos minutos más o menos, y terminar con ella. Pero la ciencia es tanto para el disfrute intelectual como para la utilidad práctica, así que en lugar de dedicar unos minutos a esta asombrosa joya, rodearemos la joya con su engaste adecuado en el gran diseño de esa rama de las matemáticas que se llama álgebra elemental.&rdquo; Un poco antes de culminar, la llama además &ldquo;la fórmula más notable en matemáticas&rdquo;.</p>
+        <p>La formula a la que Feynman se refiere es la famosa fórmula de Euler que su autor Leonhard  Euler popularizó en el capítulo 8 del <em>Introductio in analysin infinitorum</em> o Introducción al análisis del infinito. Euler sentó las bases del análisis matemático con su <em>Introductio</em>, que se ha llegado a comparar con los <em>Elementos</em> de Euclides por su significado para las matemáticas. La fórmula, como nos dice Feynman, es la siguiente:</p>
+        <p style="text-align: center;">
+        e<sup>i&#952;</sup> = cos &#952; + i sen &#952;
+        </p>
+        <p>Contemplemos sus partes:</p>
+        <h5 id="el-número-e">El número <em>e</em></h5>
+        <p>El número <em>e</em> es un número irracional y trascendente. El valor de <em>e</em> reducido a sus primeras cifras decimales es el siguiente:
+        <em>e</em> = 2,71828182 &hellip; .Esta constante aparece en la computación de interés compuesto cada vez que se aplica un cambio extremadamente pequeño un número extremadamente grande de veces.</p>
+        <p>Como se sabe, la fórmula para computar el interés compuesto es la siguiente:</p>
+        <p>x = C(1+t/n)<sup>nu</sup> - C</p>
+        <p>dónde:</p>
+        <p>x = interés compuesto + capital.</p>
+        <p>C = capital (el monto del depósito inicial o del préstamo).</p>
+        <p>t = tasa de interés.</p>
+        <p>n = número de períodos de capitalización.</p>
+        <p>u = número de unidades de tiempo en que el dinero se invierte o se solicita en préstamo.</p>
+        <p>Así que si comenzamon con un capital de $1000 dólares, con una tasa de interés anual digamos de 100%, entonces:</p>
+        <p>x = C(1+t/n)<sup>nu</sup> - C</p>
+        <p>x = 1000 (1+1/1)<sup>(1)(1)</sup></p>
+        <p>x = 1000 (1+1/1)<sup>(1)</sup></p>
+        <p>x = 1000 (2)<sup>(1)</sup></p>
+        <p>x = 1000 (2)</p>
+        <p>x = 2000</p>
+        <p>En un año tendríamos en nuestro generoso banco $1000 de interés compuesto acumulado más el capital original, para un total de 2000 dólares.</p>
+        <p>Hagamos una tabla. Disminuyamos la tasa de interés anual a un % consecutivamente más ínfimo y dejemos el período de capitalización en su forma anual:</p>
+        <table>
+        <thead>
+        <tr>
+        <th>t</th>
+        <th>(1+t/n)<sup>(n)(u)</sup></th>
+        <th>x</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td>(1+1/1)<sup>(1)(1)</sup></td>
+        <td>$2000</td>
+        </tr>
+        <tr>
+        <td>0.5</td>
+        <td>(1+.5/1)<sup>(1)(1)</sup></td>
+        <td>$1500</td>
+        </tr>
+        <tr>
+        <td>:</td>
+        <td>:</td>
+        <td>:</td>
+        </tr>
+        <tr>
+        <td>0.1</td>
+        <td>(1+.1/1)<sup>(1)(1)</sup></td>
+        <td>$1100</td>
+        </tr>
+        <tr>
+        <td>0.01</td>
+        <td>(1+.01/1)<sup>(1)(1)</sup></td>
+        <td>$1010</td>
+        </tr>
+        </tbody>
+        </table>
+        <p>Por supuesto sabemos que a medida que disminuye la tasa de interés anual, disminuye igualmente el monto de la ganancia. Que tal si dejamos la tasa de interés al 10% y cambiamos el número de períodos de capitalización, mensualmente, 12 veces al año:</p>
+        <table>
+        <thead>
+        <tr>
+        <th>t</th>
+        <th>(1+t/n)<sup>(n)(u)</sup></th>
+        <th>x</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>0.1</td>
+        <td>(1+.1/12)<sup>(12)(1)</sup></td>
+        <td>1104.71</td>
+        </tr>
+        </tbody>
+        </table>
+        <p>Hagamos algo diferente. Esta vez cambiémos dos variables en vez de una. Disminuyamos paulativamente la tasa de interés mientras aumentamos el período de capitalización:</p>
+        <table>
+        <thead>
+        <tr>
+        <th>t</th>
+        <th>(1+t/n)<sup>(n)(u)</sup></th>
+        <th>x</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td>(1+1/1)<sup>(1)(1)</sup></td>
+        <td>$2000</td>
+        </tr>
+        <tr>
+        <td>0.5</td>
+        <td>(1+.5/2)<sup>(2)(1)</sup></td>
+        <td>$1562.50</td>
+        </tr>
+        <tr>
+        <td>0.4</td>
+        <td>(1+.4/4)<sup>(4)(1)</td>
+        <td>$1464.10</td>
+        </tr>
+        <tr>
+        <td>0.3</td>
+        <td>(1+.3/6)<sup>(6)(1)</sup></td>
+        <td>$1322.50</td>
+        </tr>
+        <tr>
+        <td>0.2</td>
+        <td>(1+.2/12)<sup>(1)(1)</sup></td>
+        <td>$1219.31</td>
+        </tr>
+        </tbody>
+        </table>
+        <p>Lo anterior lo hemos hecho para observar la funcionalidad de la fórmula para computar el interés compuesto.</p>
+        <p>Enfoquémonos ahora en la parte de la fórmula que nos ayuda a calcular la ganancia (1+1/n)<sup>nu</sup>. Dejemos que <em>y</em> en este caso sea la ganancia en forma decimal por la que multiplicaríamos nuestro capital e imaginémonos una cierta cantidad inmensa de veces que se realizaría la capitalización en un año con un interés anual de 100%. Extendamos los dígitos de <em><strong>y</strong></em> a 10 lugares solamente:</p>
+        <table>
+        <thead>
+        <tr>
+        <th>n</th>
+        <th>(1+t/n)<sup>(n)(u)</sup></th>
+        <th>y en decimal</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td>(1+1/1)<sup>(1)(1)</sup></td>
+        <td>2,00000000</td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>(1+1/5)<sup>(5)(1)</sup></td>
+        <td>2,48832000</td>
+        </tr>
+        <tr>
+        <td>10</td>
+        <td>(1+1/10)<sup>(10)(1)</sup></td>
+        <td>2,59374246601</td>
+        </tr>
+        <tr>
+        <td>100</td>
+        <td>(1+1/100)<sup>(100)(1)</sup></td>
+        <td>2,7048138294</td>
+        </tr>
+        <tr>
+        <td>1000</td>
+        <td>(1+1/1000)<sup>(1000)(1)</sup></td>
+        <td>2,7169239322</td>
+        </tr>
+        <tr>
+        <td>10000</td>
+        <td>(1+1/10000)<sup>(10000)(1)</sup></td>
+        <td>2,7181459268</td>
+        </tr>
+        <tr>
+        <td>100000</td>
+        <td>(1+1/100000)<sup>(100000)(1)</sup></td>
+        <td>2,7182682371</td>
+        </tr>
+        <tr>
+        <td>1000000</td>
+        <td>(1+1/10000000)<sup>(1000000)(1)</sup></td>
+        <td>2,7182804693</td>
+        </tr>
+        <tr>
+        <td>10000000</td>
+        <td>(1+1/100000000)<sup>(10000000)(1)</sup></td>
+        <td>2,7182816925</td>
+        </tr>
+        <tr>
+        <td>100000000</td>
+        <td>(1+1/1000000000)<sup>(100000000)(1)</sup></td>
+        <td>2,7182818149</td>
+        </tr>
+        <tr>
+        <td>1000000000</td>
+        <td>(1+1/1000000000)<sup>(1000000000)(1)</sup></td>
+        <td>2,7182818271</td>
+        </tr>
+        <tr>
+        <td>10000000000</td>
+        <td>(1+1/10000000000)<sup>(10000000000)(1)</sup></td>
+        <td>2,7182818283</td>
+        </tr>
+        </tbody>
+        </table>
+        <p>Si la capitalización ocurre diez mil millones de veces en un año a un interés de un 100% obtendríamos una ganancia equivalente al producto de nuestro capital y 2,7182818283.</p>
+        <p>Este número es una aproximación a <em><strong>e</strong></em>, el mismo que en nuestra fórmula inicial tan alabada por Feynman:</p>
+        <p style="text-align: center;">
+        e<sup>i&#952;</sup> = cos &#952; + i sen &#952;
+        </p>
+        <p>Por supuesto que este tipo de capitalización contínua que no existe en la realidad, ya que la mayoría de los intereses se capitalizan diaria, semanal, mensual, trimestral, semestral o anualmente. Pero resulta interesante imaginarse o generalizar que sucedería si pudiéramos continuar de esta manera.</p>
+        <p>Pero el número <em><strong>e</strong></em> no solamente es interesante por estas propiedades.</p>
+        <p>Nótese que el número Euler es un número límite. No importa si capitalizamos <em>ad infinitum</em>, nunca avanzaríamos más que el producto de nuestro capital y este número prodigioso.</p>
+        <p><em><strong>e</strong></em>, el número de Euler, puede ser definido como:</p>
+        <p>El límite de (1+t/n)<sup>(n)(u)</sup> mientras n continúa al infinito.</p>
+        <div>\begin{align} e=\lim_{n\rightarrow\infty}\left( 1+\frac{1}{n}\right)^n\end{align}</div>
+        <p>El número <em><strong>e</strong></em> no fue inventado por Euler -se conocía desde antes- fue Euler sin embargo quien, por primera vez, usó la función exponencial en vez del logaritmo en su formulación de <em><strong>e</strong></em>. Esta constante <em><strong>e</strong></em> se usa por lo tanto como la base común para las tasas de crecimiento, por lo que juega un papel fundamental en la descripción y predicción de fenómenos naturales que varían exponencialmente con el tiempo, desde la inversión financiera pasando por la tasa de propagación de enfermedades hasta la desintegración radiactiva. Cuando n representa el tiempo, <em><strong>e</strong></em> significa una tasa de crecimiento (o disminución, para n negativo) que es igual al tamaño o cantidad que se ha acumulado hasta el momento.</p>
+        <p>Entonces, en ese sentido, el número <em><strong>e</strong></em> es fundamental en la física, la ingeniería y las ciencias económicas. <em><strong>e</strong></em> representa la idea de que todos los sistemas en continuo crecimiento son versiones escaladas de una tasa común.</p>
+        <h5 id="otras-definición-de-e-usando-factoriales">Otras definición de <em><strong>e</strong></em> usando factoriales</h5>
+        <div>\begin{align} e=\lim_{n\rightarrow\infty}\left( 1+\frac{1}{n}\right)^n=1+\frac{1}{1}+\frac{1}{1\cdot2}+\frac{1}{1\cdot3}+\frac{1}{1\cdot4}...\end{align}</div>
+        <p>Lo cual es lo mismo que:</p>
+        <div>\begin{align} e=\lim_{n\rightarrow\infty}\left( 1+\frac{1}{n}\right)^n=1+\frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}...\end{align}</div>
+        <p>Ahora llegamos a otro número en la fórmula que, a diferencia de <em><strong>e</strong></em>, no existe en la realidad, lo cual no significa que no sea importante. Pero no nos detendremos en él, ni en los próximos, no más que para definirlos.</p>
+        <h5 id="la-unidad-de-número-imaginario-i">La unidad de número imaginario <em><strong>i</strong></em></h5>
+        <p>Pero, mientras hemos visto una aplicación de (1+t/n)<sup>(n)(u)</sup>, ¿de dónde sale <em><strong>i</strong></em>?</p>
+        <p>Sabemos que <em><strong>i</strong></em><sup>2</sup> = -1, lo cual quiere decir que,</p>
+        <p>La <em><strong>i</strong></em> es la unidad de número imaginario cuya definición es:</p>
+        <p><em><strong>i</strong></em><sup>2</sup> = -1</p>
+        <div> i = $\sqrt[]{-1}$ </div>
+        <h5 id="la-letra-952-theta-en-geometría-representa-un-ángulo-cualquiera">La letra θ (theta), en geometría, representa un ángulo cualquiera.</h5>
+        <p>Es como la <em><strong>x</strong></em> en álgebra que podemos sustituir por un número cualquiera.</p>
+        <h5 id="cos-y-sen"><em>cos</em> y <em>sen</em>&hellip;</h5>
+        <p>se refieren por supuesto a las funciones trigonométricas coseno y seno respectivamente.</p>
+        <p>En matemáticas, el seno y el coseno son funciones trigonométricas de un ángulo. El seno y el coseno de un ángulo agudo se definen en el contexto de un triángulo rectángulo: para el ángulo especificado, su seno es la relación entre la longitud del lado opuesto a ese ángulo y la longitud del lado más largo del triángulo (la hipotenusa), y el coseno es la razón de la longitud del cateto adyacente a la de la hipotenusa.</p>
+        <img src="./assets/images/Triangulo-Sen-Cos.svg" alt="Triángulo: Seno y Coseno" width="50%"/>
+        <p>Valdría la pena en este momento escribir con palabras lo que dice esta fórmula en castellano antes de proceder, para volver a apreciar en su conjunto la joya que es:</p>
+        <p>Dice:</p>
+        <p><em>El límite de (1+t/n)<sup>(n)(u)</sup> mientras n continúa al infinito elevado al poder del producto del número imaginario y un ángulo es igual a la suma del coseno del ángulo más el producto del número imaginario y el seno del ángulo.</em></p>
+        <p style="text-align: center;">
+        e<sup>i&#952;</sup> = cos &#952; + i sen &#952;
+        </p>
+        <p>¡Vaya ocurrencia! Y este no es el final.</p>
+        <p>Por alguna razón, que va más allá del alcance de este artículo, Euler decidió sustituir el valor del ángulo θ por π, otro número trascendental e irracional. Con ello extendió el reino de la trigonometría.</p>
+        <p>La palabra trigonometría proviene del griego τριγωνο trigōno o triángulo y μετρον metron o medida. ¿Pero que tal si aplicamos sus principios al círculo, como hizo Euler? A fin de cuentas, si nos fijamos en la siguiente figura podemos percibir la relación entre la geometría del círculo y la trigonometría. Adicionemos además coordenadas:</p>
+        <img src="./assets/images/Trigonometria.webp" alt="la geometría del círculo y la trigonometría" width="80%"/>
+        <p>El resultado, entonces, cuando θ = π:</p>
+        <p style="text-align: center;">
+        e<sup>i&#952;</sup> = cos &#952; + i sen &#952;
+        </p>
+        <p style="text-align: center;">
+        e<sup>i&#960;</sup> = cos &#960; + i sen &#960;
+        </p>
+        <h5 id="otra-definición-del-coseno-y-seno">Otra definición del coseno y seno.</h5>
+        <p>Dado un punto en el círculo unitario,
+        en contra del sentido de las agujas del reloj, desde el eje x positivo,
+        cos θ es la coordenada x del punto,
+        sen θ es la coordenada y del punto.</p>
+        <p>Entonces obtenemos la identidad de Euler a partir de la fórmula de Euler y enviando - 1 al lado derecho:</p>
+        <p style="text-align: center;">
+        e<sup>i&#960;</sup> = (-1) + (0)
+        </p>
+        <p style="text-align: center;">
+        e<sup>i&#960;</sup> = -1
+        </p>
+        <p style="text-align: center;">
+        e<sup>i&#960;</sup>+1 = 0
+        </p>
+        <p>Y esta es la famosa <strong>identidad de Euler</strong>. Que dice:</p>
+        <p><em>La constante Euler, elevada al poder del producto del número imaginario <strong>i</strong> y <strong>π</strong> más 1, es igual a 0.</em> Confluyen las constantes más importantes de las matemáticas: e, i, π, 1 y 0, al igual que varias ramas de esta como el álgebra, la trigonometría, la geometría y el cálculo. Extraordinaria joya, y como decía Feynman, la fórmula más notable de las matemáticas.</p>
+        <p>Continuará&hellip;</p>
+        <script type="text/javascript"
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            displayMath: [['$$','$$'], ['\[','\]']],
+            processEscapes: true,
+            processEnvironments: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            TeX: { equationNumbers: { autoNumber: "AMS" },
+                 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+          }
+        });
+        </script>
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Queue(function() {
+            // Fix <code> tags after MathJax finishes running. This is a
+            // hack to overcome a shortcoming of Markdown. Discussion at
+            // https://github.com/mojombo/jekyll/issues/199
+            var all = MathJax.Hub.getAllJax(), i;
+            for(i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+        </script>
+        <style type="text/css">
+            ol { list-style-type: lower-alpha; }
+        </style>
+        <style type="text/css">
+        code.has-jax {font: inherit;
+                      font-size: 100%;
+                      background: inherit;
+                      border: inherit;
+                      color: #515151;}
+        </style>
+        
+      </section>
 
-      <p><img src="./assets/images/898px-Jacques_Monod_1971.webp" alt="Jacques Monod" title="Jacques Monod"></p>
-      <p></p>
-    <p>Jacques Monod publicó su tratado filosófico <em>El azar y la necesidad</em> en el año 1970. Anteriormente había compartido el premio Nobel de fisiología o medicina junto a François Jacob y André Lwoff por elucidar el mecanismo de formación de proteínas en las células a través del mensajero-RNA.</p>
-    <p>Durante la ocupación nazi de Francia, Monod vivió una doble vida, diseñando experimentos en su laboratorio del Instituto Pasteur durante el día y llevando a cabo operaciones clandestinas como parte de la Resistencia por la noche. Llegó a ser promovido a comandante de las Forces françaises de l&rsquo;Intérieur, en cuyo rol, según Sean B. Carroll, coordinó sabotajes y el asesinato de traidores que colaboraron con el Tercer Reich. En el verano de 1944, dirigió junto a otros oficiales los actos de insurrección que permitieron la entrada del general Patton a Paris y la eventual liberación de la ciudad.</p>
-    <p>Monod propuso el concepto de <em>alostería</em>, pilar de la biología que describe como las moléculas orgánicas se plegan de acuerdo a su estructura geométrica en ciertas zonas del ADN, provocando o <em>expresando</em> la producción de enzimas. Estas enzimas, encargadas de acelerar las reacciones bioquímicas dentro de las células, pueden ser activadas o inhibidas al acoplarse igualmente con otras moléculas específicas, <em>reguladoras</em>. La <em>alostería</em> entonces funciona como un circuito de control eléctrico. Cuenta Agnes Ullmann, que un día, a finales de 1961, Monod entró en su laboratorio cansado y preocupado. Llegó, se sentó, y luego de permanecer en silencio por varios minutos, la miró fijamente y le dijo: &ldquo;Creo que he descubierto el segundo secreto de la vida.&rdquo; Se refería, por supuesto, a este concepto tan importante de <em>alostería</em> o <em>regulación alostérica</em>.</p>
-    <p><em>El azar y la necesidad</em> es un libro brillante. Es un ensayo donde Monod expone elegantemente su concepción de la vida como resultado de la mecánica y la química existentes en el mundo inorgánico, específicamente el papel que juegan la estructura y el funcionamiento de las macromoléculas (proteínas, ácidos nucleicos) en los procesos fundamentales que se desarrollan en todos los seres vivos. El desvelo con que Monod explica los procesos bioquímicos básicos y la complejidad cibernética celular que hace posible la vida, la fluidez conque se desenvuelve su análisis, la coherencia narrativa, la exposición de limitaciones científicas y paradojas epistemológicas, y la claridad general de su pensamiento demuestran en lo mínimo honestidad, rigor y profundidad intelectual.</p>
-    <p>Es cierto que Monod pareciera escribir con una cierta ingenuidad filosófica; y así se le atribuyen al <em>El azar y la necesidad</em>, específicamente los capítulos en los que extrapola de la biología implicaciones de tipo filosófico, varios epítetos como el reduccionismo o la arrogancia. Tengo el presentimiento que sus críticos están motivados por cierto rencor profesional devenido del entrometimiento de un hombre de ciencia en la filosofía (o quizás cierta nostalgia por los antropocentrismos) o la ignorancia de lo que constituye un pensamiento que sienta pautas paradigmáticas. Y es que este ensayo es un clásico en el que se exponen ideas profundas basadas en una ciencia naciente de la cual su autor fue uno de sus principales exponentes.</p>
-    <p>Concluye Monod que la vida es un resultado del azar y que, tal como lo prescribían los existencialistas de su generación, el deber del ser humano entonces “no está escrito en ninguna parte. Puede escoger entre el Reino y las tinieblas.”</p>
-    <p>A continuación, dos fragmentos del libro, una lista de lecturas y una entrevista suya, la cual he traducido al español.</p>
-    <p>Fragmentos, <em>El Azar Y La Necesidad,</em> de Jaques Monod.</p>
-    <blockquote>“Sólo el azar está en el origen de toda novedad, de toda creación en la biósfera. El puro azar, el único azar, libertad absoluta pero ciega, en la raíz misma del prodigioso edificio de la evolución: esta noción central de la biología moderna no es ya hoy en día una hipótesis, entre otras posibles o al menos concebibles. Es la sola concebible, como única compatible con los hechos de observación y experiencia. Y nada permite suponer (o esperar) que nuestras concepciones sobre este punto deberán o incluso podrán ser revisadas.</blockquote>
-    <blockquote>…todas las propiedades de los seres vivos reposan sobre un mecanismo fundamental de conservación molecular. Para la teoría moderna, la evolución no es de ningún modo una propiedad de los seres vivos, ya que tiene su raíz en las imperfecciones mismas del mecanismo conservador que constituye su único privilegio. Es preciso, pues, decir que la misma fuente de perturbaciones, de «ruido» que, en un sistema no vivo, es decir no replicativo, aboliría poco a poco toda estructura, es el origen de la evolución en la biósfera, y demuestra su total libertad creadora, gracias a este conservatorio del azar, sordo al ruido tanto como a la música: la estructura replicativa del ADN.”</blockquote>
-    <p>Carroll, Sean B. <em>Brave Genius: a Scientist, a Philosopher, and Their Daring Adventures from the French Resistance to the Nobel Prize</em>. New York: Broadway Books, 2014.</p>
-    <p>Farabola (<a href="https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg">https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg</a>), „Jacques Monod 1971“, marcado como dominio público, para más detalles véase Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/Template:PD-Italy">https://commons.wikimedia.org/wiki/Template:PD-Italy</a></p>
-    <p>Monod, Jacques. <em>Chance and Necessity: an Essay on the Natural Philosophy of Modern Biology</em>. London: Collins, 1972.</p>
-    <p>Agnes Ullmann, In Memoriam: Jacques Monod (1910–1976), <em>Genome Biology and Evolution</em>, Volume 3, 2011, Pages 1025–1033, <a href="https://doi.org/10.1093/gbe/evr024">https://doi.org/10.1093/gbe/evr024</a></p>
-    <p><a href="https://youtu.be/rCNOhtRKPM0">Aquí una entrevista con Jaques Monod en YouTube que he traducido al castellano.</a></p>
+
+  <section style="margin-top: 0.5em; text-align:left">
+
+    <h4 id="monod">Jaques Monod: El segundo secreto de la vida</h4>
+
+<p><img src="./assets/images/898px-Jacques_Monod_1971.webp" alt="Jacques Monod" title="Jacques Monod"></p>
+<p></p>
+<p>Jacques Monod publicó su tratado filosófico <em>El azar y la necesidad</em> en el año 1970. Anteriormente había compartido el premio Nobel de fisiología o medicina junto a François Jacob y André Lwoff por elucidar el mecanismo de formación de proteínas en las células a través del mensajero-RNA.</p>
+<p>Durante la ocupación nazi de Francia, Monod vivió una doble vida, diseñando experimentos en su laboratorio del Instituto Pasteur durante el día y llevando a cabo operaciones clandestinas como parte de la Resistencia por la noche. Llegó a ser promovido a comandante de las Forces françaises de l&rsquo;Intérieur, en cuyo rol, según Sean B. Carroll, coordinó sabotajes y el asesinato de traidores que colaboraron con el Tercer Reich. En el verano de 1944, dirigió junto a otros oficiales los actos de insurrección que permitieron la entrada del general Patton a Paris y la eventual liberación de la ciudad.</p>
+<p>Monod propuso el concepto de <em>alostería</em>, pilar de la biología que describe como las moléculas orgánicas se plegan de acuerdo a su estructura geométrica en ciertas zonas del ADN, provocando o <em>expresando</em> la producción de enzimas. Estas enzimas, encargadas de acelerar las reacciones bioquímicas dentro de las células, pueden ser activadas o inhibidas al acoplarse igualmente con otras moléculas específicas, <em>reguladoras</em>. La <em>alostería</em> entonces funciona como un circuito de control eléctrico. Cuenta Agnes Ullmann, que un día, a finales de 1961, Monod entró en su laboratorio cansado y preocupado. Llegó, se sentó, y luego de permanecer en silencio por varios minutos, la miró fijamente y le dijo: &ldquo;Creo que he descubierto el segundo secreto de la vida.&rdquo; Se refería, por supuesto, a este concepto tan importante de <em>alostería</em> o <em>regulación alostérica</em>.</p>
+<p><em>El azar y la necesidad</em> es un libro brillante. Es un ensayo donde Monod expone elegantemente su concepción de la vida como resultado de la mecánica y la química existentes en el mundo inorgánico, específicamente el papel que juegan la estructura y el funcionamiento de las macromoléculas (proteínas, ácidos nucleicos) en los procesos fundamentales que se desarrollan en todos los seres vivos. El desvelo con que Monod explica los procesos bioquímicos básicos y la complejidad cibernética celular que hace posible la vida, la fluidez conque se desenvuelve su análisis, la coherencia narrativa, la exposición de limitaciones científicas y paradojas epistemológicas, y la claridad general de su pensamiento demuestran en lo mínimo honestidad, rigor y profundidad intelectual.</p>
+<p>Es cierto que Monod pareciera escribir con una cierta ingenuidad filosófica; y así se le atribuyen al <em>El azar y la necesidad</em>, específicamente los capítulos en los que extrapola de la biología implicaciones de tipo filosófico, varios epítetos como el reduccionismo o la arrogancia. Tengo el presentimiento que sus críticos están motivados por cierto rencor profesional devenido del entrometimiento de un hombre de ciencia en la filosofía (o quizás cierta nostalgia por los antropocentrismos) o la ignorancia de lo que constituye un pensamiento que sienta pautas paradigmáticas. Y es que este ensayo es un clásico en el que se exponen ideas profundas basadas en una ciencia naciente de la cual su autor fue uno de sus principales exponentes.</p>
+<p>Concluye Monod que la vida es un resultado del azar y que, tal como lo prescribían los existencialistas de su generación, el deber del ser humano entonces “no está escrito en ninguna parte. Puede escoger entre el Reino y las tinieblas.”</p>
+<p>A continuación, dos fragmentos del libro, una lista de lecturas y una entrevista suya, la cual he traducido al español.</p>
+<p>Fragmento, <em>El Azar Y La Necesidad,</em> de Jaques Monod.</p>
+<p>“Sólo el azar está en el origen de toda novedad, de toda creación en la biósfera. El puro azar, el único azar, libertad absoluta pero ciega, en la raíz misma del prodigioso edificio de la evolución: esta noción central de la biología moderna no es ya hoy en día una hipótesis, entre otras posibles o al menos concebibles. Es la sola concebible, como única compatible con los hechos de observación y experiencia. Y nada permite suponer (o esperar) que nuestras concepciones sobre este punto deberán o incluso podrán ser revisadas.</p>
+<p>…todas las propiedades de los seres vivos reposan sobre un mecanismo fundamental de conservación molecular. Para la teoría moderna, la evolución no es de ningún modo una propiedad de los seres vivos, ya que tiene su raíz en las imperfecciones mismas del mecanismo conservador que constituye su único privilegio. Es preciso, pues, decir que la misma fuente de perturbaciones, de «ruido» que, en un sistema no vivo, es decir no replicativo, aboliría poco a poco toda estructura, es el origen de la evolución en la biósfera, y demuestra su total libertad creadora, gracias a este conservatorio del azar, sordo al ruido tanto como a la música: la estructura replicativa del ADN.”</p>
+<p>Carroll, Sean B. <em>Brave Genius: a Scientist, a Philosopher, and Their Daring Adventures from the French Resistance to the Nobel Prize</em>. New York: Broadway Books, 2014.</p>
+<p>Farabola (<a href="https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg">https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg</a>), „Jacques Monod 1971“, marcado como dominio público, para más detalles véase Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/Template:PD-Italy">https://commons.wikimedia.org/wiki/Template:PD-Italy</a></p>
+<p>Monod, Jacques. <em>Chance and Necessity: an Essay on the Natural Philosophy of Modern Biology</em>. London: Collins, 1972.</p>
+<p>Agnes Ullmann, In Memoriam: Jacques Monod (1910–1976), <em>Genome Biology and Evolution</em>, Volume 3, 2011, Pages 1025–1033, <a href="https://doi.org/10.1093/gbe/evr024">https://doi.org/10.1093/gbe/evr024</a></p>
+<p><a href="https://youtu.be/rCNOhtRKPM0">Aquí una entrevista con Jaques Monod en YouTube que he traducido al castellano.</a></p>
 
 </section>
 
