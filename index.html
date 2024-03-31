@@ -71,114 +71,124 @@ color: #dcdcdc;
       <a href="#latin" class="split">Latín</a>
     </div>
     <h1><a href="https://ealeman.com">Eduardo Alemán</a></h1>
-        <section>
-          <style>
-            * {
-              box-sizing: border-box;
-            }
-            
-            body {
-              margin: 0;
-              font-family: Arial;
-            }
-            
-            /* The grid: Four equal columns that floats next to each other */
-            .column {
-              float: left;
-              width: 25%;
-              padding: 10px;
-            }
-            
-            /* Style the images inside the grid */
-            .column img {
-              opacity: 0.8; 
-              cursor: pointer; 
-            }
-            
-            .column img:hover {
-              opacity: 1;
-            }
-            
-            /* Clear floats after the columns */
-            .row:after {
-              content: "";
-              display: table;
-              clear: both;
-            }
-            
-            /* The expanding image container */
-            .container {
-              position: relative;
-              display: none;
-            }
-            
-            /* Expanding image text */
-            #imgtext {
-              position: absolute;
-              bottom: 15px;
-              left: 15px;
-              color: white;
-              font-size: 20px;
-            }
-            
-            /* Closable button inside the expanded image */
-            .closebtn {
-              position: absolute;
-              top: 10px;
-              right: 15px;
-              color: white;
-              font-size: 35px;
-              cursor: pointer;
-            }
-
-            </style>
-            </head>
             <body>
-            
+              <section>
+                <style>
+                 * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+        font-family: Arial;
+      }
+      
+      /* The grid: Four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+      }
+      
+      /* Style the images inside the grid */
+      .column img {
+        opacity: 0.8; 
+        cursor: pointer; 
+      }
+      
+      .column img:hover {
+        opacity: 1;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* The expanding image container */
+      .container {
+        position: relative;
+        display: none;
+      }
+      
+      /* Expanding image text */
+      #imgtext {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+      }
+      
+      /* Closable button inside the expanded image */
+      .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+      }
+      
+                  </style>
             <div style="text-align:center">
               <h2><a id="fotos"></a>Fotos recientes</a></h2>
+              
+              <!-- The expanding image container -->
               <div class="container">
-                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-                <img id="expandedImg" style="width:100%">
-                <div id="imgtext"></div>
+  <!-- Close the image -->
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+              <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+              <div id="imgtext"></div>
               </div>
               
               <script>
               function myFunction(imgs) {
-                var expandImg = document.getElementById("expandedImg");
-                var imgText = document.getElementById("imgtext");
-                expandImg.src = imgs.src;
-                imgText.innerHTML = imgs.alt;
-                expandImg.parentElement.style.display = "block";
-              }
+  // Get the expanded image
+              var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+              var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+              expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+              imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+              expandImg.parentElement.style.display = "block";
+            }
               </script>
             </div>
             
             <!-- The four columns -->
             <div class="row">
               <div class="column">
-                <img src="./assets/images/Pycnonotus_jocosus.webp" alt="Bulbul orfeo" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/Pycnonotus_jocosus.webp" alt="Bulbul orfeo" onclick="myFunction(this);">
               </div>
               <div class="column">
-                <img src="./assets/images/Erythrina_corallodendron.webp" alt="Árbol de coral" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/Erythrina_corallodendron.webp" alt="Árbol de coral" onclick="myFunction(this);">
               </div>
               <div class="column">
-                <img src="./assets/images/ramas.webp" alt="Ramas" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/ramas.webp" alt="Ramas" onclick="myFunction(this);">
               </div>
               <div class="column">
-                <img src="./assets/images/Sialia_mexicana.webp" alt="Azulejos" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/Sialia_mexicana.webp" alt="Azulejos" onclick="myFunction(this);">
               </div>
               <div class="column">
-                <img src="./assets/images/tortugas.webp" alt="Tortugas" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/tortugas.webp" alt="Tortugas" onclick="myFunction(this);">
               </div>
               <div class="column">
-                <img src="./assets/images/tortuga.webp" alt="Tortuga" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/tortuga.webp" alt="Tortuga" onclick="myFunction(this);">
               </div>
               <div class="column">
-                <img src="./assets/images/flor_de_cereza.webp" alt="Flor de cereza" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/flor_de_cereza.webp" alt="Flor de cereza" onclick="myFunction(this);">
               </div>
               <div class="column">
-                <img src="./assets/images/garzita_blanca.webp" alt="Garzita blanca" style="width:100%" onclick="myFunction(this);">
+                <img src="./assets/images/garzita_blanca.webp" alt="Garzita blanca" onclick="myFunction(this);">
               </div>
             </div>
             <p><a href="https://unsplash.com/@ealeman">Bajar fotos de alta resolución en mi página de Unsplash</a>.
