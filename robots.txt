@@ -1,10 +1,4 @@
 User-agent: * 
 Disallow: / 
 
-User-agent: Googlebot 
-Disallow: 
-
-User-agent: bingbot 
-Disallow: /not-for-bing/ 
-
 Sitemap: https://ealeman.com/sitemap.xml
