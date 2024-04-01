@@ -1,8 +1,7 @@
-robots.txt
-user-agent: *
-disallow: /downloads/
+User-agent: Googlebot
+Disallow: /nogooglebot/
 
-user-agent: magicsearchbot
-disallow: /uploads/
+User-agent: *
+Allow: /
 
 Sitemap: https://ealeman.com/sitemap.xml
