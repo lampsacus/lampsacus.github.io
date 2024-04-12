@@ -10,67 +10,69 @@
   <meta name="description" content="Eduardo Alemán. Blog. Lienzo Digital.">
   <title style="text-align:center">Eduardo Alemán</title>
   <style>
-   body {
-/* flex container */
-  display: flex;
+    body {
+      /* flex container */
+      display: flex;
 
-  flex-direction: row;
+      flex-direction: row;
 
-  flex-wrap: wrap;
-}
+      flex-wrap: wrap;
+    }
 
-.box {
-  background: #eee;
-  border: 1px solid #ccc;
-  border-radius: 0.25em;
-  margin: 0.5em;
-  padding: 1em;
-}
+    .box {
+      background: #eee;
+      border: 1px solid #ccc;
+      border-radius: 0.25em;
+      margin: 0.5em;
+      padding: 1em;
+    }
 
-.header {
-  align-self: flex-start;
-}
+    .header {
+      align-self: flex-start;
+    }
 
-.nav {
-  flex: 1 0 0;
-}
+    .nav {
+      flex: 1 0 0;
+    }
 
-.content {
-  flex: 4 0 0;
-}
+    .content {
+      flex: 4 0 0;
+    }
 
-.sidebar {
-  flex: 2 0 0;
-}
+    .sidebar {
+      flex: 2 0 0;
+    }
 
-.header,
-.footer {
-/* 	header footer*/
-  flex-basis: 100%;
-  text-align: center;
-}
+    .header,
+    .footer {
+      /* 	header footer*/
+      flex-basis: 100%;
+      text-align: center;
+    }
 
-dl * {
-  margin: 1em inherit;
-}
+    dl * {
+      margin: 1em inherit;
+    }
 
-@media (max-width: 700px) {
-  .nav {
-    flex: 1 1 100%;
-  }
-  
-  .nav li {
-    display: inline;
-  }
-}
+    @media (max-width: 700px) {
+      .nav {
+        flex: 1 1 100%;
+      }
 
-@media (max-width: 500px) {
-  .content,
-  .sidebar {
-    flex: 1 1 100%;
-  }
-}
-body {
+      .nav li {
+        display: inline;
+      }
+    }
+
+    @media (max-width: 500px) {
+
+      .content,
+      .sidebar {
+        flex: 1 1 100%;
+      }
+    }
+
+    body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       background-color: rgb(241, 233, 210);
@@ -125,6 +127,7 @@ body {
     }
   </style>
 </head>
+
 <body>
   <div class="topnav">
     <a class="active" href="https://ealeman.com/">Home</a>
@@ -135,498 +138,547 @@ body {
         src="./assets/images/github-mark-white.svg" width="20" height="20"
         alt="Ir al repositorio del autor en GitHub"></a>
   </div>
-<div class="box header"><h1>Eduardo Alemán</h1></div>
-<div class="box nav">
-  <h2>Microensayos y otras curiosidades</h2>
+  <div class="box header">
+    <h1>Eduardo Alemán</h1>
+  </div>
+  <div class="box nav">
+    <h2>Microensayos y otras curiosidades</h2>
     <ul><a href="#vitruvio">Los órdenes clásicos griegos en el primer tratado sobre la arquitectura</a></ul>
     <ul><a href="#davinci">La regla de los árboles de Leonardo da Vinci</a></ul>
     <ul><a href="#globalizacion">La globalización: Paralelos en la historia</a></ul>
     <ul><a href="#dickensyschliemann">Dickens y Schliemann</a></ul>
     <ul><a href="#monod">Jacques Monod: El segundo secreto de la vida</a></ul>
     <ul><a href="#carpentier">Los Pasos Perdidos de Alejo Carpentier</a></ul>
-  
-</div>
+
+  </div>
   <div class="box content">
-  <section>
-    <h3><a id=vitruvio>Los órdenes clásicos griegos en el primer tratado sobre la arquitectura</a></h3>
-    <p>
-      Los Diez Libros de Arquitectura de Vitruvio son una obra clásica que ha perdurado a lo largo del tiempo,
-      influenciando la arquitectura del mundo occidental. Vitruvio nos deja saber en su obra
-      cuan importante eran los principios de belleza y proporción en el arte griego y romano. Es en el libro IV
-      que Vitruvio explora los órdenes dórico, jónico y corintio,
-      cimientos de la arquitectura griega.</p>
+    <section>
+      <h3><a id=vitruvio>Los órdenes clásicos griegos en el primer tratado sobre la arquitectura</a></h3>
+      <p>
+        Los Diez Libros de Arquitectura de Vitruvio son una obra clásica que ha perdurado a lo largo del tiempo,
+        influenciando la arquitectura del mundo occidental. Vitruvio nos deja saber en su obra
+        cuan importante eran los principios de belleza y proporción en el arte griego y romano. Es en el libro IV
+        que Vitruvio explora los órdenes dórico, jónico y corintio,
+        cimientos de la arquitectura griega.</p>
 
-    <p>De acuerdo con Vitruvio, el mismo Doro que era hijo de Helén o Heleno,
-      el hombre que dio su nombre a los helenos (los griegos), construyó en Argos un templo a la diosa Juno. Este templo
-      fue
-      el primer templo dórico. Por lo tanto, el orden dórico es el más sobrio y antiguo de los tres.</p>
+      <p>De acuerdo con Vitruvio, el mismo Doro que era hijo de Helén o Heleno,
+        el hombre que dio su nombre a los helenos (los griegos), construyó en Argos un templo a la diosa Juno. Este
+        templo
+        fue
+        el primer templo dórico. Por lo tanto, el orden dórico es el más sobrio y antiguo de los tres.</p>
 
-    <blockquote>"Como querían erigir este templo con columnas, y no sabían las proporciones adecuadas de ellas,
-      ni sabían la forma en que debían construirse,
-      para que al mismo tiempo fueran aptas para soportar el peso sobre ellas, y para producir un efecto hermoso,
-      midieron
-      el pie de un hombre, y encontrando su longitud la sexta parte de su altura, dieron a la columna una proporción
-      similar, es decir,
-      hicieron su altura, incluyendo el capitel,
-      seis veces el espesor de la eje, medido en la base.
-      Así, el orden dórico obtuvo su proporción, su fuerza y su belleza de la figura humana."</blockquote>
+      <blockquote>"Como querían erigir este templo con columnas, y no sabían las proporciones adecuadas de ellas,
+        ni sabían la forma en que debían construirse,
+        para que al mismo tiempo fueran aptas para soportar el peso sobre ellas, y para producir un efecto hermoso,
+        midieron
+        el pie de un hombre, y encontrando su longitud la sexta parte de su altura, dieron a la columna una proporción
+        similar, es decir,
+        hicieron su altura, incluyendo el capitel,
+        seis veces el espesor de la eje, medido en la base.
+        Así, el orden dórico obtuvo su proporción, su fuerza y su belleza de la figura humana."</blockquote>
 
-    <figure><img src="./assets/images/Acropolis.webp" loading="lazy" width="600" height="400" alt="La Acrópolis"
-        class="responsive">
-      <figcaption>Las columnas de la Acrópolis representativas del orden dórico. Foto del autor.</figcaption>
-    </figure>
+      <figure><img src="./assets/images/Acropolis.webp" loading="lazy" width="600" height="400" alt="La Acrópolis"
+          class="responsive">
+        <figcaption>Las columnas de la Acrópolis representativas del orden dórico. Foto del autor.</figcaption>
+      </figure>
 
-    <p>Después del dórico, según Vitruvio, el orden jónico fue inventado por los atenienses al construirse el templo de
-      Diana.
-      Esta vez midiéndose el pies de una mujer
-      y haciendo las columnas "ocho veces más gruesas que la altura". Se adicionó la basa "a modo de zapato" y
-      a los capiteles se les adicionó volutas, "como cabellos rizados".</p>
-    <figure><img src="./assets/images/Erechtheion.webp" loading="lazy" width="600" height="400"
-        alt="El Erecteón o Erecteion" class="responsive">
-      <figcaption>Las columnas de el Erecteón o Erecteion representativas del orden jónico. Foto del autor.</figcaption>
-    </figure>
+      <p>Después del dórico, según Vitruvio, el orden jónico fue inventado por los atenienses al construirse el templo
+        de
+        Diana.
+        Esta vez midiéndose el pies de una mujer
+        y haciendo las columnas "ocho veces más gruesas que la altura". Se adicionó la basa "a modo de zapato" y
+        a los capiteles se les adicionó volutas, "como cabellos rizados".</p>
+      <figure><img src="./assets/images/Erechtheion.webp" loading="lazy" width="600" height="400"
+          alt="El Erecteón o Erecteion" class="responsive">
+        <figcaption>Las columnas de el Erecteón o Erecteion representativas del orden jónico. Foto del autor.
+        </figcaption>
+      </figure>
 
-    <p>Finalmente, nos dice Vitrubio, aparece el orden corintio, el cual es de mejor gusto y de mayor utilización de las
-      proporciones.
-      Inventado por
-      Calímaco, "a quien los atenienses llamaban <em>Catatecnos</em> por su gran ingenio y gusto", al pasar por la tumba
-      de una
-      joven virgen corintia. En su sepulcro las nodrizas habían colocado una cesta con algunas cositas que solían
-      complacer a la muchacha
-      en vida.
-    </p>
-    <blockquote>"Esta cesta estaba situada encima de la raíz de un acanto. La raíz de acanto... cuando llegó la
-      primavera,
-      brotó hojas y
-      tallos en el medio, y los tallos, creciendo a lo largo de los lados de la canasta y presionados por las esquinas
-      de
-      la teja
-      debido a la compulsión de su peso, fueron obligados a doblarse en volutas en los bordes exteriores".</blockquote>
-    <p> Las columnas corintias poseen entonces hojas de acanto y flores de ábaco en su capitel, son más esbeltas en
-      representación de la figura
-      de una muchacha, y cada detalle es exquisita y delicadamente proporcional.</p>
+      <p>Finalmente, nos dice Vitrubio, aparece el orden corintio, el cual es de mejor gusto y de mayor utilización de
+        las
+        proporciones.
+        Inventado por
+        Calímaco, "a quien los atenienses llamaban <em>Catatecnos</em> por su gran ingenio y gusto", al pasar por la
+        tumba
+        de una
+        joven virgen corintia. En su sepulcro las nodrizas habían colocado una cesta con algunas cositas que solían
+        complacer a la muchacha
+        en vida.
+      </p>
+      <blockquote>"Esta cesta estaba situada encima de la raíz de un acanto. La raíz de acanto... cuando llegó la
+        primavera,
+        brotó hojas y
+        tallos en el medio, y los tallos, creciendo a lo largo de los lados de la canasta y presionados por las esquinas
+        de
+        la teja
+        debido a la compulsión de su peso, fueron obligados a doblarse en volutas en los bordes exteriores".
+      </blockquote>
+      <p> Las columnas corintias poseen entonces hojas de acanto y flores de ábaco en su capitel, son más esbeltas en
+        representación de la figura
+        de una muchacha, y cada detalle es exquisita y delicadamente proporcional.</p>
 
-    <figure><img src="./assets/images/El_templo_de_Zeus_en_Atenas.webp" loading="lazy" width="600" height="400"
-        alt="La Acrópolis" class="responsive">
-      <figcaption>Las columnas del templo de Zeus Olímpico en Atenas representativas del orden corintio. Foto del autor.
-      </figcaption>
-    </figure>
-    <p>Explorar los Diez Libros de Arquitectura de Vitruvio es adentrarse en las raíces mismas de la arquitectura
-      occidental, donde cada columna, capitel y frontón tienen un significado profundo que trasciende el simple aspecto
-      estético. Desgraciadamente <em>De Architectura</em> llegó al Renacimiento sin ilustraciones. Actualmente la
-      Biblioteca Británica
-      conserva <a href="https://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=8557"> el manuscrito
-        más antiguo de Vitruvio</a>,
-      un manuscrito carolingio (la ilustración carolingia es un tema muy interesante) de la Alemania de principios del
-      siglo IX.
-      Como indica la historiadora estadounidense de la arquitectura Carol Herselle Krinsky en un estudio publicado en
-      1967, la obra de Vitrubio era muy bien conocida en el medioevo. Kinsky cita como evidencia del conocimiento
-      medieval
-      del De Architectura de Vitruvio, los informes de eruditos como el escritor franco del siglo IX Eginardo y el
-      anglosajón Alcuino de
-      York, ambos relacionados con el renacimiento carolingio. </p>
-    <h4>Citas</h4>
+      <figure><img src="./assets/images/El_templo_de_Zeus_en_Atenas.webp" loading="lazy" width="600" height="400"
+          alt="La Acrópolis" class="responsive">
+        <figcaption>Las columnas del templo de Zeus Olímpico en Atenas representativas del orden corintio. Foto del
+          autor.
+        </figcaption>
+      </figure>
+      <p>Explorar los Diez Libros de Arquitectura de Vitruvio es adentrarse en las raíces mismas de la arquitectura
+        occidental, donde cada columna, capitel y frontón tienen un significado profundo que trasciende el simple
+        aspecto
+        estético. Desgraciadamente <em>De Architectura</em> llegó al Renacimiento sin ilustraciones. Actualmente la
+        Biblioteca Británica
+        conserva <a href="https://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=8557"> el manuscrito
+          más antiguo de Vitruvio</a>,
+        un manuscrito carolingio (la ilustración carolingia es un tema muy interesante) de la Alemania de principios del
+        siglo IX.
+        Como indica la historiadora estadounidense de la arquitectura Carol Herselle Krinsky en un estudio publicado en
+        1967, la obra de Vitrubio era muy bien conocida en el medioevo. Kinsky cita como evidencia del conocimiento
+        medieval
+        del De Architectura de Vitruvio, los informes de eruditos como el escritor franco del siglo IX Eginardo y el
+        anglosajón Alcuino de
+        York, ambos relacionados con el renacimiento carolingio. </p>
+      <h4>Citas</h4>
 
-    <p>Krinsky, Carol Herselle. “Seventy-Eight Vitruvius Manuscripts.” Journal of the Warburg and Courtauld Institutes
-      30
-      (1967): 36-70. https://doi.org/10.2307/750736.</p>
-  </section>
-  <hr>
-  <section>
+      <p>Krinsky, Carol Herselle. “Seventy-Eight Vitruvius Manuscripts.” Journal of the Warburg and Courtauld Institutes
+        30
+        (1967): 36-70. https://doi.org/10.2307/750736.</p>
+    </section>
+    <hr>
+    <section>
 
-    <h3><a id="davinci">La regla de los árboles de Leonardo da Vinci</a></h3>
+      <h3><a id="davinci">La regla de los árboles de Leonardo da Vinci</a></h3>
 
-    <p>Los Cuadernos de Leonardo da Vinci, escritos entre 1478 y 1518, permiten adentrarse en la mente de uno de los
-      genios de mayor everdagura que jamás haya producido la humanidad.
-      Los Cuadernos contienen aproximadamente 13000 páginas de notas, bocetos, inventos y dibujos que
-      recorren un vasto repertorio de intereses e ideas dentro de las cuales,
-      por solo citar unas cuantas, se encuentran diseños de vehículos y armamentos (e.g. un helicóptero, una máquina de
-      asalto y una ballesta); listas de términos académicos;
-      disertaciones sobre aspectos de la pintura como la luz, la sombra, las refleciones sobre objetos opacos y la
-      perspectiva;
-      la teoría de los colores; observaciones sobre la proporción del cuerpo humano, su anatomía y fisiología, y
-      muchísimos otros temas.
-    <p>Las páginas de los Cuadernos se encuentran dispersadas y en la actualidad existen varias colecciones o códices,
-      algunas de la cuales pueden ser
-      consultadas en línea como el <em>Codex Arundel</em> a través de la <a
-        href="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Arundel_MS_263" target="_blank"
-        rel="noopener">Biblioteca Británica</a>, el <em>Codex Trivulzianus</em> a través de
-      <a href="https://trivulziana.milanocastello.it/en/content/leonardos-notebook" target="_blank"
-        rel="noopener">Archivo Storico Civico e Biblioteca Trivulziana</a>, el
-      <em><a
-          href="https://www.vam.ac.uk/articles/explore-leonardo-da-vinci-codex-forster-i#?c=&amp;m=&amp;s=&amp;cv=&amp;xywh=-676%2C-111%2C2826%2C2211"
-          target="_blank" rel="noopener">Codex Foster I</a></em>,
-      <em><a
-          href="https://www.vam.ac.uk/articles/explore-leonardo-da-vincis-notebook-codex-forster-ii#?c=&amp;m=&amp;s=&amp;cv=&amp;xywh=-645%2C-319%2C8139%2C6367"
-          target="_blank" rel="noopener">Codex Forster II</a>
-        y el </em>&nbsp;<a href="https://www.vam.ac.uk/articles/explore-leonardo-da-vincis-notebooks-codex-forster-iii"
-        target="_blank" rel="noopener"><em>Codex Forster III</em></a> a través del <a
-        href="https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks" target="_blank" rel="noopener">Museo Victoria
-        and Albert</a>,
-      o los <em>Códices Madrid</em> a través de la <a href="http://www.bne.es/en/Colecciones/Manuscritos/Leonardo/"
-        target="_blank" rel="noopener">Biblioteca Nacional de España</a>.
-    </p>
-    <p>El contenido de los Cuadernos muestra claramente el amplio espectro de intereses de Leonardo y sus agudas
-      observaciones en múltiples áreas de la ciencia.</p>
+      <p>Los Cuadernos de Leonardo da Vinci, escritos entre 1478 y 1518, permiten adentrarse en la mente de uno de los
+        genios de mayor everdagura que jamás haya producido la humanidad.
+        Los Cuadernos contienen aproximadamente 13000 páginas de notas, bocetos, inventos y dibujos que
+        recorren un vasto repertorio de intereses e ideas dentro de las cuales,
+        por solo citar unas cuantas, se encuentran diseños de vehículos y armamentos (e.g. un helicóptero, una máquina
+        de
+        asalto y una ballesta); listas de términos académicos;
+        disertaciones sobre aspectos de la pintura como la luz, la sombra, las refleciones sobre objetos opacos y la
+        perspectiva;
+        la teoría de los colores; observaciones sobre la proporción del cuerpo humano, su anatomía y fisiología, y
+        muchísimos otros temas.
+      <p>Las páginas de los Cuadernos se encuentran dispersadas y en la actualidad existen varias colecciones o códices,
+        algunas de la cuales pueden ser
+        consultadas en línea como el <em>Codex Arundel</em> a través de la <a
+          href="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Arundel_MS_263" target="_blank"
+          rel="noopener">Biblioteca Británica</a>, el <em>Codex Trivulzianus</em> a través de
+        <a href="https://trivulziana.milanocastello.it/en/content/leonardos-notebook" target="_blank"
+          rel="noopener">Archivo Storico Civico e Biblioteca Trivulziana</a>, el
+        <em><a
+            href="https://www.vam.ac.uk/articles/explore-leonardo-da-vinci-codex-forster-i#?c=&amp;m=&amp;s=&amp;cv=&amp;xywh=-676%2C-111%2C2826%2C2211"
+            target="_blank" rel="noopener">Codex Foster I</a></em>,
+        <em><a
+            href="https://www.vam.ac.uk/articles/explore-leonardo-da-vincis-notebook-codex-forster-ii#?c=&amp;m=&amp;s=&amp;cv=&amp;xywh=-645%2C-319%2C8139%2C6367"
+            target="_blank" rel="noopener">Codex Forster II</a>
+          y el </em>&nbsp;<a
+          href="https://www.vam.ac.uk/articles/explore-leonardo-da-vincis-notebooks-codex-forster-iii" target="_blank"
+          rel="noopener"><em>Codex Forster III</em></a> a través del <a
+          href="https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks" target="_blank" rel="noopener">Museo
+          Victoria
+          and Albert</a>,
+        o los <em>Códices Madrid</em> a través de la <a href="http://www.bne.es/en/Colecciones/Manuscritos/Leonardo/"
+          target="_blank" rel="noopener">Biblioteca Nacional de España</a>.
+      </p>
+      <p>El contenido de los Cuadernos muestra claramente el amplio espectro de intereses de Leonardo y sus agudas
+        observaciones en múltiples áreas de la ciencia.</p>
 
-    <p>En una de las páginas de los Cuadernos, que se hayan en el <em>Manuscrito M</em>, el más pequeño de los
-      manuscritos supervivientes y que se pueden consultar en
-      <a href="https://bibnum.institutdefrance.fr/ark:/61562/bi24181" target="_blank" rel="noopener">este sitio de la
-        Biblioteca del Instituto de Francia</a>,
-      Leonardo expone su Regla de los Árboles,
-      que establece que, a medida que los árboles crecen,
-      el grosor de todas sus ramas a una determinada altura es igual al grosor de su tronco (o madre rama).
-    </p>
-    <br>
-    <figure>
-      <img src="./assets/images/da_vinci_arbol.webp" loading="lazy" width="881" height="1230"
-        alt="Imagen de una de las páginas de los Cuadernos de Leonardo da Vinci representando la regla de los árboles."
-        class="responsive">
-      <figcaption>Cita de Los cuadernos de Leonardo Da Vinci, volumen 1:
-        394. “Todas las ramas de un árbol en cada etapa de su altura, cuando se juntan, tienen el mismo grosor que el
-        tronco [debajo de ellas]. <br>
-        395. “Cada año, cuando las ramas de una planta [o árbol] hayan terminado de madurar su crecimiento, habrán
-        formado, juntas, un espesor igual al del tallo principal;
-        y en cada etapa de su ramificación encontraréis el espesor de dicho tallo principal;
-        como: i k, g h, e f, c d, a b, serán siempre iguales entre sí; a menos que el árbol sea desmochado; de ser así,
-        la regla no se cumple”.<br>
-        Nótese la escritura de derecha a izquierda, para que se pueda leer sosteniendo sus páginas frente a un
-        espejo.<br>
-        Fuente: de Vinci, L. (2020a). Manuscrit M: Folio 78v. Bibliothèque numérique de l'Institut de France. Manuscrits
-        de l'Institut de France Manuscrits de la Bibliothèque de l'Institut de France Ms 2172-2187 RéserveManuscrits de
-        Léonard de Vinci.
-        Imagen recuperada el 3 de abril de 2024, de <a
-          href="https://bibnum.institutdefrance.fr/viewer/24181?viewer=picture#page=163&viewer=picture&o=bookmark&n=0&q=">Fuente</a>.
-        Dominio público</p>
-      </figcaption>
-    </figure>
-    <p>La fórmula de Leonardo da Vinci se referiere al “grosor” o al "espesor" de todas las ramas de los árboles y de su
-      tallo.
-      El espesor se podría calcular usando el concepto matemático de área de una superficie.
-      El área de una superficie de un objeto sólido es una medida del área total que ocupa la superficie del objeto.
-      Uno encuentra el área de la superficie de un objeto sumando el área de cada una de sus superficies o caras.
-      Por ejemplo, el área de la superficie de un cubo es el área de los seis cuadrados que lo cubren.
-      El área de la sección transversal de cada rama de un árbol, según Leonardo, al sumarse equivale a la del tronco.
-    </p>
+      <p>En una de las páginas de los Cuadernos, que se hayan en el <em>Manuscrito M</em>, el más pequeño de los
+        manuscritos supervivientes y que se pueden consultar en
+        <a href="https://bibnum.institutdefrance.fr/ark:/61562/bi24181" target="_blank" rel="noopener">este sitio de la
+          Biblioteca del Instituto de Francia</a>,
+        Leonardo expone su Regla de los Árboles,
+        que establece que, a medida que los árboles crecen,
+        el grosor de todas sus ramas a una determinada altura es igual al grosor de su tronco (o madre rama).
+      </p>
+      <br>
+      <figure>
+        <img src="./assets/images/da_vinci_arbol.webp" loading="lazy" width="881" height="1230"
+          alt="Imagen de una de las páginas de los Cuadernos de Leonardo da Vinci representando la regla de los árboles."
+          class="responsive">
+        <figcaption>Cita de Los cuadernos de Leonardo Da Vinci, volumen 1:
+          394. “Todas las ramas de un árbol en cada etapa de su altura, cuando se juntan, tienen el mismo grosor que el
+          tronco [debajo de ellas]. <br>
+          395. “Cada año, cuando las ramas de una planta [o árbol] hayan terminado de madurar su crecimiento, habrán
+          formado, juntas, un espesor igual al del tallo principal;
+          y en cada etapa de su ramificación encontraréis el espesor de dicho tallo principal;
+          como: i k, g h, e f, c d, a b, serán siempre iguales entre sí; a menos que el árbol sea desmochado; de ser
+          así,
+          la regla no se cumple”.<br>
+          Nótese la escritura de derecha a izquierda, para que se pueda leer sosteniendo sus páginas frente a un
+          espejo.<br>
+          Fuente: de Vinci, L. (2020a). Manuscrit M: Folio 78v. Bibliothèque numérique de l'Institut de France.
+          Manuscrits
+          de l'Institut de France Manuscrits de la Bibliothèque de l'Institut de France Ms 2172-2187 RéserveManuscrits
+          de
+          Léonard de Vinci.
+          Imagen recuperada el 3 de abril de 2024, de <a
+            href="https://bibnum.institutdefrance.fr/viewer/24181?viewer=picture#page=163&viewer=picture&o=bookmark&n=0&q=">Fuente</a>.
+          Dominio público</p>
+        </figcaption>
+      </figure>
+      <p>La fórmula de Leonardo da Vinci se referiere al “grosor” o al "espesor" de todas las ramas de los árboles y de
+        su
+        tallo.
+        El espesor se podría calcular usando el concepto matemático de área de una superficie.
+        El área de una superficie de un objeto sólido es una medida del área total que ocupa la superficie del objeto.
+        Uno encuentra el área de la superficie de un objeto sumando el área de cada una de sus superficies o caras.
+        Por ejemplo, el área de la superficie de un cubo es el área de los seis cuadrados que lo cubren.
+        El área de la sección transversal de cada rama de un árbol, según Leonardo, al sumarse equivale a la del tronco.
+      </p>
 
-    <p>Más de 500 años después (2011), el científico francés Christophe Eloy,
-      utilizando modelos computarizados, concluyó que los árboles, en general, siguen la fórmula de Leonardo y,
-      al hacerlo, les ayudan a resistir el viento.
-      El <a href="https://journals.aps.org/prl/issues/107/25">artículo</a> fue publicado en Physical Review Letters,
-      una revista científica revisada por pares publicada por la Sociedad Estadounidense de Física.</p>
-    <p>Un <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3979699/">estudio posterior</a> (2014),
-      utilizando nuevamente modelos generados por computadora, concluyó que la regla de Leonardo da Vinci era correcta
-      “cuando los ángulos de ramificación de las ramas hijas y los pesos de las ramas hijas laterales eran pequeños”.
-    </p>
-    <p>Los Cuadernos de Leonardo da Vinci me siguen asombrando por su espléndida y exquisita variedad de temas, los
-      cuales son hermosamente ilustrados,
-      y por la curiosidad insaciable de este gran hombre del renacimiento cuyos descubrimientos, como este acerca de los
-      árboles, están siendo confirmados en nuestro siglo.</p>
+      <p>Más de 500 años después (2011), el científico francés Christophe Eloy,
+        utilizando modelos computarizados, concluyó que los árboles, en general, siguen la fórmula de Leonardo y,
+        al hacerlo, les ayudan a resistir el viento.
+        El <a href="https://journals.aps.org/prl/issues/107/25">artículo</a> fue publicado en Physical Review Letters,
+        una revista científica revisada por pares publicada por la Sociedad Estadounidense de Física.</p>
+      <p>Un <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3979699/">estudio posterior</a> (2014),
+        utilizando nuevamente modelos generados por computadora, concluyó que la regla de Leonardo da Vinci era correcta
+        “cuando los ángulos de ramificación de las ramas hijas y los pesos de las ramas hijas laterales eran pequeños”.
+      </p>
+      <p>Los Cuadernos de Leonardo da Vinci me siguen asombrando por su espléndida y exquisita variedad de temas, los
+        cuales son hermosamente ilustrados,
+        y por la curiosidad insaciable de este gran hombre del renacimiento cuyos descubrimientos, como este acerca de
+        los
+        árboles, están siendo confirmados en nuestro siglo.</p>
 
-  </section>
-  <hr>
-  <section>
+    </section>
+    <hr>
+    <section>
 
-    <h3><a id="globalizacion">La globalización: Paralelos en la historia</a></h3>
+      <h3><a id="globalizacion">La globalización: Paralelos en la historia</a></h3>
 
-    <figure>
-      <img src="./assets/images/leon_sirio.webp" loading="lazy" src="" width="640" height="262"
-        alt="León sirio. Panel de ladrillo del Camino de Procesión que iba desde el templo de Marduk hasta la Puerta de Ishtar y el Templo de Akitu. Terracota vidriada, reinado de Nabucodonosor II (605 a. C.-562 a. C.), Babilonia (Irak). Actualmente en el museo del Louvre, Departamento de Antigüedades Orientales, Richelieu, planta baja, sala 6. Foto de Eduardo Alemán."
-        class="responsive">
-      <figcaption>León sirio. Panel de ladrillo del Camino de Procesión que iba desde el templo de Marduk hasta la
-        Puerta de Ishtar y el Templo de Akitu. Terracota vidriada, reinado de Nabucodonosor II (605 a. C.-562 a. C.),
-        Babilonia (Irak). Actualmente en el museo del Louvre, Departamento de Antigüedades Orientales, Richelieu, planta
-        baja, sala 6. Foto de Eduardo Alemán.</figcaption>
-    </figure>
+      <figure>
+        <img src="./assets/images/leon_sirio.webp" loading="lazy" src="" width="640" height="262"
+          alt="León sirio. Panel de ladrillo del Camino de Procesión que iba desde el templo de Marduk hasta la Puerta de Ishtar y el Templo de Akitu. Terracota vidriada, reinado de Nabucodonosor II (605 a. C.-562 a. C.), Babilonia (Irak). Actualmente en el museo del Louvre, Departamento de Antigüedades Orientales, Richelieu, planta baja, sala 6. Foto de Eduardo Alemán."
+          class="responsive">
+        <figcaption>León sirio. Panel de ladrillo del Camino de Procesión que iba desde el templo de Marduk hasta la
+          Puerta de Ishtar y el Templo de Akitu. Terracota vidriada, reinado de Nabucodonosor II (605 a. C.-562 a. C.),
+          Babilonia (Irak). Actualmente en el museo del Louvre, Departamento de Antigüedades Orientales, Richelieu,
+          planta
+          baja, sala 6. Foto de Eduardo Alemán.</figcaption>
+      </figure>
 
-    <p>La historia, se dice, está en los ojos del espectador. Los persas obviamente no podrían haber visto la conquista
-      que lideró Alejandro de Macedonia y sus falanges sobre un vasto imperio de satrapías de la misma manera que los
-      macedonios o los romanos. Con la quema de Persépolis por parte de un Alejandro embriagado (o calculador) caía el
-      imperio persa. Miles fueron masacrados, esclavizados o exiliados. No importan las leyendas de asimilación que nos
-      transmitieron - como las de un Alejandro que respetaba las costumbres autóctonas de los conquistados o se
-      indignara ante la destrucción de la tumba de Darío, que luego, mandaría a reparar - la destrucción y el caos que a
-      cada estadío de sus campañas hubo de ocurrir y que se extendería hasta las orillas del río Ganges sería suficiente
-      para consolidar el juicio sobre su personalidad en la historia. Aunque visionario debió ser un megalómano cruel y
-      despiadado.</p>
+      <p>La historia, se dice, está en los ojos del espectador. Los persas obviamente no podrían haber visto la
+        conquista
+        que lideró Alejandro de Macedonia y sus falanges sobre un vasto imperio de satrapías de la misma manera que los
+        macedonios o los romanos. Con la quema de Persépolis por parte de un Alejandro embriagado (o calculador) caía el
+        imperio persa. Miles fueron masacrados, esclavizados o exiliados. No importan las leyendas de asimilación que
+        nos
+        transmitieron - como las de un Alejandro que respetaba las costumbres autóctonas de los conquistados o se
+        indignara ante la destrucción de la tumba de Darío, que luego, mandaría a reparar - la destrucción y el caos que
+        a
+        cada estadío de sus campañas hubo de ocurrir y que se extendería hasta las orillas del río Ganges sería
+        suficiente
+        para consolidar el juicio sobre su personalidad en la historia. Aunque visionario debió ser un megalómano cruel
+        y
+        despiadado.</p>
 
-    <p>Brian Bosworth, en su brillante ensayo donde compara a Alejandro de Macedonia con Hernán Cortez, nos narra:</p>
+      <p>Brian Bosworth, en su brillante ensayo donde compara a Alejandro de Macedonia con Hernán Cortez, nos narra:</p>
 
-    <blockquote>
-      "Consideremos la escena final en el Gránico,
-      cuando los 20000 mercenarios griegos quedaron abandonados en el campo de batalla
-      para ser rodeados por el ejército victorioso de Alejandro,
-      con la falange presionando su frente y la caballería acosando los costados y la retaguardia.
-      El rey hizo caso omiso de su petición de cuartel, y se produjo una masacre.
-      Independientemente de que el 90 por ciento fueran talados o no, como dan a entender Arriano y Plutarco,
-      no hay duda de que muchos miles cayeron, y las circunstancias no habrían sido agradables.
-      Dados los grandes escudos circulares de los griegos y su formación masiva,
-      las heridas infligidas por las sarisas habrían sido predominantemente en la cara y la garganta; de lo contrario,
-      en la ingle.
-      Hubo una escena similar al final de la batalla del Hidaspes, cuando la línea de batalla india quedó atrapada por
-      la falange
-      y un cordón de caballería macedonia, y el horror de la matanza se intensificó por los elefantes enloquecidos
-      atrapados
-      dentro de su propia masa desorganizada de soldados e infantería y aplastando indiscriminadamente todo a su paso.
-      Pocos comandantes han sido más expertos que Alejandro en crear las condiciones para una matanza masiva,
-      y sus tropas desarrollaron una eficiencia terrible en la matanza. La conquista tuvo un alto precio en sangre y
-      agonía.
-      Es posible que vastas áreas del oeste hayan caído en sus manos sin resistencia seria,
-      pero desde la gran rebelión de Sogdiana en el verano de 329 hasta su invasión del Makran en octubre de 325
-      hubo combates casi continuos, decenas de ciudades destruidas y poblaciones enteras, civiles y militares por igual,
-      masacradas."
-    </blockquote>
+      <blockquote>
+        "Consideremos la escena final en el Gránico,
+        cuando los 20000 mercenarios griegos quedaron abandonados en el campo de batalla
+        para ser rodeados por el ejército victorioso de Alejandro,
+        con la falange presionando su frente y la caballería acosando los costados y la retaguardia.
+        El rey hizo caso omiso de su petición de cuartel, y se produjo una masacre.
+        Independientemente de que el 90 por ciento fueran talados o no, como dan a entender Arriano y Plutarco,
+        no hay duda de que muchos miles cayeron, y las circunstancias no habrían sido agradables.
+        Dados los grandes escudos circulares de los griegos y su formación masiva,
+        las heridas infligidas por las sarisas habrían sido predominantemente en la cara y la garganta; de lo contrario,
+        en la ingle.
+        Hubo una escena similar al final de la batalla del Hidaspes, cuando la línea de batalla india quedó atrapada por
+        la falange
+        y un cordón de caballería macedonia, y el horror de la matanza se intensificó por los elefantes enloquecidos
+        atrapados
+        dentro de su propia masa desorganizada de soldados e infantería y aplastando indiscriminadamente todo a su paso.
+        Pocos comandantes han sido más expertos que Alejandro en crear las condiciones para una matanza masiva,
+        y sus tropas desarrollaron una eficiencia terrible en la matanza. La conquista tuvo un alto precio en sangre y
+        agonía.
+        Es posible que vastas áreas del oeste hayan caído en sus manos sin resistencia seria,
+        pero desde la gran rebelión de Sogdiana en el verano de 329 hasta su invasión del Makran en octubre de 325
+        hubo combates casi continuos, decenas de ciudades destruidas y poblaciones enteras, civiles y militares por
+        igual,
+        masacradas."
+      </blockquote>
 
-    <p>Otros, sin embargo, argumentan que no deberíamos apresurarnos en juzgar a Alejandro,
-      hacerlo sería un anacronismo, al fin y al cabo, las guerras de conquista eran entonces
-      tan comunes como <em>necesarias</em>. Sin las campañas de Alejandro, además, no se hubieran fundado ciudades
-      como Alejandría con su gran biblioteca y escuela neoplatónica.
-      Las rutas de intercambio cultural y económico entre el este y el oeste no habrían podido ser establecidas.
-      Con la entrada del discípulo de Aristóteles y sus temibles legiones a los Balcanes, Egipto, Siria, Babilonia y la
-      India,
-      la historia simplemente <em>progresaba</em> en su afán de integrar a la especie humana.</p>
+      <p>Otros, sin embargo, argumentan que no deberíamos apresurarnos en juzgar a Alejandro,
+        hacerlo sería un anacronismo, al fin y al cabo, las guerras de conquista eran entonces
+        tan comunes como <em>necesarias</em>. Sin las campañas de Alejandro, además, no se hubieran fundado ciudades
+        como Alejandría con su gran biblioteca y escuela neoplatónica.
+        Las rutas de intercambio cultural y económico entre el este y el oeste no habrían podido ser establecidas.
+        Con la entrada del discípulo de Aristóteles y sus temibles legiones a los Balcanes, Egipto, Siria, Babilonia y
+        la
+        India,
+        la historia simplemente <em>progresaba</em> en su afán de integrar a la especie humana.</p>
 
-    <p>Recordemos por un instante a Platón en su <em>Critias o de la Atlántida</em>, donde expresa una visión de la
-      guerra en el pasado lejano y mítico como algo común.</p>
+      <p>Recordemos por un instante a Platón en su <em>Critias o de la Atlántida</em>, donde expresa una visión de la
+        guerra en el pasado lejano y mítico como algo común.</p>
 
-    <blockquote>
-      “Los trabajos de la guerra eran entonces comunes a las mujeres y a los hombres…”
-    </blockquote>
+      <blockquote>
+        “Los trabajos de la guerra eran entonces comunes a las mujeres y a los hombres…”
+      </blockquote>
 
-    <p>En el año 335 a. e. c., a solo unos años de fallecer Platón, los trabajos de la guerra serían nuevamente
-      ordinarios en el mundo helénico. También parecían necesarios, al menos dentro de la corte macedónica, para
-      consolidar lo que llamaban la <em>concordia entre los griegos</em> o panhelenismo.</p>
+      <p>En el año 335 a. e. c., a solo unos años de fallecer Platón, los trabajos de la guerra serían nuevamente
+        ordinarios en el mundo helénico. También parecían necesarios, al menos dentro de la corte macedónica, para
+        consolidar lo que llamaban la <em>concordia entre los griegos</em> o panhelenismo.</p>
 
-    <p>En los finales del siglo XX los entusiastas de la globalización alababan el fin de la historia, o al menos de la
-      historia que hacía de la guerra algo común e inevitable. Con la caída del muro de Berlín, la ideología de la
-      globalización, esa especie de panhelenismo contemporáneo, estaba en su apogeo. La globalización como fenómeno se
-      reflejaba en el incremento de los intercambios económico-comerciales y de tipo socio-cultural a nivel
-      internacional. La incorporación de nuevos estados a sistemas financieros y bloques militares instituidos por los
-      EE. UU. y Europa ocurría aceleradamente. A finales del siglo XX, la realización de ese noble sueño integrador que
-      comenzó siglos atrás con los griegos y su anhelo de concordia parecía posible.</p>
+      <p>En los finales del siglo XX los entusiastas de la globalización alababan el fin de la historia, o al menos de
+        la
+        historia que hacía de la guerra algo común e inevitable. Con la caída del muro de Berlín, la ideología de la
+        globalización, esa especie de panhelenismo contemporáneo, estaba en su apogeo. La globalización como fenómeno se
+        reflejaba en el incremento de los intercambios económico-comerciales y de tipo socio-cultural a nivel
+        internacional. La incorporación de nuevos estados a sistemas financieros y bloques militares instituidos por los
+        EE. UU. y Europa ocurría aceleradamente. A finales del siglo XX, la realización de ese noble sueño integrador
+        que
+        comenzó siglos atrás con los griegos y su anhelo de concordia parecía posible.</p>
 
-    <p>Pero si a Platón le pareció historia antigua eso de <em>los trabajos de la guerra</em>, para los entusiastas de
-      la globalización a finales del siglo XX la paz habría definitivamente de durar muy poco. La globalización del
-      siglo XXI, como la del siglo IV a.e.c. no estaría exenta de violencia. A solo una década del fin de la historia,
-      la terrible pesadilla de la guerra inevitable reaparece e irónicamente en los mismos lugares por donde una vez
-      marcharon las falanges de Alejandro. Afganistán, Iraq, Libia, Siria. Persépolis ardía nuevamente. Algunos
-      increparán que estos conflictos no clasifican como <em>guerras de conquista</em>. Esto sin elaborar en el total de
-      civiles masacrados en Iraq - figura que sobrepasa los cientos de miles - por la conquista de los hidrocarburos.
-    </p>
+      <p>Pero si a Platón le pareció historia antigua eso de <em>los trabajos de la guerra</em>, para los entusiastas de
+        la globalización a finales del siglo XX la paz habría definitivamente de durar muy poco. La globalización del
+        siglo XXI, como la del siglo IV a.e.c. no estaría exenta de violencia. A solo una década del fin de la historia,
+        la terrible pesadilla de la guerra inevitable reaparece e irónicamente en los mismos lugares por donde una vez
+        marcharon las falanges de Alejandro. Afganistán, Iraq, Libia, Siria. Persépolis ardía nuevamente. Algunos
+        increparán que estos conflictos no clasifican como <em>guerras de conquista</em>. Esto sin elaborar en el total
+        de
+        civiles masacrados en Iraq - figura que sobrepasa los cientos de miles - por la conquista de los hidrocarburos.
+      </p>
 
-    <p>Hoy en día es Ucrania. En la voz del Kremlin la invasión de Ucrania no sería más que una <em>operación militar
-        especial</em>. Paradójicamente son los Ucranianos los que defienden el modelo integracionista mientras los rusos
-      justifican la invasión con una ideología anti-globalizadora que alude a la erosión de una cierta identidad
-      ruso-eslávica establecida en el siglo X por Oleg de Nóvgorod (ver el artículo de Vladimir Putin "<a
-        href="http://en.kremlin.ru/events/president/news/66181">Sobre la unidad histórica de rusos y ucranianos</a>").
-      Propaganda aparte, la narrativa de la globalización que se desglosaba a fines del siglo pasado se ha evaporado por
-      completo en la segunda década del siglo XXI. En su lugar viejos nacionalismos resurgen. A la historia al parecer
-      le gusta repetirse. Un conflicto nuclear entre Rusia y los aliados de Ucrania resultaría en la destrucción de la
-      especie humana y el verdadero fin de la historia.</p>
+      <p>Hoy en día es Ucrania. En la voz del Kremlin la invasión de Ucrania no sería más que una <em>operación militar
+          especial</em>. Paradójicamente son los Ucranianos los que defienden el modelo integracionista mientras los
+        rusos
+        justifican la invasión con una ideología anti-globalizadora que alude a la erosión de una cierta identidad
+        ruso-eslávica establecida en el siglo X por Oleg de Nóvgorod (ver el artículo de Vladimir Putin "<a
+          href="http://en.kremlin.ru/events/president/news/66181">Sobre la unidad histórica de rusos y ucranianos</a>").
+        Propaganda aparte, la narrativa de la globalización que se desglosaba a fines del siglo pasado se ha evaporado
+        por
+        completo en la segunda década del siglo XXI. En su lugar viejos nacionalismos resurgen. A la historia al parecer
+        le gusta repetirse. Un conflicto nuclear entre Rusia y los aliados de Ucrania resultaría en la destrucción de la
+        especie humana y el verdadero fin de la historia.</p>
 
-    <h4>Citas</h4>
-    <p>Bosworth, B. (2000). A Tale of two empires: Hernan Cortes and Alexander the Great.
-      In A. B. Bosworth, & E. J. Baynham (Eds.), Alexander the Great in Fact and Fiction (Vol. 1, pp. 23-49).
-      Oxford University Press.</p>
-  </section>
-  <hr>
-  <section>
+      <h4>Citas</h4>
+      <p>Bosworth, B. (2000). A Tale of two empires: Hernan Cortes and Alexander the Great.
+        In A. B. Bosworth, & E. J. Baynham (Eds.), Alexander the Great in Fact and Fiction (Vol. 1, pp. 23-49).
+        Oxford University Press.</p>
+    </section>
+    <hr>
+    <section>
 
-    <h3 id="dickensyschliemann">Dickens y Schliemann</h3>
+      <h3 id="dickensyschliemann">Dickens y Schliemann</h3>
 
-    <figure><img src="./assets/images/Dickens_Schliemann.webp" loading="lazy" width="280" height="176"
-        alt="Fotos de Schliemann y Dickens extraídas de Wikipedia."></p>
-      <figcaption>Retrato de Charles Dickens. Jeremiah Gurney, fotógrafo. Dominio Público. <a
-          href="https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg">Fuente</a>. Retrato de Heinrich
-        Schliemann. Eduard Schultze, fotógrafo. Dominio Público. <a
-          href="https://commons.wikimedia.org/wiki/File:Heinrich_Schliemann_(HeidICON_28763)_(cropped).jpg">Fuente</a>.
-      </figcaption>
-    </figure>
-    <p>Charles Dickens en su famoso periódico semanal de fines del siglo XIX "<a
-        href="https://play.google.com/books/reader?id=NfrVAAAAMAAJ&pg=GBS.PP10&hl=en">All The Year Around</a>" nos
-      cuenta de Heinrich Schliemann, su vida y su método para aprender el inglés ("Dr. Schliemann", Junio 13 de 1874).
-      Schliemann, famoso por excavar las ruinas de Troya y Micenas, era además un políglota que conocía 17 lenguas.
-      Ambos se profesaron respeto y admiración en algún momento de sus vidas.
-      Heinrich Schliemann visitó los Estados Unidos y Cuba entre el 1867 y el 1868 en un viaje de negocios.
-      Como era su costumbre cuando viajaba, llevaba su diario y escrbía en el idioma del país en el que se encontraba.
-      De este diario nos enteramos de que en la tarde del 3 de enero de 1868 asistió a la lectura de Dickens de "Un
-      cuento de Navidad" en el Steinway Hal de Nueva York.
-      Dos figuras importantes del milieu cultural de la segunda parte del siglo XIX comentan uno acerca del otro.</p>
+      <figure><img src="./assets/images/Dickens_Schliemann.webp" loading="lazy" width="280" height="176"
+          alt="Fotos de Schliemann y Dickens extraídas de Wikipedia."></p>
+        <figcaption>Retrato de Charles Dickens. Jeremiah Gurney, fotógrafo. Dominio Público. <a
+            href="https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg">Fuente</a>. Retrato de Heinrich
+          Schliemann. Eduard Schultze, fotógrafo. Dominio Público. <a
+            href="https://commons.wikimedia.org/wiki/File:Heinrich_Schliemann_(HeidICON_28763)_(cropped).jpg">Fuente</a>.
+        </figcaption>
+      </figure>
+      <p>Charles Dickens en su famoso periódico semanal de fines del siglo XIX "<a
+          href="https://play.google.com/books/reader?id=NfrVAAAAMAAJ&pg=GBS.PP10&hl=en">All The Year Around</a>" nos
+        cuenta de Heinrich Schliemann, su vida y su método para aprender el inglés ("Dr. Schliemann", Junio 13 de 1874).
+        Schliemann, famoso por excavar las ruinas de Troya y Micenas, era además un políglota que conocía 17 lenguas.
+        Ambos se profesaron respeto y admiración en algún momento de sus vidas.
+        Heinrich Schliemann visitó los Estados Unidos y Cuba entre el 1867 y el 1868 en un viaje de negocios.
+        Como era su costumbre cuando viajaba, llevaba su diario y escrbía en el idioma del país en el que se encontraba.
+        De este diario nos enteramos de que en la tarde del 3 de enero de 1868 asistió a la lectura de Dickens de "Un
+        cuento de Navidad" en el Steinway Hal de Nueva York.
+        Dos figuras importantes del milieu cultural de la segunda parte del siglo XIX comentan uno acerca del otro.</p>
 
-    <h4>Dickens acerca de Schliemann y su capacidad para el aprendizaje de lenguas</h4>
+      <h4>Dickens acerca de Schliemann y su capacidad para el aprendizaje de lenguas</h4>
 
-    <blockquote>
-      "Para empezar, el joven Schliemann se dedicó con gran celo a aprender inglés.
-      La necesidad le hizo dar con un recurso que le facilitó enormemente el estudio de las lenguas.
-      Esto consistía en leer mucho en voz alta, nunca hacer traducciones, tomar una lección diariamente para no perder
-      el sonido del habla desconocida, escribir composiciones sobre temas de particular interés individual y corregirlas
-      bajo la mirada del maestro; aprender de memoria todas esas correcciones y recitarlas palabra por palabra en la
-      lección del día siguiente.
-      Su memoria no era buena al principio, porque no la había ejercitado desde la infancia, pero mejoró a fuerza de
-      esfuerzo, y el muchacho aprovechaba cada momento libre.
-      De hecho, incluso robó tiempo para poder aprender. Nunca iba a hacer un mandado, aunque lloviera, sin tener un
-      libro en la mano y aprender algo de memoria; nunca hizo cola en el correo cuando esperaba para las cartas de su
-      patrón, sin leer mientras tanto. Su memoria se fue fortaleciendo poco a poco y en seis meses dominaba por completo
-      el idioma inglés.
-      Por maravillosa que parezca esta afirmación, está ampliamente confirmada por las excelentes cartas en inglés que
-      el Doctor escribió últimamente a la Academia, que no fueron traducidas, como suele ocurrir con las contribuciones
-      de corresponsales extranjeros.
-      Luego aplicó el mismo sistema al francés, que también dominó en otros seis meses, afirmación corroborada
-      nuevamente por la circunstancia de que las primeras y poco conocidas obras del señor Schliemann fueron escritas
-      por él mismo en el francés más elegante y sencillo.
-      En efecto, debe poseer aptitudes para aprender lenguas, aunque él mismo sólo dé crédito a su aplicación, que
-      ciertamente merece todo el crédito y estima. Estos estudios forzados y excesivos habían fortalecido tanto su
-      memoria en un año que la adquisición de holandés, español, italiano y portugués parecía una tarea fácil, y no
-      estaba obligado a dedicar más de seis semanas de aprendizaje a cada uno de ellos para poder aprender leerlos y
-      escribirlos con bastante fluidez.
-      Esto parecería casi increíble si no viniera de un hombre a quien nada caracteriza más que una veracidad severa y a
-      menudo intransigente".
-    </blockquote>
+      <blockquote>
+        "Para empezar, el joven Schliemann se dedicó con gran celo a aprender inglés.
+        La necesidad le hizo dar con un recurso que le facilitó enormemente el estudio de las lenguas.
+        Esto consistía en leer mucho en voz alta, nunca hacer traducciones, tomar una lección diariamente para no perder
+        el sonido del habla desconocida, escribir composiciones sobre temas de particular interés individual y
+        corregirlas
+        bajo la mirada del maestro; aprender de memoria todas esas correcciones y recitarlas palabra por palabra en la
+        lección del día siguiente.
+        Su memoria no era buena al principio, porque no la había ejercitado desde la infancia, pero mejoró a fuerza de
+        esfuerzo, y el muchacho aprovechaba cada momento libre.
+        De hecho, incluso robó tiempo para poder aprender. Nunca iba a hacer un mandado, aunque lloviera, sin tener un
+        libro en la mano y aprender algo de memoria; nunca hizo cola en el correo cuando esperaba para las cartas de su
+        patrón, sin leer mientras tanto. Su memoria se fue fortaleciendo poco a poco y en seis meses dominaba por
+        completo
+        el idioma inglés.
+        Por maravillosa que parezca esta afirmación, está ampliamente confirmada por las excelentes cartas en inglés que
+        el Doctor escribió últimamente a la Academia, que no fueron traducidas, como suele ocurrir con las
+        contribuciones
+        de corresponsales extranjeros.
+        Luego aplicó el mismo sistema al francés, que también dominó en otros seis meses, afirmación corroborada
+        nuevamente por la circunstancia de que las primeras y poco conocidas obras del señor Schliemann fueron escritas
+        por él mismo en el francés más elegante y sencillo.
+        En efecto, debe poseer aptitudes para aprender lenguas, aunque él mismo sólo dé crédito a su aplicación, que
+        ciertamente merece todo el crédito y estima. Estos estudios forzados y excesivos habían fortalecido tanto su
+        memoria en un año que la adquisición de holandés, español, italiano y portugués parecía una tarea fácil, y no
+        estaba obligado a dedicar más de seis semanas de aprendizaje a cada uno de ellos para poder aprender leerlos y
+        escribirlos con bastante fluidez.
+        Esto parecería casi increíble si no viniera de un hombre a quien nada caracteriza más que una veracidad severa y
+        a
+        menudo intransigente".
+      </blockquote>
 
-    <h4>Schliemann acerca de Dickens</h4>
+      <h4>Schliemann acerca de Dickens</h4>
 
-    <blockquote>
-      "Nueva York, 4 de enero de 1868. Fui anoche a la conferencia de Charles Dickens en la calle 14; conseguí un
-      asiento por $3; El inmenso salón estaba abarrotado al igual que las galerías. Parecía tener unos 50 años pero
-      estaba bien alimentado y preservado.
-      Tenía ante sí un libro que nunca utilizaba porque se lo sabía de memoria y, cosa extraña, sin mirarlo, siempre
-      pasaba las páginas al llegar al final de uno, tan bien que estaba familiarizado con él.
-      Cada palabra tal como estaba en las páginas. Leyó un villancico (sic) —una composición de gosts (sic) y patrañas—,
-      pero aun así, por la forma en que lo pronunció y por sus gestos, agradó a todos".
-    </blockquote>
+      <blockquote>
+        "Nueva York, 4 de enero de 1868. Fui anoche a la conferencia de Charles Dickens en la calle 14; conseguí un
+        asiento por $3; El inmenso salón estaba abarrotado al igual que las galerías. Parecía tener unos 50 años pero
+        estaba bien alimentado y preservado.
+        Tenía ante sí un libro que nunca utilizaba porque se lo sabía de memoria y, cosa extraña, sin mirarlo, siempre
+        pasaba las páginas al llegar al final de uno, tan bien que estaba familiarizado con él.
+        Cada palabra tal como estaba en las páginas. Leyó un villancico (sic) —una composición de gosts (sic) y
+        patrañas—,
+        pero aun así, por la forma en que lo pronunció y por sus gestos, agradó a todos".
+      </blockquote>
 
-  </section>
-  <hr>
-  <section>
+    </section>
+    <hr>
+    <section>
 
-    <h3 id="monod">Jaques Monod: El segundo secreto de la vida</h3>
+      <h3 id="monod">Jaques Monod: El segundo secreto de la vida</h3>
 
-    <figure><img loading="lazy" src="./assets/images/Jacques_Monod_1971.webp" width="570" height="761"
-        alt="Jacques Monod" title="Jacques Monod" class="responsive">
-      <figcaption>Farabola, FOTOGRAFIA PRESS PHOTO VINTAGE 1971 JACQUES MONOD PREMIO NOBEL DIRETTORE PASTEUR. Dominio
-        Público. <a href="https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg">Fuente</a>.</figcaption>
-    </figure>
+      <figure><img loading="lazy" src="./assets/images/Jacques_Monod_1971.webp" width="570" height="761"
+          alt="Jacques Monod" title="Jacques Monod" class="responsive">
+        <figcaption>Farabola, FOTOGRAFIA PRESS PHOTO VINTAGE 1971 JACQUES MONOD PREMIO NOBEL DIRETTORE PASTEUR. Dominio
+          Público. <a href="https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg">Fuente</a>.</figcaption>
+      </figure>
 
-    <p>Jacques Monod publicó su tratado filosófico <em>El azar y la necesidad</em> en el año 1970.
-      Anteriormente había compartido el premio Nobel de fisiología o medicina junto a François Jacob y André Lwoff por
-      elucidar el mecanismo de formación de proteínas en las células a través del mensajero-RNA.</p>
-    <p>Durante la ocupación nazi de Francia, Monod vivió una doble vida, diseñando experimentos en su laboratorio del
-      Instituto Pasteur durante el día y llevando a cabo operaciones clandestinas como parte de la Resistencia por la
-      noche.
-      Llegó a ser promovido a comandante de las Forces françaises de l&rsquo;Intérieur, en cuyo rol, según Sean B.
-      Carroll, coordinó sabotajes y el asesinato de traidores que colaboraron con el Tercer Reich.
-      En el verano de 1944, dirigió junto a otros oficiales los actos de insurrección que permitieron la entrada del
-      general Patton a Paris y la eventual liberación de la ciudad.</p>
-    <p>Monod propuso el concepto de <em>alostería</em>, pilar de la biología que describe como las moléculas orgánicas
-      se plegan de acuerdo a su estructura geométrica en ciertas zonas del ADN, <em>expresando</em> la producción de
-      enzimas.
-      Estas enzimas, encargadas a su vez de acelerar las reacciones bioquímicas dentro de las células, pueden ser
-      activadas o inhibidas al acoplarse con otras moléculas específicas <em>reguladoras</em>.
-      La <em>alostería</em> entonces funciona como un circuito de control eléctrico.
-      Cuenta Agnes Ullmann, que un día, a finales de 1961, Monod entró en su laboratorio cansado y preocupado.
-      Llegó, se sentó, y luego de permanecer en silencio por varios minutos, la miró fijamente y le dijo: &ldquo;Creo
-      que he descubierto el segundo secreto de la vida&rdquo;. Se refería, por supuesto, a su concepto tan importante de
-      <em>alostería</em> o <em>regulación alostérica</em>.
-    </p>
-    <p><em>El azar y la necesidad</em> es un libro brillante.
-      Es un ensayo donde Monod expone elegantemente su concepción de la vida como resultado de la mecánica y la química
-      del mundo inorgánico
-      El papel que juegan la estructura y el funcionamiento de las macromoléculas (proteínas, ácidos nucleicos) en los
-      procesos fundamentales que se desarrollan en todos los seres vivos es explorado con minucidad filosófica por el
-      autor.
-      Monod explica en su libro los procesos bioquímicos básicos y la complejidad cibernética celular que hace posible
-      la vida. La fluidez conque se desenvuelve su análisis, la coherencia narrativa, la exposición de limitaciones
-      científicas y paradojas epistemológicas, y la claridad general de su pensamiento demuestran su honestidad, rigor y
-      profundidad intelectual.</p>
-    <p>Es cierto que Monod pareciera escribir con una cierta ingenuidad filosófica; y así se le atribuyen al <em>El azar
-        y la necesidad</em>, específicamente los capítulos en los que extrapola de la biología implicaciones de tipo
-      filosófico, varios epítetos como el reduccionismo o la arrogancia. Tengo el presentimiento que sus críticos están
-      motivados por cierto rencor profesional devenido del entrometimiento de un hombre de ciencia en la filosofía (o
-      quizás cierta nostalgia por los antropocentrismos) o la ignorancia de lo que constituye un pensamiento que sienta
-      pautas paradigmáticas. Y es que este ensayo es un clásico en el que se exponen ideas profundas basadas en una
-      ciencia naciente de la cual su autor fue uno de sus principales exponentes.</p>
-    <p>Concluye Monod que la vida es un resultado del azar y que, tal como lo prescribían los existencialistas de su
-      generación, el deber del ser humano entonces “no está escrito en ninguna parte. Puede este escoger entre el Reino
-      y las tinieblas.”</p>
-    <p>A continuación, dos fragmentos del libro, una lista de lecturas y una entrevista suya, la cual he traducido al
-      español.</p>
+      <p>Jacques Monod publicó su tratado filosófico <em>El azar y la necesidad</em> en el año 1970.
+        Anteriormente había compartido el premio Nobel de fisiología o medicina junto a François Jacob y André Lwoff por
+        elucidar el mecanismo de formación de proteínas en las células a través del mensajero-RNA.</p>
+      <p>Durante la ocupación nazi de Francia, Monod vivió una doble vida, diseñando experimentos en su laboratorio del
+        Instituto Pasteur durante el día y llevando a cabo operaciones clandestinas como parte de la Resistencia por la
+        noche.
+        Llegó a ser promovido a comandante de las Forces françaises de l&rsquo;Intérieur, en cuyo rol, según Sean B.
+        Carroll, coordinó sabotajes y el asesinato de traidores que colaboraron con el Tercer Reich.
+        En el verano de 1944, dirigió junto a otros oficiales los actos de insurrección que permitieron la entrada del
+        general Patton a Paris y la eventual liberación de la ciudad.</p>
+      <p>Monod propuso el concepto de <em>alostería</em>, pilar de la biología que describe como las moléculas orgánicas
+        se plegan de acuerdo a su estructura geométrica en ciertas zonas del ADN, <em>expresando</em> la producción de
+        enzimas.
+        Estas enzimas, encargadas a su vez de acelerar las reacciones bioquímicas dentro de las células, pueden ser
+        activadas o inhibidas al acoplarse con otras moléculas específicas <em>reguladoras</em>.
+        La <em>alostería</em> entonces funciona como un circuito de control eléctrico.
+        Cuenta Agnes Ullmann, que un día, a finales de 1961, Monod entró en su laboratorio cansado y preocupado.
+        Llegó, se sentó, y luego de permanecer en silencio por varios minutos, la miró fijamente y le dijo: &ldquo;Creo
+        que he descubierto el segundo secreto de la vida&rdquo;. Se refería, por supuesto, a su concepto tan importante
+        de
+        <em>alostería</em> o <em>regulación alostérica</em>.
+      </p>
+      <p><em>El azar y la necesidad</em> es un libro brillante.
+        Es un ensayo donde Monod expone elegantemente su concepción de la vida como resultado de la mecánica y la
+        química
+        del mundo inorgánico
+        El papel que juegan la estructura y el funcionamiento de las macromoléculas (proteínas, ácidos nucleicos) en los
+        procesos fundamentales que se desarrollan en todos los seres vivos es explorado con minucidad filosófica por el
+        autor.
+        Monod explica en su libro los procesos bioquímicos básicos y la complejidad cibernética celular que hace posible
+        la vida. La fluidez conque se desenvuelve su análisis, la coherencia narrativa, la exposición de limitaciones
+        científicas y paradojas epistemológicas, y la claridad general de su pensamiento demuestran su honestidad, rigor
+        y
+        profundidad intelectual.</p>
+      <p>Es cierto que Monod pareciera escribir con una cierta ingenuidad filosófica; y así se le atribuyen al <em>El
+          azar
+          y la necesidad</em>, específicamente los capítulos en los que extrapola de la biología implicaciones de tipo
+        filosófico, varios epítetos como el reduccionismo o la arrogancia. Tengo el presentimiento que sus críticos
+        están
+        motivados por cierto rencor profesional devenido del entrometimiento de un hombre de ciencia en la filosofía (o
+        quizás cierta nostalgia por los antropocentrismos) o la ignorancia de lo que constituye un pensamiento que
+        sienta
+        pautas paradigmáticas. Y es que este ensayo es un clásico en el que se exponen ideas profundas basadas en una
+        ciencia naciente de la cual su autor fue uno de sus principales exponentes.</p>
+      <p>Concluye Monod que la vida es un resultado del azar y que, tal como lo prescribían los existencialistas de su
+        generación, el deber del ser humano entonces “no está escrito en ninguna parte. Puede este escoger entre el
+        Reino
+        y las tinieblas.”</p>
+      <p>A continuación, dos fragmentos del libro, una lista de lecturas y una entrevista suya, la cual he traducido al
+        español.</p>
 
-    <h4>Fragmentos, <em>El Azar Y La Necesidad,</em> de Jaques Monod.</h4>
+      <h4>Fragmentos, <em>El Azar Y La Necesidad,</em> de Jaques Monod.</h4>
 
-    <blockquote>“Sólo el azar está en el origen de toda novedad, de toda creación en la biósfera.
-      El puro azar, el único azar, libertad absoluta pero ciega, en la raíz misma del prodigioso edificio de la
-      evolución: esta noción central de la biología moderna no es ya hoy en día una hipótesis, entre otras posibles o al
-      menos concebibles.
-      Es la sola concebible, como única compatible con los hechos de observación y experiencia.
-      Y nada permite suponer (o esperar) que nuestras concepciones sobre este punto deberán o incluso podrán ser
-      revisadas.
-    </blockquote>
+      <blockquote>“Sólo el azar está en el origen de toda novedad, de toda creación en la biósfera.
+        El puro azar, el único azar, libertad absoluta pero ciega, en la raíz misma del prodigioso edificio de la
+        evolución: esta noción central de la biología moderna no es ya hoy en día una hipótesis, entre otras posibles o
+        al
+        menos concebibles.
+        Es la sola concebible, como única compatible con los hechos de observación y experiencia.
+        Y nada permite suponer (o esperar) que nuestras concepciones sobre este punto deberán o incluso podrán ser
+        revisadas.
+      </blockquote>
 
-    <blockquote>"…todas las propiedades de los seres vivos reposan sobre un mecanismo fundamental de conservación
-      molecular.
-      Para la teoría moderna, la evolución no es de ningún modo una propiedad de los seres vivos, ya que tiene su raíz
-      en las imperfecciones mismas del mecanismo conservador que constituye su único privilegio.
-      Es preciso, pues, decir que la misma fuente de perturbaciones, de «ruido» que, en un sistema no vivo, es decir no
-      replicativo, aboliría poco a poco toda estructura, es el origen de la evolución en la biósfera,
-      y demuestra su total libertad creadora, gracias a este conservatorio del azar, sordo al ruido tanto como a la
-      música: la estructura replicativa del ADN.”
-    </blockquote>
+      <blockquote>"…todas las propiedades de los seres vivos reposan sobre un mecanismo fundamental de conservación
+        molecular.
+        Para la teoría moderna, la evolución no es de ningún modo una propiedad de los seres vivos, ya que tiene su raíz
+        en las imperfecciones mismas del mecanismo conservador que constituye su único privilegio.
+        Es preciso, pues, decir que la misma fuente de perturbaciones, de «ruido» que, en un sistema no vivo, es decir
+        no
+        replicativo, aboliría poco a poco toda estructura, es el origen de la evolución en la biósfera,
+        y demuestra su total libertad creadora, gracias a este conservatorio del azar, sordo al ruido tanto como a la
+        música: la estructura replicativa del ADN.”
+      </blockquote>
 
-    <h5>Citas</h5>
-    <p>Carroll, Sean B. <em>Brave Genius: a Scientist, a Philosopher, and Their Daring Adventures from the French
-        Resistance to the Nobel Prize</em>. New York: Broadway Books, 2014.</p>
-    <p>Monod, Jacques. <em>Chance and Necessity: an Essay on the Natural Philosophy of Modern Biology</em>. London:
-      Collins, 1972.</p>
-    <p>Agnes Ullmann, In Memoriam: Jacques Monod (1910-1976), <em>Genome Biology and Evolution</em>, Volume 3, 2011,
-      Pages 1025-1033, <a href="https://doi.org/10.1093/gbe/evr024">https://doi.org/10.1093/gbe/evr024</a></p>
-    <p><a href="https://youtu.be/rCNOhtRKPM0">Aquí una entrevista con Jaques Monod en YouTube que he traducido al
-        castellano.</a></p>
+      <h5>Citas</h5>
+      <p>Carroll, Sean B. <em>Brave Genius: a Scientist, a Philosopher, and Their Daring Adventures from the French
+          Resistance to the Nobel Prize</em>. New York: Broadway Books, 2014.</p>
+      <p>Monod, Jacques. <em>Chance and Necessity: an Essay on the Natural Philosophy of Modern Biology</em>. London:
+        Collins, 1972.</p>
+      <p>Agnes Ullmann, In Memoriam: Jacques Monod (1910-1976), <em>Genome Biology and Evolution</em>, Volume 3, 2011,
+        Pages 1025-1033, <a href="https://doi.org/10.1093/gbe/evr024">https://doi.org/10.1093/gbe/evr024</a></p>
+      <p><a href="https://youtu.be/rCNOhtRKPM0">Aquí una entrevista con Jaques Monod en YouTube que he traducido al
+          castellano.</a></p>
 
-  </section>
-  <hr>
-  <section>
-    <h3><a id="carpentier">Los Pasos Perdidos de Alejo Carpentier.</a></h3>
-    <p>Al comienzo de su ensayo “Borges, Neruda y Pessoa: el Whitman Hispano-Portugués” publicado en su libro <em>El
-        Cánon Occidental</em> el crítico literario estadounidense Harold Bloom nos recuerda que Alejo Carpentier fue uno
-      de los tres fundadores del <em>boom</em> de la literatura hispano-americana del siglo XX junto a Borges y a
-      Neruda.
-      Bloom, además, vaticina que el tiempo se encargará de ubicar a Carpentier en la cúspide como el más importante de
-      todos los escritores latinoamericanos de su tiempo.</p>
-    <p>Dentro del magnífico opus carpenteriano, <em>Los Pasos Perdidos</em> es la primera novela del autor que leí y
-      continúa siendo mi favorita.
-      Novela magnífica en la que contemplamos el accionar de personajes en su conflicto con el tiempo y la naturaleza.
-    </p>
+    </section>
+    <hr>
+    <section>
+      <h3><a id="carpentier">Los Pasos Perdidos de Alejo Carpentier.</a></h3>
+      <p>Al comienzo de su ensayo “Borges, Neruda y Pessoa: el Whitman Hispano-Portugués” publicado en su libro <em>El
+          Cánon Occidental</em> el crítico literario estadounidense Harold Bloom nos recuerda que Alejo Carpentier fue
+        uno
+        de los tres fundadores del <em>boom</em> de la literatura hispano-americana del siglo XX junto a Borges y a
+        Neruda.
+        Bloom, además, vaticina que el tiempo se encargará de ubicar a Carpentier en la cúspide como el más importante
+        de
+        todos los escritores latinoamericanos de su tiempo.</p>
+      <p>Dentro del magnífico opus carpenteriano, <em>Los Pasos Perdidos</em> es la primera novela del autor que leí y
+        continúa siendo mi favorita.
+        Novela magnífica en la que contemplamos el accionar de personajes en su conflicto con el tiempo y la naturaleza.
+      </p>
 
-    <h4>Fragmento, <em>Los Pasos Perdidos</em>, de Alejo Carpentier.</h4>
+      <h4>Fragmento, <em>Los Pasos Perdidos</em>, de Alejo Carpentier.</h4>
 
-    <blockquote>&ldquo;Es indudable que la naturaleza que aquí nos circunda es implacable, terrible, a pesar de su
-      belleza.
-      Pero los que en medio de ella viven la consideran menos mala, más tratable, que los espantos y sobresaltos, las
-      crueldades frías, las amenazas siempre renovadas, del mundo de allá.
-      Aquí, las plagas, los padecimientos posibles, los peligros naturales, son aceptados de antemano: forman parte de
-      un Orden que tiene sus rigores.
-      La Creación no es algo divertido, y todos lo admiten por instinto, aceptando el papel asignado a cada cual en la
-      vasta tragedia de lo creado.
-      Pero es tragedia con unidades de tiempo, de acción y de lugar, donde la misma muerte opera por acción de
-      mandatarios conocidos, cuyos trajes de veneno, de escama, de fuego, de miasmas, se acompañan del rayo del trueno
-      que siguen usando, en días de ira, los dioses de más larga residencia entre nosotros.
-      A la luz del sol o al calor de la hoguera, los hombres que aquí viven sus destinos se contentan de cosas muy
-      simples, hallando motivo de júbilo en la tibieza de una mañana, una pesca abundante, la lluvia que cae tras de la
-      sequía, con explosiones de alegría colectiva, de cantos y de tambores, promovidos por sucesos muy sencillos como
-      fue el de nuestra llegada.&rdquo;</blockquote>
+      <blockquote>&ldquo;Es indudable que la naturaleza que aquí nos circunda es implacable, terrible, a pesar de su
+        belleza.
+        Pero los que en medio de ella viven la consideran menos mala, más tratable, que los espantos y sobresaltos, las
+        crueldades frías, las amenazas siempre renovadas, del mundo de allá.
+        Aquí, las plagas, los padecimientos posibles, los peligros naturales, son aceptados de antemano: forman parte de
+        un Orden que tiene sus rigores.
+        La Creación no es algo divertido, y todos lo admiten por instinto, aceptando el papel asignado a cada cual en la
+        vasta tragedia de lo creado.
+        Pero es tragedia con unidades de tiempo, de acción y de lugar, donde la misma muerte opera por acción de
+        mandatarios conocidos, cuyos trajes de veneno, de escama, de fuego, de miasmas, se acompañan del rayo del trueno
+        que siguen usando, en días de ira, los dioses de más larga residencia entre nosotros.
+        A la luz del sol o al calor de la hoguera, los hombres que aquí viven sus destinos se contentan de cosas muy
+        simples, hallando motivo de júbilo en la tibieza de una mañana, una pesca abundante, la lluvia que cae tras de
+        la
+        sequía, con explosiones de alegría colectiva, de cantos y de tambores, promovidos por sucesos muy sencillos como
+        fue el de nuestra llegada.&rdquo;</blockquote>
 
-    <h5>Citas</h5>
+      <h5>Citas</h5>
 
-    <p>Bloom, Harold. <em>The Western Canon: the Books and School of the Ages</em>. Basingstoke: Papermac, 1996.</p>
-    <p>Carpentier, Alejo. <em>El Reino De Este Mundo ; Los Pasos Perdidos</em>. Mexico, D.F.: Siglo Veintiuno Editores,
-      1985.</p>
-    <figure><img loading="lazy" src="./assets/images/Alejo_Carpentier.webp" width="700" height="431"
-        alt="Alejo Carpentier en el periódico Granma. Foto: Walfrido Ojeda" class="responsive">
-      <figcaption>Alejo Carpentier en el periódico Granma. Foto: Walfrido Ojeda. <a
-          href="https://bnjm.cu/noticias/5706/todo-lo-que-hizo-lo-hizo-contando-con-la-historia">Fuente: Biblioteca
-          Nacional de Cuba</a>.</figcaption>
-    </figure>
+      <p>Bloom, Harold. <em>The Western Canon: the Books and School of the Ages</em>. Basingstoke: Papermac, 1996.</p>
+      <p>Carpentier, Alejo. <em>El Reino De Este Mundo ; Los Pasos Perdidos</em>. Mexico, D.F.: Siglo Veintiuno
+        Editores,
+        1985.</p>
+      <figure><img loading="lazy" src="./assets/images/Alejo_Carpentier.webp" width="700" height="431"
+          alt="Alejo Carpentier en el periódico Granma. Foto: Walfrido Ojeda" class="responsive">
+        <figcaption>Alejo Carpentier en el periódico Granma. Foto: Walfrido Ojeda. <a
+            href="https://bnjm.cu/noticias/5706/todo-lo-que-hizo-lo-hizo-contando-con-la-historia">Fuente: Biblioteca
+            Nacional de Cuba</a>.</figcaption>
+      </figure>
 
-  </section>
+    </section>
   </div>
   <div class="box sidebar">
     <h2>Rápidas</h2>
@@ -641,14 +693,12 @@ body {
   </div>
   <br>
   <br>
-  <div class="box footer">Esta página</a> pesa aproximadamente 38KB. Fue construída en HTML y usa muy poco CSS y nada de JS.
-    Las imágenes son en formato webp y/o svg.<br>Está optimizada según los parámetros de funcionamiento y accesibilidad
-    de
-    PageSpeed Insights. Fue generada usando <a href="https://pages.github.com">GitHub Pages</a>. &copy; Eduardo Alemán,
+  <div class="box footer">Esta página</a> pesa aproximadamente 38KB. Fue construída en HTML y CSS. No usa JS.
+    Las imágenes son en formato webp y/o svg. Está optimizada según los parámetros de funcionamiento y accesibilidad
+    de PageSpeed Insights. Fue generada usando <a href="https://pages.github.com">GitHub Pages</a>. &copy; Eduardo
+    Alemán,
     2024.</div>
 
-  <br>
-  <br>
 </body>
 
 </html>
