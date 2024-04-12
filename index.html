@@ -17,6 +17,15 @@
       flex-wrap: wrap;
       background: #d8e0e9;
 
+      blockquote {
+        font: 14px/22px normal helvetica, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        padding-left: 18px;
+        border-left: 3px solid #ccc;
+      }
+
       h1 a:link {
         text-decoration: none;
       }
@@ -93,56 +102,55 @@
     }
 
     /* Header */
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px 20px;
-    box-shadow: 0 1px 8px #ddd;
-    margin: .8 px;
-}
+    header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: 0 1px 8px #ddd;
+      margin: .8 px;
+    }
 
-#nav-title {
-    margin-right: auto;
-    font-size: 2em;
-}
+    #nav-title {
+      margin-right: auto;
+      font-size: 2em;
+    }
 
-header li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 25px;
-    font-size: 1.75em;
-}
+    header li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 25px;
+      font-size: 1.75em;
+    }
 
-header a {
-    text-decoration: none;
-    color: #1b1b1b;
-    transition: all 0.3s ease 0s;
-}
+    header a {
+      text-decoration: none;
+      color: #1b1b1b;
+      transition: all 0.3s ease 0s;
+    }
 
-/*header a:hover {
+    /*header a:hover {
     color: #000c0b;
 }*/
-
   </style>
 </head>
 
 <body>
-  
+
 
   <div class="box header">
     <!-- Navbar -->
- <header>
-  <h1 id="nav-title"><a href="https://ealeman.com/">Eduardo Alemán</a></h1>
-  <nav>
-     <ul>
-         <li><a href="./peregrinajes/">Peregrinajes</a></li>
-         <li><a href="./latin/">Latín</a></li>
-     </ul>
-  </nav>          
-</header>
+    <header>
+      <h1 id="nav-title"><a href="https://ealeman.com/">Eduardo Alemán</a></h1>
+      <nav>
+        <ul>
+          <li><a href="./peregrinajes/">Peregrinajes</a></li>
+          <li><a href="./latin/">Latín</a></li>
+        </ul>
+      </nav>
+    </header>
   </div>
-  
+
   <div class="box nav">
     <h2>Microensayos</h2>
     <p><a href="#vitruvio">Los órdenes clásicos griegos en el primer tratado sobre la arquitectura</a></p>
@@ -695,8 +703,10 @@ header a {
     </section>
   </div>
   <div class="box footer">Esta página</a> pesa aproximadamente 38KB. Fue diseñada en HTML y CSS por el autor. No usa JS.
-    Las imágenes son en formato webp y/o svg. Está optimizada según los estándares básicos de funcionamiento y accesibilidad
-    de <a href="https://pagespeed.web.dev/analysis/https-ealeman-com/3i3rxzcwh9?form_factor=mobile">PageSpeed Insights</a>. Fue generada usando <a href="https://pages.github.com">GitHub Pages</a>. &copy; Eduardo
+    Las imágenes son en formato webp y/o svg. Está optimizada según los estándares básicos de funcionamiento y
+    accesibilidad
+    de <a href="https://pagespeed.web.dev/analysis/https-ealeman-com/3i3rxzcwh9?form_factor=mobile">PageSpeed
+      Insights</a>. Fue generada usando <a href="https://pages.github.com">GitHub Pages</a>. &copy; Eduardo
     Alemán,
     2024.</div>
 
