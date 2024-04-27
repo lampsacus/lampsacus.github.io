@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notas on Espacio Digital de Eduardo Alemán</title>
+    <link>/notas/</link>
+    <description>Recent content in Notas on Espacio Digital de Eduardo Alemán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/notas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exportando Wordpress a Markdown</title>
+      <link>/notas/2022/exportando-wordpress-a-markdown/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/notas/2022/exportando-wordpress-a-markdown/</guid>
+      <description>Exportando Wordpress a Markdown wordpress-export-to-markdown ¡Qué maravilla de programa! Te permite convertir a Markdown todo tu contenido en Wordpress. ¡Todo! Incluyendo imágenes, categorías, y por supuesto, texto. Muchas gracias Will Boyd.</description>
+    </item>
+    
+    <item>
+      <title>Un nuevo sitio con Hugo y el tema XMin</title>
+      <link>/notas/2022/tema-xmin/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/notas/2022/tema-xmin/</guid>
+      <description>Un nuevo sitio con Hugo y el tema XMin XMin: He escogido este tema por ser simple y comprensible. Necesitaba un tema que no tuviera muchos elementos. Tampoco quería que el sitio necesitara de múltiples archivos de configuración. El tema ha sido escrito por Yihui Xie, un jóven genial, que lo diseñó &amp;ldquo;en unas cuatro horas&amp;rdquo; y cuya principal motivación fue &amp;ldquo;proporcionar un ejemplo realmente mínimo a los principiantes de las plantillas de Hugo&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Instalar y configurar Apache2 y PHP 7.4 en Ubuntu 22.04</title>
+      <link>/notas/2022/06-21-instalar-y-configurar-apache2-y-php7/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/notas/2022/06-21-instalar-y-configurar-apache2-y-php7/</guid>
+      <description>Resumen Descargo de responsabilidad Suposiciones Instalar y configurar Apache2 Instalar y configurar PHP 7.4 y varios módulos necesarios Instalar y configurar HTTPS usando un certificado gratis de ZeroSSL Notas acerca de la seguridad del sistema Descargo de responsabilidad Si bien se han hecho todos los esfuerzos posibles para garantizar que la información presentada en esta quía (y en todo el sitio web) sea precisa, el autor, Eduardo Alemán, no asume responsabilidad por errores, omisiones o información desactualizada y no será responsable de ningún modo por el uso directo, indirecto o indirecto, daños especiales, incidentales, consecuentes, punitivos u otros que resulten de la disponibilidad, el uso, el acceso o la imposibilidad de utilizar esta información.</description>
+    </item>
+    
+    <item>
+      <title>Actualizando a Ubuntu 22.04</title>
+      <link>/notas/2022/06-18-actualizando-a-ubuntu-22-04/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/notas/2022/06-18-actualizando-a-ubuntu-22-04/</guid>
+      <description>Resumen Descargo de responsabilidad Suposiciones Actualizar Ubuntu Notas acerca de la seguridad del sistema Descargo de responsabilidad Si bien se han hecho todos los esfuerzos posibles para garantizar que la información presentada en esta quía (y en todo el sitio web) sea precisa, el autor, Eduardo Alemán, no asume responsabilidad por errores, omisiones o información desactualizada y no será responsable de ningún modo por el uso directo, indirecto o indirecto, daños especiales, incidentales, consecuentes, punitivos u otros que resulten de la disponibilidad, el uso, el acceso o la imposibilidad de utilizar esta información.</description>
+    </item>
+    
+  </channel>
+</rss>

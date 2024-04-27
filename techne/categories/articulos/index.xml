@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>articulos on Espacio Digital de Eduardo Alemán</title>
+    <link>/categories/articulos/</link>
+    <description>Recent content in articulos on Espacio Digital de Eduardo Alemán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalar y configurar Apache2 y PHP 7.4 en Ubuntu 22.04</title>
+      <link>/notas/2022/06-21-instalar-y-configurar-apache2-y-php7/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/notas/2022/06-21-instalar-y-configurar-apache2-y-php7/</guid>
+      <description>Resumen Descargo de responsabilidad Suposiciones Instalar y configurar Apache2 Instalar y configurar PHP 7.4 y varios módulos necesarios Instalar y configurar HTTPS usando un certificado gratis de ZeroSSL Notas acerca de la seguridad del sistema Descargo de responsabilidad Si bien se han hecho todos los esfuerzos posibles para garantizar que la información presentada en esta quía (y en todo el sitio web) sea precisa, el autor, Eduardo Alemán, no asume responsabilidad por errores, omisiones o información desactualizada y no será responsable de ningún modo por el uso directo, indirecto o indirecto, daños especiales, incidentales, consecuentes, punitivos u otros que resulten de la disponibilidad, el uso, el acceso o la imposibilidad de utilizar esta información.</description>
+    </item>
+    
+    <item>
+      <title>Actualizando a Ubuntu 22.04</title>
+      <link>/notas/2022/06-18-actualizando-a-ubuntu-22-04/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/notas/2022/06-18-actualizando-a-ubuntu-22-04/</guid>
+      <description>Resumen Descargo de responsabilidad Suposiciones Actualizar Ubuntu Notas acerca de la seguridad del sistema Descargo de responsabilidad Si bien se han hecho todos los esfuerzos posibles para garantizar que la información presentada en esta quía (y en todo el sitio web) sea precisa, el autor, Eduardo Alemán, no asume responsabilidad por errores, omisiones o información desactualizada y no será responsable de ningún modo por el uso directo, indirecto o indirecto, daños especiales, incidentales, consecuentes, punitivos u otros que resulten de la disponibilidad, el uso, el acceso o la imposibilidad de utilizar esta información.</description>
+    </item>
+    
+    <item>
+      <title>Problemas de la globalización</title>
+      <link>/entrada/2022/problemas-de-la-globalizacion/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/entrada/2022/problemas-de-la-globalizacion/</guid>
+      <description>La historia, se dice, está en los ojos del espectador. Para algunos, por ejemplo, las conquistas de Alejandro Magno en el Asia Menor resultó en el declive o la erradicación de etnias y culturas, la subyugación de pueblos y la imposición brutal de una identidad greco-macedónica. Tales acciones y eventos son hoy en día moralmente reprobables. Otros, sin embargo, argumentan que no deberíamos apresurarnos en juzgar a Alejandro, hacerlo no es solo un anacronismo, sino que también, y al fin y al cabo, el mundo antiguo se unió progresivamente como resultado de sus acciones.</description>
+    </item>
+    
+    <item>
+      <title>La palabra griega ἀλήθεια (‘verdad’)</title>
+      <link>/entrada/2020/la-palabra-griega-%E1%BC%80%CE%BB%CE%AE%CE%B8%CE%B5%CE%B9%CE%B1-verdad/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/entrada/2020/la-palabra-griega-%E1%BC%80%CE%BB%CE%AE%CE%B8%CE%B5%CE%B9%CE%B1-verdad/</guid>
+      <description>I. Leyendo La cuestión de la tecnología (Die Frage nach der Technik) me encuentro con que Heidegger explica el significado de la palabra griega ἀλήθεια. Para Heidegger la verdad no es la correspondencia entre el pensamiento y la cosa, sino, como ἀλήθεια, un desvelamiento o desocultar. Me intereso en saber más por esta palabra, cuan común era. Decido buscar una imagen para mi reseña de Die Frage nach der Technik que actualmente preparo.</description>
+    </item>
+    
+  </channel>
+</rss>

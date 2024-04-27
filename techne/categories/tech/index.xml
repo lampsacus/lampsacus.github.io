@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Espacio Digital de Eduardo Alemán</title>
+    <link>/categories/tech/</link>
+    <description>Recent content in tech on Espacio Digital de Eduardo Alemán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exportando Wordpress a Markdown</title>
+      <link>/notas/2022/exportando-wordpress-a-markdown/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/notas/2022/exportando-wordpress-a-markdown/</guid>
+      <description>Exportando Wordpress a Markdown wordpress-export-to-markdown ¡Qué maravilla de programa! Te permite convertir a Markdown todo tu contenido en Wordpress. ¡Todo! Incluyendo imágenes, categorías, y por supuesto, texto. Muchas gracias Will Boyd.</description>
+    </item>
+    
+  </channel>
+</rss>

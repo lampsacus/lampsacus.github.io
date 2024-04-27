@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>libro-i on Espacio Digital de Eduardo Alemán</title>
+    <link>/categories/libro-i/</link>
+    <description>Recent content in libro-i on Espacio Digital de Eduardo Alemán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/libro-i/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Libro I de los Anales de Tácito</title>
+      <link>/entrada/2022/libro-i-anales-tacito/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/entrada/2022/libro-i-anales-tacito/</guid>
+      <description>La copia más antigua del primer libro de los Anales manuscrito por un monje benedictino alrededor de los años 1000-1100 e. c. ha sido digitalizado y está actualmente disponible en el repositorio digital de la Biblioteca Medicea Laurenziana.
+De la siguiente traducción al castellano: Tácito, Cayo Cornelio. Anales. Libros I-VI. España, BIBLIOTECA CLÁSICA GREDOS Nº 19 - Introducción, traducción y notas de José L. Moralejo, 1979.
+La edición en latín tal y como aparece en Publius Cornelius Tacitus Ab excessu divi Augusti Annales Saeculo I, que parece ser completamente basada en Tacitus, Cornelius.</description>
+    </item>
+    
+  </channel>
+</rss>

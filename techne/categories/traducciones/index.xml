@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>traducciones on Espacio Digital de Eduardo Alemán</title>
+    <link>/categories/traducciones/</link>
+    <description>Recent content in traducciones on Espacio Digital de Eduardo Alemán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/traducciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El pragmatismo y la filosofía de Richard Rorty</title>
+      <link>/entrada/2022/el-pragmatismo-y-la-filosofia/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/entrada/2022/el-pragmatismo-y-la-filosofia/</guid>
+      <description>Richard Rorty
+Los platonistas, los positivistas y los pragmatistas La teoría del pragmatismo establece que la verdad, como concepto, no es el tipo de cosa de la que se debería esperar una teoría filosófica interesante. Para los pragmatistas, “verdad” es solamente un nombre que todas las oraciones verídicas comparten. Es lo que tienen en común oraciones como “Bacon no escribió las obras de Shakespeare” , “Ayer llovió”, “E=mc2”, “El amor es mejor que el odio”, “Alegoría a la pintura fue la mejor obra de Vermeer”, “2 más 2 es 4” y “Hay infinitos no enumerables”.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Actualizando a Ubuntu 22.04 | Espacio Digital de Eduardo Alemán</title>
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <link rel="stylesheet" href="../../../css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="../../../">Portada</a></li>
+      
+      <li><a href="../../../acerca/">Acerca del autor</a></li>
+      
+      <li><a href="../../../entrada/">Entradas</a></li>
+      
+      <li><a href="../../../notas/">Notas Técnicas</a></li>
+      
+      <li><a href="../../../index.xml">Subscríbase</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Actualizando a Ubuntu 22.04</span></h1>
+
+<h2 class="date">2022/06/18</h2>
+</div>
+
+<main>
+<h2 id="resumen">Resumen</h2>
+<ol>
+<li><a href="#anchor-1">Descargo de responsabilidad</a></li>
+<li><a href="#anchor-2">Suposiciones</a></li>
+<li><a href="#anchor-3">Actualizar Ubuntu</a></li>
+<li><a href="#anchor-4">Notas acerca de la seguridad del sistema</a></li>
+</ol>
+<h2 id="anchor-1">Descargo de responsabilidad</h2>
+<p>Si bien se han hecho todos los esfuerzos posibles para garantizar que la información presentada en esta quía (y en todo el sitio web) sea precisa, el autor, Eduardo Alemán, no asume responsabilidad por errores, omisiones o información desactualizada y no será responsable de ningún modo por el uso directo, indirecto o indirecto, daños especiales, incidentales, consecuentes, punitivos u otros que resulten de la disponibilidad, el uso, el acceso o la imposibilidad de utilizar esta información.</p>
+<p>El autor de esta guía no garantiza que la información contenida en este documento es en todos los aspectos precisa o completa, y no es responsable de los errores u omisiones o por los resultados obtenidos por el uso de dicha información.</p>
+<p>Se anima a los lectores a confirmar y verificar la información contenida en este documento con otras fuentes, especialmente las guías oficiales proporcionadas por <a href="https://help.ubuntu.com/stable/ubuntu-help/index.html.es">Ubuntu</a>.</p>
+<p>La información que se ofrece a través de este sitio web es solamente un resumen general preparado para el público. No pretende sustituir las guías anteriormente mencionadas. No soy tampoco responsable por el contenido de estas guías o por cualquiera de los enlaces aquí proporcionados.</p>
+<h2 id="anchor-2">Suposiciones</h2>
+<p>Esta guía supone que el lector:</p>
+<ul>
+<li>Con la excepción de Ubuntu, no ha instalado ninguno de los programas aquí mencionados previamente.</li>
+<li>Desea actualizar directamente a la versión 22.04 desde Ubuntu 21.10 o 20.04. (Si tiene una versión anterior a 20.04, primero debe actualizar a Ubuntu a 20.04, etc.)</li>
+<li>Tiene suficiente espacio libre en el disco (&gt;40 gb)</li>
+<li>Tiene acceso <em>sudo</em>.</li>
+<li>Puede utilizar la terminal de comandos vía SSH.</li>
+<li>Puede leer cuidadosamente las instrucciones.</li>
+</ul>
+<h2 id="anchor-3">Actualizar Ubuntu</h2>
+<p>Verifica si tienes al menos 40 Gb de espacio libre en tu disco:</p>
+<pre><code>df -H
+</code></pre>
+<p>Verifica la versión de Ubuntu que tienes. Si NO estás en la versión exactamente anterior a 22.04, es decir 21.10 o 20.04, le recomiendo que repita todo el proceso una vez terminado por completo:</p>
+<pre><code>lsb_release -a
+</code></pre>
+<h3 id="copia-de-seguridad">Copia de seguridad</h3>
+<p>En primer lugar, asegúrese de hacer una copia de seguridad de sus datos antes de iniciar la actualización principal de su sistema operativo. Si está ejecutando Ubuntu en una máquina virtual, es mejor tomar una instantánea completa del sistema para restaurar rápidamente su máquina en caso de que la actualización salga mal.</p>
+<h3 id="actualizar-los-paquetes-existentes">Actualizar los paquetes existentes</h3>
+<p>Los paquetes marcados como retenidos no se pueden instalar, actualizar ni eliminar automáticamente. Esto puede causar problemas durante el proceso de actualización. Para verificar si hay paquetes retenidos en sus sistemas, ejecute:</p>
+<pre><code>sudo apt-mark showhold
+</code></pre>
+<p>Una salida vacía significa que no hay paquetes retenidos. Si hay paquetes en espera, debe liberar los paquetes con:</p>
+<pre><code>sudo apt-mark unhold nombre-del-paquete
+</code></pre>
+<p>Actualice la lista de <em><strong>apt</strong></em> y actualice todos los paquetes instalados:</p>
+<pre><code>sudo apt-get update    # esto actualiza el repositorio de paquetes
+sudo apt-get upgrade   # esto procede a actualizar los paquetes existentes 
+                       # - aun no el sistema operativo por completo
+</code></pre>
+<p>Si el <em>kernel</em> o núcleo del sistema es actualizado, reinicie la máquina y, espere un par deminutos, y vuelva a iniciar sesión.</p>
+<h3 id="comience-una-actualización-del-sistema">Comience una actualización del sistema:</h3>
+<pre><code>sudo apt full-upgrade
+</code></pre>
+<p>apt full-upgrade puede eliminar algunos paquetes actualmente instalados que impiden actualizar el sistema existente en su totalidad.</p>
+<p>Continúe con:</p>
+<pre><code>sudo apt --purge autoremove
+</code></pre>
+<pre><code>sudo reboot
+</code></pre>
+<h3 id="actualice-el-sistema-a-ubuntu-2204-lts-jammy-jellyfish">Actualice el sistema a Ubuntu 22.04 LTS (Jammy Jellyfish)</h3>
+<p>Asegúrese de que la política de actualización predeterminada en el archivo <em>/etc/update-manager/release-upgrades</em> esté establecida en &ldquo;Prompt=normal&rdquo; o &ldquo;Prompt=lts&rdquo;. De lo contrario, el proceso de actualización no se iniciará.</p>
+<pre><code>sudo nano /etc/update-manager/release-upgrades
+</code></pre>
+<p><em>do-release-upgrade</em> es parte del paquete &ldquo;update-manager-core&rdquo; que se instala de forma predeterminada en la mayoría de los sistemas Ubuntu. Si, por alguna razón, no está instalado en su sistema, instálelo con:</p>
+<pre><code>sudo apt install update-manager-core
+</code></pre>
+<p>Comience el proceso de actualización</p>
+<pre><code>sudo do-release-upgrade -d
+</code></pre>
+<p>El comando <em>do-release-upgrade</em> deshabilitará todos los repositorios de terceros y cambiará la lista <em>apt</em> para señalar los repositorios &ldquo;jammy&rdquo;. Se le pedirá varias veces que confirme que desea continuar con la actualización.</p>
+<p>Durante el proceso de actualización, el comando le hará varias preguntas, como si desea mantener un archivo de configuración existente o instalar la versión del mantenedor del paquete. Si no realizó ningún cambio personalizado en el archivo, debería ser seguro escribir <strong>Y</strong>. De lo contrario, se recomienda mantener la configuración ya existente. Lea atentamente las preguntas antes de hacer una selección.</p>
+<p>Cuando se le pregunte si desea que los servicios se reinicien automáticamente durante la actualización, escriba <strong>Y</strong>.</p>
+<p>La actualización se ejecuta dentro de una sesión de pantalla GNU y se volverá a conectar automáticamente si se interrumpe la conexión.</p>
+<p>Todo el proceso puede llevar algún tiempo dependiendo de la cantidad de actualizaciones y la velocidad de Internet.</p>
+<p>Una de las preguntas es que le hará el sistema mientras se actualiza es si deseas mantener el archivo ssh_config ya que ha sido localmente modificado. Esta guía asume que usted no ha realizado cambios en el archivo, o que las diferencias son mínimas e irrelevantes para su configuración, por lo que puede ignorar y continuar con la instalación de la versión del mantenedor del paquete sin necesidad de editar más el archivo.</p>
+<p>Una vez instalados los nuevos paquetes, la herramienta de actualización le preguntará si desea eliminar el software obsoleto. Si no está seguro, ingrese la letra <strong>D</strong> y consulte la lista de paquetes obsoletos. Generalmente, es seguro ingresar <strong>Y</strong> y eliminar todos los paquetes obsoletos.</p>
+<p>Cuando se complete el proceso de actualización y suponiendo que todo salió bien, se le pedirá que reinicie su máquina. Ingrese <strong>Y</strong> para continuar:</p>
+<pre><code>System upgrade is complete.
+
+Restart required
+
+To finish the upgrade, a restart is required.
+If you select 'y' the system will be restarted.
+
+Continue [yN] y
+</code></pre>
+<p>Reinicie el sistema.</p>
+<p>Confirme que el sistema Ubuntu ha sido actualizado:</p>
+<pre><code>lsb_release -a
+</code></pre>
+<p>La pantalla debe mostrar:</p>
+<pre><code>No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04 LTS
+Release:	22.04
+Codename:	jammy
+</code></pre>
+<h2 id="anchor-4">Notas acerca de la seguridad del sistema</h2>
+<p>La seguridad de los sistemas operativos, los diversos servidores y programas es un tema muy complejo. Estos son diseñados con seguridad, pero desafortunadamente, siempre se encuentran vulnerabilidades que pueden ser explotadas por hackers. Lo mejor que puedes hacer para comenzar a mantener la seguridad del sistema es mantenerlo actualizado y mantenerte informado.</p>
+<p>Una vez más, el primer paso siempre: actualizar la instalación de su software.</p>
+<pre><code>sudo apt update
+sudo apt upgrade
+</code></pre>
+<p>A continuación algunas recomendaciones adicionales <strong>que están muy lejos de ser exhaustivas</strong>:</p>
+<ol>
+<li>Siempre utiliza un cortafuegos. Para más información, consulta la guía oficial del servidor Ubuntu, comenzando con la página 86 en <a href="https://assets.ubuntu.com/v1/f954307f-ubuntu-server-guide.pdf">https://assets.ubuntu.com/v1/f954307f-ubuntu-server-guide.pdf</a>.</li>
+<li>Configurar inicio de sesión SSH sin contraseña en Ubuntu. Esto está habilitado por defecto si instalastes Ubuntu siguiendo las instrucciones en esta guía. Déjalo así.Los desarrolladores de Ubuntu tomaron una decisión concienzuda para deshabilitar la cuenta raíz administrativa de forma predeterminada en todas las instalaciones de Ubuntu. Esto no significa que la cuenta raíz haya sido eliminada o que no pueda ser accedida. Simplemente se le ha dado un hash de contraseña que no coincide con ningún valor posible, por lo tanto, no puede iniciar sesión directamente por sí mismo. En su lugar, se anima a los usuarios a hacer uso de una herramienta con el nombre de &lsquo;sudo&rsquo; para llevar a cabo tareas administrativas del sistema. En esta guía la hemos utilizado continuamente. Sudo permite que un usuario autorizado eleve temporalmente sus privilegios usando su propia contraseña en lugar de tener que saber la contraseña que pertenece a la cuenta raíz. Esta sencilla pero eficaz metodología proporciona responsabilidad por todas las acciones del usuario y le da al administrador un control granular sobre qué acciones un usuario puede realizar con dichos privilegios.</li>
+<li>Si utlizas contraseñas para conectarte a tu sistema Ubuntu via SSH (no recomendado), puedes usar Fail2Ban. Ten en cuenta que &ldquo;los intentos de intrusión por fuerza bruta son bastante frecuentes contra un servidor SSH y otros servicios de Internet protegidos con contraseña (como ftp, pop,…). Los scripts automatizados prueban múltiples combinaciones de nombre de usuario/contraseña (fuerza bruta, ataque de diccionario) y, a veces, no se puede cambiar el puerto a otro que no sea el predeterminado. Además, revisar sus archivos de registro usted mismo no solo requiere mucho tiempo, sino que también puede ser difícil. Fail2ban intenta aliviar estos problemas proporcionando una forma automatizada no solo de identificar posibles intentos de intrusión, sino también de actuar sobre ellos rápida y fácilmente de una manera definible por el usuario.&rdquo; Para más información, consulta el manual oficial de Fail2Ban disponible en <a href="https://www.fail2ban.org/wiki/index.php/MANUAL_0_8">https://www.fail2ban.org/wiki/index.php/MANUAL_0_8</a>.</li>
+<li>Installa y configura Rkhunter: El paquete &ldquo;rkhunter&rdquo; es útil para realizar un análisis rápido de su sistema en busca de rootkits conocidos (programas informático maliciosos y clandestinos diseñados para proporcionar acceso privilegiado continuo a una computadora mientras oculta activamente su presencia). Para más información visite <a href="https://help.ubuntu.com/community/RKhunter">https://help.ubuntu.com/community/RKhunter</a>.</li>
+</ol>
+
+</main>
+
+  <footer>
+  
+
+  
+  <hr/>
+  El autor de este sitio es © Eduardo Alemán 2010 &ndash; 2022
+  
+  </footer>
+  </body>
+</html>
+

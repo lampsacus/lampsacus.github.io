@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>resenas on Espacio Digital de Eduardo Alemán</title>
+    <link>/categories/resenas/</link>
+    <description>Recent content in resenas on Espacio Digital de Eduardo Alemán</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/resenas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jaques Monod</title>
+      <link>/entrada/2022/jaques-monod/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/entrada/2022/jaques-monod/</guid>
+      <description>El segundo secreto de la vida
+Jacques Monod publicó su tratado filosófico El azar y la necesidad en el año 1970. Anteriormente había compartido el premio Nobel de fisiología o medicina junto a François Jacob y André Lwoff por elucidar el mecanismo de formación de proteínas en las células a través del mensajero-RNA.
+Durante la ocupación nazi de Francia, Monod vivió una doble vida, diseñando experimentos en su laboratorio del Instituto Pasteur durante el día y llevando a cabo operaciones clandestinas como parte de la Resistencia por la noche.</description>
+    </item>
+    
+  </channel>
+</rss>
