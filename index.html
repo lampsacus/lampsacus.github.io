@@ -51,95 +51,95 @@
       h1 a:hover {
         text-decoration: none;
       }
-    }
 
-    .box {
-      background: #e8f4f0;
-      border: 1px solid #ccc;
-      border-radius: 0.25em;
-      margin: 0.5em;
-      padding: 1em;
-    }
+      .box {
+        background: #e8f4f0;
+        border: 1px solid #ccc;
+        border-radius: 0.25em;
+        margin: 0.5em;
+        padding: 1em;
+      }
 
-    .header {
-      align-self: flex-start;
-    }
+      .header {
+        align-self: flex-start;
+      }
 
-    .nav {
-      flex: 1 0 0;
-    }
-
-    .content {
-      flex: 4 0 0;
-    }
-
-    .sidebar {
-      flex: 2 0 0;
-      text-align: left;
-    }
-
-    .header,
-    .footer {
-      /* header footer*/
-      flex-basis: 100%;
-      text-align: center;
-    }
-
-    dl * {
-      margin: 1em;
-    }
-
-    @media (max-width: 700px) {
       .nav {
-        flex: 1 1 100%;
+        flex: 1 0 0;
       }
 
-      .nav li {
-        display: inline;
+      .content {
+        flex: 4 0 0;
       }
-    }
 
-    @media (max-width: 500px) {
-
-      .content,
       .sidebar {
-        flex: 1 1 100%;
+        flex: 2 0 0;
+        text-align: left;
       }
-    }
 
-    /* restrict a responsive image to a maximum size, use the max-width property, with a pixel value of your choice */
-    .responsive {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-    }
+      .header,
+      .footer {
+        /* header footer*/
+        flex-basis: 100%;
+        text-align: center;
+      }
 
-    /* Header */
-    header {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      padding: 10px 20px;
-      box-shadow: 0 1px 8px #ddd;
-      margin: .8px;
-    }
+      dl * {
+        margin: 1em;
+      }
 
-    #nav-title {
-      margin-right: auto;
-      font-size: 2em;
-    }
+      @media (max-width: 700px) {
+        .nav {
+          flex: 1 1 100%;
+        }
 
-    header li {
-      list-style: none;
-      display: inline-block;
-      padding: 0 25px;
-      font-size: 1.75em;
-    }
+        .nav li {
+          display: inline;
+        }
+      }
 
-    header a {
-      text-decoration: none;
-      color: #1b1b1b;
-      transition: all 0.3s ease 0s;
+      @media (max-width: 500px) {
+
+        .content,
+        .sidebar {
+          flex: 1 1 100%;
+        }
+      }
+
+      /* restrict a responsive image to a maximum size, use the max-width property, with a pixel value of your choice */
+      .responsive {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
+
+      /* Header */
+      header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 20px;
+        box-shadow: 0 1px 8px #ddd;
+        margin: .8px;
+      }
+
+      #nav-title {
+        margin-right: auto;
+        font-size: 2em;
+      }
+
+      header li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 25px;
+        font-size: 1.75em;
+      }
+
+      header a {
+        text-decoration: none;
+        color: #1b1b1b;
+        transition: all 0.3s ease 0s;
+      }
     }
 
     /*header a:hover { color: #000c0b; }*/
