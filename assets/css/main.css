@@ -122,7 +122,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #0D28C9;
+		color: #0090c5;
 		text-decoration: underline;
 	}
 
@@ -1634,7 +1634,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: #005D85;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
