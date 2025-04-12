@@ -1,117 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eduardo Alemán</title>
   <style>
     :root {
-      --primary-color: #4a90e2;
-      --background-color: #f9f9f9;
-      --text-color: #333;
-      --accent-color: #e0e0e0;
+      --primary-color: #222;
+      --background-color: #fff;
+      --text-color: #111;
+      --accent-color: #ccc;
     }
-
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Georgia', serif;
       background-color: var(--background-color);
       color: var(--text-color);
-      line-height: 1.6;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
     }
-
     header {
-      background-color: var(--primary-color);
-      color: #fff;
-      padding: 1rem 2rem;
-      text-align: center;
+      border-bottom: 4px double var(--accent-color);
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
     }
-
+    header h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
     nav {
       display: flex;
       justify-content: center;
-      gap: 1rem;
       flex-wrap: wrap;
-      margin-top: 0.5rem;
+      gap: 1rem;
+      font-size: 0.95rem;
+      text-transform: uppercase;
     }
-
     nav a {
-      color: #fff;
+      color: var(--primary-color);
       text-decoration: none;
-      padding: 0.5rem 1rem;
-      transition: background 0.3s;
+      padding: 0.25rem 0.5rem;
+      border: 1px solid var(--accent-color);
     }
-
     nav a:hover {
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 5px;
+      background-color: var(--accent-color);
     }
-
     .hero {
-      padding: 3rem 2rem;
+      margin: 2rem 0;
       text-align: center;
-      background-color: #fff;
     }
-
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
     }
-
-    .hero p {
-      font-size: 1.1rem;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
     .content {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: 1fr;
       gap: 2rem;
-      padding: 2rem;
     }
-
     .card {
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      padding: 1.5rem;
-      transition: transform 0.3s ease;
+      border-top: 2px solid var(--accent-color);
+      padding-top: 1rem;
     }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
     .card img {
-      max-width: 100%;
+      float: left;
+      margin: 0 1rem 1rem 0;
+      max-width: 200px;
       height: auto;
-      border-radius: 5px;
-      margin-bottom: 1rem;
+      border: 1px solid var(--accent-color);
     }
-
+    .card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      text-decoration: underline;
+      color: var(--primary-color);
+    }
     footer {
-      background: #222;
-      color: #ccc;
-      text-align: center;
-      padding: 2rem 1rem;
+      border-top: 2px solid var(--accent-color);
       margin-top: 2rem;
+      padding-top: 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-color);
     }
-
-    @media (max-width: 600px) {
-      .hero h1 {
-        font-size: 1.8rem;
-      }
+    footer a {
+      color: var(--text-color);
+      text-decoration: underline;
+      margin: 0 0.5rem;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Eduardo Alemán</h1>
     <nav>
@@ -123,48 +119,47 @@
   </header>
 
   <section class="hero" id="bienvenidos">
-    <h1>Hola. Este es mi sitio.</h1>
+    <h2>Hola. Este es mi sitio.</h2>
     <p>Una página web de presentación.</p>
   </section>
 
   <section class="content" id="blog">
     <div class="card">
-      <img src="path_to_image.jpg" alt="La globalización">
-      <h2>La globalización</h2>
+      <img src="images/leon.jpg" alt="León Sirio">
+      <h3>La globalización</h3>
       <p>La historia, se dice, está en los ojos del espectador...</p>
-      <a href="#">Leer más</a>
+      <a href="vieja.html">Continuar la lectura</a>
     </div>
     <div class="card">
-      <img src="path_to_image.jpg" alt="Iris Murdoch">
-      <h2>Iris Murdoch: Las metáforas y la soberanía del bien</h2>
+      <img src="images/murdoch.jpg" alt="Iris Murdoch">
+      <h3>Iris Murdoch y la soberanía del bien</h3>
       <p>Iris Murdoch tenía una perspectiva interesante sobre las metáforas...</p>
-      <a href="#">Leer más</a>
+      <a href="vieja.html">Continuar la lectura</a>
     </div>
     <div class="card">
-      <img src="path_to_image.jpg" alt="Tolstói y el arte">
-      <h2>Tolstói, el chimpancé y el significado del arte</h2>
-      <p>En el extracto de su libro "¿Qué es el arte?"...</p>
-      <a href="#">Leer más</a>
+      <img src="images/chimpance.jpg" alt="Tolstói y el arte">
+      <h3>Tolstói, el chimpancé y el significado del arte</h3>
+      <p>En su libro "¿Qué es el arte?" Tolstói propone...</p>
+      <a href="vieja.html">Continuar la lectura</a>
     </div>
   </section>
 
   <section class="content" id="galeria">
     <div class="card">
-      <img src="path_to_image.jpg" alt="Galería Personal">
-      <h2>Galería Personal</h2>
-      <p>Explora una selección de imágenes que complementan los temas tratados en el blog.</p>
-      <a href="#">Ver galería</a>
+      <img src="images/sigismondo.jpg" alt="Sigismondo Pandolfo Malatesta">
+      <h3>Galería Personal</h3>
+      <p>Una selección de imágenes que complementan los temas tratados en el blog.</p>
+      <a href="https://www.flickr.com">Más fotos en Flickr</a>
     </div>
   </section>
 
   <footer id="contacto">
     <p>© 2025 Eduardo Alemán. Todos los derechos reservados.</p>
     <p>
-      <a href="https://twitter.com/tu_usuario" style="color: #ccc;">Twitter</a> |
-      <a href="https://facebook.com/tu_usuario" style="color: #ccc;">Facebook</a> |
-      <a href="https://github.com/tu_usuario" style="color: #ccc;">GitHub</a>
+      <a href="https://x.com">Twitter</a>
+      <a href="https://facebook.com">Facebook</a>
+      <a href="https://github.com">GitHub</a>
     </p>
   </footer>
-
 </body>
 </html>
