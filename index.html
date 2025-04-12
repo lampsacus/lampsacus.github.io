@@ -14,6 +14,34 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="canonical" href="https://ealeman.com">
   <style>
+  .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #444;
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px 16px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.2s ease;
+    z-index: 1000;
+  }
+
+  .back-to-top.show {
+    opacity: 0.8;
+    visibility: visible;
+  }
+
+  .back-to-top:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+</style>
+
     html {
       scroll-behavior: smooth;
     }
@@ -189,5 +217,18 @@
       <img src="images/nd.svg" alt="ND" />
     </p>
   </footer>
+  <script>
+  const backToTop = document.querySelector('.back-to-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      backToTop.classList.add('show');
+    } else {
+      backToTop.classList.remove('show');
+    }
+  });
+</script>
+<a href="#" class="back-to-top" title="Volver arriba">↑</a>
+
 </body>
 </html>
