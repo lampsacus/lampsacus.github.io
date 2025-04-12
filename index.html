@@ -13,118 +13,151 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="canonical" href="https://ealeman.com">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1BH7YYTER"></script>
-  <script src="./assets/js/google-analytics.js"></script>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdfdfd;
+      color: #111;
+      margin: 0;
+      padding: 0;
+    }
+    header, main, footer {
+      max-width: 960px;
+      margin: auto;
+      padding: 1rem;
+    }
+    header {
+      border-bottom: 3px double #aaa;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #222;
+    }
+    .dateline {
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+      margin: 0.5rem 0 1rem;
+    }
+    .lead {
+      background: #eee;
+      padding: 1rem;
+      font-size: 1.2rem;
+      text-align: center;
+      font-style: italic;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    article {
+      border-top: 1px solid #ccc;
+      padding-top: 1rem;
+    }
+    article img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    article h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    article p {
+      text-align: justify;
+    }
+    .gallery img {
+      max-width: 100px;
+      margin: 0.5rem;
+      border: 1px solid #ccc;
+    }
+    footer {
+      border-top: 3px double #aaa;
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+      color: #444;
+    }
+    footer img {
+      vertical-align: middle;
+      height: 20px;
+      margin-left: 4px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1><a href="/">Eduardo Alemán</a></h1>
-      <nav>
-        <ul>
-          <li><a href="/">Bienvenidos</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/bitac/">Vieja bitácora</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>Eduardo Alemán</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Bienvenidos</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/bitac/">Vieja Bitácora</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container">
-        <h2>Hola. Este es mi sitio.</h2>
-        <p>Una página web de presentación.</p>
-        <div class="actions">
-          <a href="/blog/" class="button">Blog</a>
-          <a href="/en/" class="button alt">In English</a>
-        </div>
-      </div>
+    <div class="dateline">Actualizado el 11 de abril de 2025</div>
+    <section class="lead">
+      Hola. Este es mi sitio. Una página web de presentación.
     </section>
 
-    <section class="features">
-      <div class="container">
-        <article class="feature">
-          <a href="/bitac/p2/#globalizacion">
-            <img src="images/leon_sirio.webp" alt="Mosaico de un león sirio." />
-          </a>
-          <h3>La globalización</h3>
-          <p>La historia, se dice, está en los ojos del espectador... <a href="/bitac/p2/#globalizacion">Continuar la lectura</a></p>
-        </article>
-        <article class="feature">
-          <a href="/bitac/p3/#murdoch">
-            <img src="images/Iris_Murdoch.webp" alt="Foto de Iris Murdoch." />
-          </a>
-          <h3>Iris Murdoch: Las metáforas y la soberanía del bien</h3>
-          <p>Iris Murdoch tenía una perspectiva interesante sobre las metáforas... <a href="/bitac/p3/#murdoch">Continuar la lectura</a></p>
-        </article>
-        <article class="feature">
-          <a href="/bitac/p2/#tolstoi">
-            <img src="images/congo_chimp_pintura.webp" alt="Pintura del chimpancé Congo." />
-          </a>
-          <h3>Tolstói, el chimpancé y el significado del arte</h3>
-          <p>En su libro "¿Qué es el arte?"... <a href="/bitac/p2/#tolstoi">Continuar la lectura</a></p>
-        </article>
-      </div>
+    <section class="grid">
+      <article>
+        <img src="images/leon_sirio.webp" alt="Mosaico de un león sirio.">
+        <h2>La globalización</h2>
+        <p>La historia, se dice, está en los ojos del espectador... <a href="/bitac/p2/#globalizacion">Continuar la lectura</a>.</p>
+      </article>
+      <article>
+        <img src="images/Iris_Murdoch.webp" alt="Foto de Iris Murdoch.">
+        <h2>Iris Murdoch: Las metáforas y la soberanía del bien</h2>
+        <p>Iris Murdoch tenía una perspectiva interesante sobre las metáforas... <a href="/bitac/p3/#murdoch">Continuar la lectura</a>.</p>
+      </article>
+      <article>
+        <img src="images/congo_chimp_pintura.webp" alt="Pintura del chimpancé Congo.">
+        <h2>Tolstói, el chimpancé y el significado del arte</h2>
+        <p>En su libro "¿Qué es el arte?"... <a href="/bitac/p2/#tolstoi">Continuar la lectura</a>.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Mi más reciente traducción</h2>
+      <p><strong>El número cristiano y sus implicaciones</strong> de Keith Hopkins</p>
+      <p>Este artículo es un experimento tanto en método como en sustancia...</p>
+      <p><a href="/blog/entradas/el-n%C3%BAmero-cristiano-y-sus-implicaciones/">Continúa leyendo en la nueva bitácora</a>.</p>
     </section>
 
     <section class="gallery">
-      <div class="container">
-        <h2>Galería Personal</h2>
-        <div class="grid">
-          <a href="https://www.flickr.com/photos/156266132@N07/53819464642/"><img src="images/Piero_Francesca_Louvre.webp" alt="Sigismondo de Piero della Francesca"></a>
-          <a href="https://www.flickr.com/photos/156266132@N07/53820719804/"><img src="images/Euripedes_Louvre.webp" alt="Estatuilla helenística de Eurípides"></a>
-          <a href="https://www.flickr.com/photos/156266132@N07/53820380261/"><img src="images/Bachus_Louvre.webp" alt="Baco romano"></a>
-          <a href="https://www.flickr.com/photos/156266132@N07/53820381471/"><img src="images/Rafael_St_Michael_Louvre.webp" alt="San Miguel de Rafael"></a>
-        </div>
-        <a href="https://www.flickr.com/photos/156266132@N07/" class="button">Más fotos en Flickr</a>
-      </div>
-    </section>
-
-    <section class="translation">
-      <div class="container">
-        <h2>Mi más reciente traducción</h2>
-        <p><strong>El número cristiano y sus implicaciones</strong> de Keith Hopkins</p>
-        <p>Este artículo es un experimento tanto en método como en sustancia...</p>
-        <a href="/blog/entradas/el-n%C3%BAmero-cristiano-y-sus-implicaciones/" class="button">Continúa leyendo en la nueva bitácora</a>
-      </div>
+      <h2>Galería Personal</h2>
+      <a href="https://www.flickr.com/photos/156266132@N07/53819464642/"><img src="images/Piero_Francesca_Louvre.webp" alt="Sigismondo"></a>
+      <a href="https://www.flickr.com/photos/156266132@N07/53820719804/"><img src="images/Euripedes_Louvre.webp" alt="Eurípides"></a>
+      <a href="https://www.flickr.com/photos/156266132@N07/53820380261/"><img src="images/Bachus_Louvre.webp" alt="Baco"></a>
+      <a href="https://www.flickr.com/photos/156266132@N07/53820381471/"><img src="images/Rafael_St_Michael_Louvre.webp" alt="San Miguel"></a>
+      <p><a href="https://www.flickr.com/photos/156266132@N07/">Ver más fotos en Flickr</a></p>
     </section>
   </main>
 
   <footer>
-    <div class="container">
-      <div class="footer-widgets">
-        <div class="widget">
-          <a href="https://www.unimuseum.uni-tuebingen.de/en/collections/collection-of-prehistory"><img src="images/caballo_vogelherd.webp" alt="Caballo Vogelherd"></a>
-          <a href="https://musee-prehistoire-eyzies.fr/collection/objet/bison-se-lechant"><img src="images/bisonte_paleolitico.webp" alt="Bisonte paleolítico"></a>
-        </div>
-        <div class="widget">
-          <a href="https://www.metmuseum.org/art/collection/search/329073"><img src="images/mujer_sentada_usbekistan_met.webp" alt="Mujer sentada Uzbekistán"></a>
-          <a href="https://www.cultura.gob.es/mnaltamira/cueva-altamira/arte.html"><img src="images/bisonte_cueva_altamira.webp" alt="Bisonte Altamira"></a>
-        </div>
-        <div class="widget">
-          <img src="images/anarchy-symbol.svg" alt="Símbolo anarquista">
-          <p>"La esencia del anarquismo es la convicción..."<br><em>- Noam Chomsky</em></p>
-        </div>
-        <div class="widget">
-          <h3>Conectarse</h3>
-          <a href="https://x.com/JEduardoAleman" class="icon brands fa-twitter">Twitter</a>
-          <a href="https://www.facebook.com/jeduardoaleman/" class="icon brands fa-facebook">Facebook</a>
-          <a href="https://github.com/lampsacus" class="icon brands fa-github">GitHub</a>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>Eduardo Alemán — CC BY-NC-ND 4.0
-          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
-            <img src="images/cc.svg" alt="CC" /><img src="images/by.svg" alt="BY" /><img src="images/nc.svg" alt="NC" /><img src="images/nd.svg" alt="ND" />
-          </a>
-        </p>
-        <p>Design: <a href="http://html5up.net">HTML5 UP</a></p>
-      </div>
-    </div>
+    <p>© 2025 Eduardo Alemán — <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+      <img src="images/cc.svg" alt="CC" /><img src="images/by.svg" alt="BY" /><img src="images/nc.svg" alt="NC" /><img src="images/nd.svg" alt="ND" />
+    </p>
   </footer>
-
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
