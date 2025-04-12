@@ -21,23 +21,19 @@
       margin: 0;
       padding: 0;
     }
-
     header, main, footer {
       max-width: 1400px;
       margin: auto;
       padding: 2rem;
     }
-
     header {
       border-bottom: 3px double #aaa;
       text-align: center;
     }
-
     header h1 {
       font-size: 3rem;
       margin-bottom: 1.5rem;
     }
-
     nav ul {
       display: flex;
       justify-content: center;
@@ -46,26 +42,41 @@
       padding: 0;
       margin: 0;
     }
-
     nav a {
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1rem;
       color: #222;
     }
-
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
       margin: 2rem 0;
     }
-
+    article {
+      border-top: 1px solid #ccc;
+      padding-top: 1rem;
+    }
+    article h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0.75rem;
+    }
+    article a {
+      text-decoration: none;
+      color: #0056b3;
+    }
+    article a:hover {
+      text-decoration: underline;
+    }
+    article p {
+      text-align: justify;
+      font-size: 1rem;
+    }
     .center-image {
       text-align: center;
       margin: 3rem 0;
     }
-
     .center-image img {
       max-width: 100%;
       height: auto;
@@ -74,62 +85,6 @@
       filter: contrast(1.1) saturate(1.05) brightness(1.02);
       background: repeating-linear-gradient(45deg, #fff, #fff 2px, #f0f0f0 2px, #f0f0f0 4px);
     }
-
-    .article-section {
-      max-width: 900px;
-      margin: 4rem auto;
-      padding: 2rem;
-      line-height: 1.8;
-    }
-
-    .article-section h2 {
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
-      text-align: center;
-    }
-
-    .article-section h3 {
-      font-size: 1.3rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      color: #333;
-    }
-
-    .article-section p {
-      text-align: justify;
-      font-size: 1.05rem;
-      margin-bottom: 1.2rem;
-    }
-
-    .article-section ul {
-      padding-left: 1.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .article-section li {
-      margin-bottom: 0.8rem;
-      font-size: 1rem;
-    }
-
-    .image-center {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    .image-center img {
-      max-width: 100%;
-      height: auto;
-      border: 1px solid #ccc;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-    }
-
-    .image-center figcaption {
-      font-style: italic;
-      font-size: 0.95rem;
-      color: #555;
-      margin-top: 0.5rem;
-    }
-
     footer {
       border-top: 3px double #aaa;
       text-align: center;
@@ -137,7 +92,6 @@
       padding: 2rem 1rem;
       color: #444;
     }
-
     footer img {
       vertical-align: middle;
       height: 20px;
@@ -150,57 +104,27 @@
     <h1>Eduardo Alemán</h1>
     <nav>
       <ul>
-        <li><a href="/blog/">Blog</a></li>
+                <li><a href="/blog/">Blog</a></li>
         <li><a href="/bitac/">Vieja Bitácora</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="center-image">
-      <img src="/images/eduardo-delfos-art.png" alt="Eduardo Alemán frente al templo de Delfos">
-      <p style="font-style: italic; color: #555; margin-top: 0.5rem;">Recreada por ChatGPT 4o</p>
-    </section>
+    <section class="center-image" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/images/eduardo-delfos-art.png" alt="Eduardo Alemán frente al templo de Delfos">
+    <p style="font-style: italic; color: #555; margin-top: 0.5rem;">Recreada por ChatGPT 4o</p>
+  </div>
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="https://ealeman.com/bitac/peregrinajes/assets/images/el_autor_en_las_ruinas_del_%20templo%20_de_apolo_en_delfos.jpg" alt="El autor en las ruinas del templo de Apolo en Delfos" style="max-width: 100%; height: auto; border: 2px solid #ccc; box-shadow: 2px 2px 12px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #555; margin-top: 0.5rem;">
+      El autor frente a las ruinas del templo de Apolo en Delfos, Grecia. En el frontispicio o pronaos de este templo estaba inscrito el famoso aforismo griego <em>"Conócete a ti mismo"</em>.
+    </p>
+  </div>
+</section>
 
-    <section class="article-section">
-      <h2>La Auriga de Delfos y la transición de la escultura griega</h2>
-
-      <figure class="image-center">
-        <img src="https://ealeman.com/bitac/assets/images/Auriga_de_Delfos.webp" alt="La Auriga de Delfos">
-        <figcaption>La Auriga de Delfos, foto del autor (c. 478 a.C.)</figcaption>
-      </figure>
-
-      <article>
-        <p>La evolución de la escultura griega entre los periodos arcaico y clásico marca una transformación fundamental en la historia del arte helénico. Este tránsito no solo implica cambios técnicos y estilísticos, sino también una profunda mutación en la concepción estética y cultural de la figura humana.</p>
-
-        <p>Durante los siglos VII y VI a.C., la escultura arcaica griega se caracterizaba por formas idealizadas, de líneas rígidas y proporciones simétricas. Figuras como los <em>kouroi</em> (jóvenes masculinos) y <em>korai</em> (jóvenes femeninas) representaban modelos estáticos, con expresiones solemnes y la típica "sonrisa arcaica", reflejando aún una fuerte influencia del arte oriental.</p>
-
-        <p>Sin embargo, con la llegada del siglo V a.C., y en el contexto de una Atenas democrática y culturalmente floreciente, la escultura griega adoptó un enfoque radicalmente diferente. Los artistas comenzaron a buscar una representación más naturalista del cuerpo humano, observando directamente la anatomía y el movimiento. Este nuevo lenguaje visual, centrado en la expresión emocional sutil y el detallismo anatómico, quedó plasmado en obras como las esculturas del Partenón.</p>
-
-        <h3>El “estilo severo” y la figura de la Auriga de Delfos</h3>
-
-        <p>La <strong>Auriga de Delfos</strong> representa de forma ejemplar el periodo de transición entre el arte arcaico y el clásico, concretamente lo que los historiadores del arte denominan el <strong>"estilo severo"</strong>. Este estilo floreció en la primera mitad del siglo V a.C. y se caracteriza por su sobriedad formal, equilibrio y una incipiente búsqueda de realismo.</p>
-
-        <ul>
-          <li><strong>Rigidez atenuada:</strong> aunque la escultura aún mantiene una postura frontal y simétrica, la rigidez arcaica comienza a dar paso a un mayor dinamismo contenido.</li>
-          <li><strong>Expresión contenida:</strong> el rostro del auriga, sobrio y concentrado, transmite una intensidad emocional sin exageración, revelando introspección y disciplina.</li>
-          <li><strong>Simplificación anatómica:</strong> aunque se avanza en la representación del cuerpo humano, los músculos y formas corporales aún muestran esquemas estilizados.</li>
-          <li><strong>Influencia egipcia:</strong> se nota una herencia formal del arte egipcio, visible en la frontalidad y la actitud hierática de la figura.</li>
-        </ul>
-
-        <h3>Un monumento a la excelencia artística y simbólica</h3>
-
-        <p>La Auriga fue descubierta en 1896 en el Santuario de Delfos, y se estima que fue erigida en el año 478 a.C. como conmemoración de una victoria en los Juegos Píticos, dedicados al dios Apolo. Es una escultura de bronce que en su momento habría estado adornada con incrustaciones de marfil y piedras preciosas, hoy perdidas.</p>
-
-        <p>Lo que la hace especialmente fascinante es la extraordinaria calidad técnica con la que fue realizada: los pliegues de la túnica, la anatomía contenida, la postura elegante. Su rostro, sereno y concentrado, sugiere la unión perfecta entre el atleta y su misión, entre cuerpo, mente y destino.</p>
-
-        <h3>Legado y admiración contemporánea</h3>
-
-        <p>Más allá de su innegable valor estético, la Auriga de Delfos posee una profunda dimensión cultural. Es testimonio de la importancia de los rituales cívicos y religiosos de la antigua Grecia, así como de la dedicación del pueblo griego a la excelencia artística.</p>
-
-        <p>Hoy, la escultura ocupa un lugar central en el Museo Arqueológico de Delfos, donde continúa fascinando a historiadores, artistas y visitantes. Su expresividad contenida, su maestría técnica y su carga simbólica la convierten en una de las cumbres del arte griego antiguo.</p>
-      </article>
-    </section>
+    <section class="grid"></section>
   </main>
 
   <footer>
