@@ -1,165 +1,345 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eduardo Alemán</title>
-  <style>
-    :root {
-      --primary-color: #222;
-      --background-color: #fff;
-      --text-color: #111;
-      --accent-color: #ccc;
-    }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Georgia', serif;
-      background-color: var(--background-color);
-      color: var(--text-color);
-      line-height: 1.7;
-      max-width: 900px;
-      margin: auto;
-      padding: 1rem;
-    }
-    header {
-      border-bottom: 4px double var(--accent-color);
-      padding-bottom: 1rem;
-      margin-bottom: 1rem;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      text-align: center;
-      margin-bottom: 0.5rem;
-      text-transform: uppercase;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      font-size: 0.95rem;
-      text-transform: uppercase;
-    }
-    nav a {
-      color: var(--primary-color);
-      text-decoration: none;
-      padding: 0.25rem 0.5rem;
-      border: 1px solid var(--accent-color);
-    }
-    nav a:hover {
-      background-color: var(--accent-color);
-    }
-    .hero {
-      margin: 2rem 0;
-      text-align: center;
-    }
-    .hero h2 {
-      font-size: 1.8rem;
-      margin-bottom: 0.5rem;
-    }
-    .content {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-    .card {
-      border-top: 2px solid var(--accent-color);
-      padding-top: 1rem;
-    }
-    .card img {
-      float: left;
-      margin: 0 1rem 1rem 0;
-      max-width: 200px;
-      height: auto;
-      border: 1px solid var(--accent-color);
-    }
-    .card h3 {
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
-    }
-    .card p {
-      font-size: 1rem;
-      text-align: justify;
-    }
-    .card a {
-      display: inline-block;
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-      text-decoration: underline;
-      color: var(--primary-color);
-    }
-    footer {
-      border-top: 2px solid var(--accent-color);
-      margin-top: 2rem;
-      padding-top: 1rem;
-      text-align: center;
-      font-size: 0.85rem;
-      color: var(--text-color);
-    }
-    footer a {
-      color: var(--text-color);
-      text-decoration: underline;
-      margin: 0 0.5rem;
-    }
-  </style>
+	<title>Eduardo Alemán</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="Content-Security-Policy"
+		content="child-src 'none'; object-src 'none'; script-src 'self' www.googletagmanager.com/gtag/js; connect-src www.google-analytics.com; img-src 'self' data:; base-uri 'self';">
+	<meta name="description" content="Eduardo Alemán. Blog. Bitácora. Lienzo Digital.">
+	<meta name="keywords"
+		content="Eduardo Alemán, Shelley, Aquino, Fedón, Platón, Filosofía, Inmortalidad, Alma, Tarkovsky, Solaris, Criticón, Baltasar Gracián y Morales, Schopenhauer, Sor Juana Inés de la Cruz, Iris Murdoch, Tolstói, Vitruvio, Da Vinci, globalización, Jacques Monod, Alejo Carpentier, Charles Dickens, Heinrich Schliemann, Traviata, Verdi, auriga, Delfos, escultura, griega, griego, Roma">
+	<meta name="author" content="Eduardo Alemán">
+	<link rel="icon" href="data:,">
+	<link rel=“canonical” href=“https://ealeman.com”>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-B1BH7YYTER"></script>
+	<script src="./assets/js/google-analytics.js"> </script>
 </head>
-<body>
-  <header>
-    <h1>Eduardo Alemán</h1>
-    <nav>
-      <a href="#bienvenidos">Bienvenidos</a>
-      <a href="#blog">Blog</a>
-      <a href="#galeria">Galería</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </header>
 
-  <section class="hero" id="bienvenidos">
-    <h2>Hola. Este es mi sitio.</h2>
-    <p>Una página web de presentación.</p>
-  </section>
+<body class="is-preload homepage">
+	<div id="page-wrapper">
 
-  <section class="content" id="blog">
-    <div class="card">
-      <img src="images/leon.jpg" alt="León Sirio">
-      <h3>La globalización</h3>
-      <p>La historia, se dice, está en los ojos del espectador...</p>
-      <a href="vieja.html">Continuar la lectura</a>
-    </div>
-    <div class="card">
-      <img src="images/murdoch.jpg" alt="Iris Murdoch">
-      <h3>Iris Murdoch y la soberanía del bien</h3>
-      <p>Iris Murdoch tenía una perspectiva interesante sobre las metáforas...</p>
-      <a href="vieja.html">Continuar la lectura</a>
-    </div>
-    <div class="card">
-      <img src="images/chimpance.jpg" alt="Tolstói y el arte">
-      <h3>Tolstói, el chimpancé y el significado del arte</h3>
-      <p>En su libro "¿Qué es el arte?" Tolstói propone...</p>
-      <a href="vieja.html">Continuar la lectura</a>
-    </div>
-  </section>
+		<!-- Header -->
+		<div id="header-wrapper">
+			<header id="header" class="container">
 
-  <section class="content" id="galeria">
-    <div class="card">
-      <img src="images/sigismondo.jpg" alt="Sigismondo Pandolfo Malatesta">
-      <h3>Galería Personal</h3>
-      <p>Una selección de imágenes que complementan los temas tratados en el blog.</p>
-      <a href="https://www.flickr.com">Más fotos en Flickr</a>
-    </div>
-  </section>
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="https://ealeman.com/">Eduardo Alemán</a></h1>
+					<span></span>
+				</div>
 
-  <footer id="contacto">
-    <p>© 2025 Eduardo Alemán. Todos los derechos reservados.</p>
-    <p>
-      <a href="https://x.com">Twitter</a>
-      <a href="https://facebook.com">Facebook</a>
-      <a href="https://github.com">GitHub</a>
-    </p>
-  </footer>
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="https://ealeman.com/"
+								aria-label="Este es el inicio del sitio">Bienvenidos</a></li>
+						<li><a href="https://ealeman.com/blog/" aria-label="Este es el inicio del blog">Blog</a></li>
+						<li><a href="https://ealeman.com/bitac/" aria-label="Este es el inicio del blog anterior">Vieja
+								bitácora</a></li>
+					</ul>
+				</nav>
+
+			</header>
+		</div>
+
+		<!-- Banner -->
+		<div id="banner-wrapper">
+			<div id="banner" class="box container">
+				<div class="row">
+					<div class="col-7 col-12-medium">
+						<h2>Hola. Este es mi sitio.</h2>
+						<p>Una página web de presentación.</p>
+					</div>
+					<div class="col-5 col-12-medium">
+						<ul>
+							<li><a href="https://ealeman.com/blog/"
+									class="button large icon solid fa-arrow-circle-right">Blog
+									&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a href="./en/" class="button alt large icon solid fa-question-circle">In
+									English</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Features -->
+		<div id="features-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-12-medium">
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="https://ealeman.com/bitac/p2/#globalizacion" class="image featured"><img
+									src="images/leon_sirio.webp" width="400" height="164"
+									alt="Mosaico de un león sirio." /></a>
+							<div class="inner">
+								<header>
+									<h2>La globalización</h2>
+									<p>La historia, se dice, está en los ojos del espectador. Los persas obviamente no
+										podrían haber visto la conquista que lideró Alejandro de Macedonia y sus
+										falanges sobre un vasto imperio de satrapías de la misma manera que los
+										macedonios o los romanos. Con la quema de Persépolis por parte de un Alejandro
+										embriagado (o calculador) caía el imperio persa. 
+										<a href="https://ealeman.com/bitac/p2/#globalizacion">Continuar la lectura
+											en la vieja bitácora</a>.
+									</p>
+								</header>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+						<!-- Box -->
+						<section class="box feature">
+							<a href="https://ealeman.com/bitac/p3/#murdoch" class="image featured"><img
+									src="./images/Iris_Murdoch.webp" alt="Foto de Iris Murdoch." /></a>
+							<div class="inner">
+								<header>
+									<h2>Iris Murdoch: Las metáforas y la soberanía del bien sobre otros conceptos</h2>
+									<p>Iris Murdoch tenía una perspectiva interesante sobre las metáforas, que a menudo
+										exploraba en sus escritos filosóficos. En su libro "La metafísica como guía para
+										la moral", Murdoch profundiza en el papel del pensamiento metafórico en la
+										configuración de nuestra comprensión de la realidad y nuestra vida moral. <a
+											href="https://ealeman.com/bitac/p3/#murdoch">Continuar la lectura en la
+											vieja bitácora</a>.</p>
+								</header>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="https://ealeman.com/bitac/p2/#tolstoi" class="image featured"><img
+									src="images/congo_chimp_pintura.webp" loading="lazy" width="391" height="299"
+									alt="Pintura del chimpancé Congo de estilo lírico abstracto impresionista. Dominio Público." /></a>
+							<div class="inner">
+								<header>
+									<h2>Tolstói, el chimpancé y el significado del arte</h2>
+									<p>En el extracto de su libro "¿Qué es el arte?", el famoso novelista ruso León
+										Tolstói caracteriza el arte en términos de comunicación de sentimientos entre
+										personas o "infección" a través del medio artístico ("los movimientos, las
+										líneas, los colores"). También propone una regla general para juzgar la obra de
+										arte: "cuanto más fuerte sea la infección, mejor será el arte". Este "contagio
+										infeccioso" de sentimientos, según Tolstói, es posible cuando "la
+										individualidad, la claridad y la sinceridad" son incrustadas en la obra de arte
+										por el artista. <a href="https://ealeman.com/bitac/p2/#tolstoi">Continuar la
+											lectura en la vieja bitácora</a>.</p>
+								</header>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id="main-wrapper">
+			<div class="container">
+				<div class="row gtr-200">
+					<div class="col-4 col-12-medium">
+
+						<!-- Sidebar -->
+						<div id="sidebar">
+							<section class="widget thumbnails">
+								<h3>Galería Personal</h3>
+								<div class="grid">
+									<div class="row gtr-50">
+										<div class="col-6"><a
+												href="https://www.flickr.com/photos/156266132@N07/53819464642/"
+												class="image fit"><img src="./images/Piero_Francesca_Louvre.webp"
+													loading="lazy" alt="El Retrato de Sigismondo Pandolfo Malatesta es una pintura atribuida al maestro del Renacimiento italiano Piero della Francesca (c. 1451). 
+													Retrata al condottiero y señor de Rimini y Fano Sigismondo Pandolfo Malatesta, 
+													y se encuentra en el Museo del Louvre de París." /></a>
+										</div>
+										<div class="col-6"><a
+												href="https://www.flickr.com/photos/156266132@N07/53820719804/"
+												class="image fit"><img src="./images/Euripedes_Louvre.webp"
+													loading="lazy" alt="Estatuilla, adaptación helenística de un Eurípides de influencia lisípica (tercer cuarto del siglo IV a. C.) 
+													y se encuentra en el Museo del Louvre de París." /></a>
+										</div>
+										<div class="col-6"><a
+												href="https://www.flickr.com/photos/156266132@N07/53820380261/"
+												class="image fit"><img src="./images/Bachus_Louvre.webp" loading="lazy"
+													alt="Baco era el dios romano de la agricultura, el vino y la fertilidad, equivalente al dios griego Dioniso." /></a>
+										</div>
+										<div class="col-6"><a
+												href="https://www.flickr.com/photos/156266132@N07/53820381471/"
+												class="image fit"><img src="./images/Rafael_St_Michael_Louvre.webp"
+													loading="lazy"
+													alt="San Miguel es una pintura al óleo del artista italiano Rafael. 
+													También llamado el Pequeño San Miguel para distinguirlo de un tratamiento posterior 
+													más amplio del mismo tema, San Miguel venciendo a Satanás, ahora se encuentra en el Louvre de París." /></a>
+										</div>
+									</div>
+								</div>
+								<a href="https://www.flickr.com/photos/156266132@N07/"
+									class="button icon fa-file-alt">Más fotos en Flickr</a>
+							</section>
+						</div>
+
+					</div>
+					<div class="col-8 col-12-medium imp-medium">
+
+						<!-- Content -->
+						<div id="content">
+							<section class="last">
+								<h2>Mi más reciente traducción. Disponible en mi blog.</h2>
+								<p>El número cristiano y sus implicaciones de Keith Hopkins</p>
+								<p>Este artículo es un experimento tanto en método como en sustancia. En esencia, quiero
+									mostrar que, con toda probabilidad, hubo muy pocos cristianos en el mundo romano, al
+									menos hasta finales del siglo II. Luego exploro las implicaciones de un número
+									pequeño, tanto en términos absolutos como en proporción a la población total del
+									imperio.</p>
+								<p>Una conclusión provisional pero radical es que el cristianismo fue, durante un siglo
+									después de la muerte de Jesús, propiedad intelectual de apenas unas pocas docenas,
+									tal vez llegando hasta los doscientos, de varones adultos alfabetizados, dispersos
+									por toda la cuenca mediterránea. Una conclusión complementaria (por supuesto, bien
+									conocida en principio, pero no explorada a menudo por sus implicaciones) es que, con
+									diferencia, el mayor crecimiento en el número de cristianos tuvo lugar en dos fases
+									distintas: primero, durante el siglo III, cuando los cristianos y sus líderes eran
+									las víctimas de persecuciones por todo el imperio y estas eran organizadas
+									centralmente
+									; y luego en el siglo IV, tras la conversión de Constantino y la alianza de la
+									Iglesia con el Estado romano bajo sucesivos emperadores. El pequeño tamaño de la
+									iglesia primitiva y la escala y velocidad de su crecimiento posterior tuvieron
+									importantes implicaciones para el carácter y la organización del cristianismo.
+									<br><br>
+									<a href="https://ealeman.com/blog/entradas/el-n%C3%BAmero-cristiano-y-sus-implicaciones/"
+										class="button icon solid fa-arrow-circle-right">Continúa leyendo en la nueva
+										bitácora</a>.
+								</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer-wrapper">
+			<footer id="footer" class="container">
+				<div class="row">
+					<div class="col-3 col-6-medium col-12-small">
+
+						<!-- Links -->
+						<section class="widget links">
+							<a href="https://www.unimuseum.uni-tuebingen.de/en/collections/collection-of-prehistory"><img
+									src="./images/caballo_vogelherd.webp" width="80" height="80"
+									alt="Caballo Vogelherd hecho de marfil de mamut, de alrededor de 40.000 años."></a>
+							<ul class="style2">
+								</li>
+								<li><a href="https://musee-prehistoire-eyzies.fr/collection/objet/bison-se-lechant"><img
+											src="./images/bisonte_paleolitico.webp" width="80" height="80"
+											alt="Figura de bisonte sobre marfil, 10 cm, Museo Nacional Les Eyzies, ubicación: Sitio arqueológico La Madeleine, Francia."></a>
+								</li>
+								<li><a href="https://www.metmuseum.org/art/collection/search/329073"><img
+											src="./images/mujer_sentada_usbekistan_met.webp" width="80" height="86"
+											alt="Mujer sentada de la edad del bronce. complejo arqueológico Bactria-Marguiana o cultura del río Oxus."></a>
+								</li>
+							</ul>
+						</section>
+
+					</div>
+					<div class="col-3 col-6-medium col-12-small">
+
+						<!-- Links -->
+						<section class="widget links">
+							<a href="https://www.cultura.gob.es/mnaltamira/cueva-altamira/arte.html"><img
+									src="./images/bisonte_cueva_altamira.webp" width="80" height="80"
+									alt="Bisonte en la cueva de Altamira, España."></a>
+							<ul class="style2">
+								<li><a href="https://archeologie.culture.gouv.fr/lascaux/es"><img
+											src="./images/Lascaux_Megaloceros.webp" width="80" height="80"
+											alt="Megaloceros en la cueva de Lascaux, Francia."></a></li>
+								<li><a href="https://grottesdegargas.fr/visite-virtuelle/"><img src="./images/Manos_de_Gargas_(Francia).webp" width="80" height="80"
+										alt="Manos en negativo de la cueva de Gargas, Altos Pirineos, Francia."></a></li>
+							</ul>
+						</section>
+
+					</div>
+					<div class="col-3 col-6-medium col-12-small">
+
+						<!-- Links -->
+						<section class="widget links">
+							<img src="./images/anarchy-symbol.svg" width="80" height="80" alt="Símbolo anarquista">
+							<ul class="style2">
+								<li>"La esencia del anarquismo es la convicción de que la carga de la prueba para
+									justificar cualquier jerarquía de poder debe recaer en la autoridad, y si no es
+									legítima, debe ser desmantelada."
+								</li>
+								<li>Noam Chomsky</li>
+							</ul>
+						</section>
+
+					</div>
+					<div class="col-3 col-6-medium col-12-small">
+
+						<!-- Contact -->
+						<section class="widget contact last">
+							<h3>Conectarse via</h3>
+							<ul>
+								<li><a href="https://x.com/JEduardoAleman" aria-label="Esta es mi página de Twitter o X"
+										class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li><a href="https://www.facebook.com/jeduardoaleman/"
+										aria-label="Esta es mi página de Facebook"
+										class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/lampsacus" aria-label="Esta es mi página de GitHub"
+										class="icon brands fa-github"><span class="label">GitHub/span></a></li>
+							</ul>
+						</section>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div id="copyright">
+							<ul class="menu">
+								<li>Eduardo Alemán&nbsp;is licensed under <a
+										href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
+										target="_blank" rel="license noopener noreferrer">CC BY-NC-ND 4.0<img
+											style="height: 22px!important;margin-left: 3px;vertical-align: text-bottom"
+											src="./images/cc.svg" alt=""><img
+											style="height: 22px!important;margin-left: 3px;vertical-align: text-bottom"
+											src="./images/by.svg" alt=""><img
+											style="height: 22px!important;margin-left: 3px;vertical-align: text-bottom"
+											src="./images/nc.svg" alt=""><img
+											style="height: 22px!important;margin-left: 3px;vertical-align: text-bottom"
+											src="./images/nd.svg" alt=""></a></li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
