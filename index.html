@@ -22,22 +22,22 @@
       padding: 0;
     }
     header, main, footer {
-      max-width: 960px;
+      max-width: 1400px;
       margin: auto;
-      padding: 1rem;
+      padding: 2rem;
     }
     header {
       border-bottom: 3px double #aaa;
       text-align: center;
     }
     header h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       margin-bottom: 0.25rem;
     }
     nav ul {
       display: flex;
       justify-content: center;
-      gap: 2rem;
+      gap: 3rem;
       list-style: none;
       padding: 0;
       margin: 0;
@@ -45,53 +45,45 @@
     nav a {
       text-decoration: none;
       font-weight: bold;
+      font-size: 1.1rem;
       color: #222;
     }
     .dateline {
-      font-size: 0.9rem;
+      font-size: 1rem;
       color: #666;
       text-align: center;
-      margin: 0.5rem 0 1rem;
+      margin: 0.5rem 0 1.5rem;
     }
     .lead {
       background: #eee;
-      padding: 1rem;
-      font-size: 1.2rem;
+      padding: 1.5rem;
+      font-size: 1.4rem;
       text-align: center;
       font-style: italic;
+      margin-bottom: 2rem;
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1rem;
-      margin: 1.5rem 0;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 2rem 0;
     }
     article {
       border-top: 1px solid #ccc;
-      padding-top: 0.75rem;
-    }
-    article img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 0.75rem;
+      padding-top: 1rem;
     }
     article h2 {
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
     }
     article p {
       text-align: justify;
-      font-size: 0.95rem;
-    }
-    .gallery img {
-      max-width: 100px;
-      margin: 0.3rem;
-      border: 1px solid #ccc;
+      font-size: 1rem;
     }
     footer {
       border-top: 3px double #aaa;
       text-align: center;
-      font-size: 0.9rem;
+      font-size: 1rem;
       padding: 2rem 1rem;
       color: #444;
     }
@@ -122,36 +114,23 @@
 
     <section class="grid">
       <article>
-        <img src="images/leon_sirio.webp" alt="Mosaico de un león sirio.">
         <h2>La globalización</h2>
         <p>La historia, se dice, está en los ojos del espectador... <a href="/bitac/p2/#globalizacion">Continuar la lectura</a>.</p>
       </article>
       <article>
-        <img src="images/Iris_Murdoch.webp" alt="Foto de Iris Murdoch.">
         <h2>Iris Murdoch: Las metáforas y la soberanía del bien</h2>
         <p>Iris Murdoch tenía una perspectiva interesante sobre las metáforas... <a href="/bitac/p3/#murdoch">Continuar la lectura</a>.</p>
       </article>
       <article>
-        <img src="images/congo_chimp_pintura.webp" alt="Pintura del chimpancé Congo.">
         <h2>Tolstói, el chimpancé y el significado del arte</h2>
         <p>En su libro "¿Qué es el arte?"... <a href="/bitac/p2/#tolstoi">Continuar la lectura</a>.</p>
       </article>
-    </section>
-
-    <section>
-      <h2>Mi más reciente traducción</h2>
-      <p><strong>El número cristiano y sus implicaciones</strong> de Keith Hopkins</p>
-      <p>Este artículo es un experimento tanto en método como en sustancia...</p>
-      <p><a href="/blog/entradas/el-n%C3%BAmero-cristiano-y-sus-implicaciones/">Continúa leyendo en la nueva bitácora</a>.</p>
-    </section>
-
-    <section class="gallery">
-      <h2>Galería Personal</h2>
-      <a href="https://www.flickr.com/photos/156266132@N07/53819464642/"><img src="images/Piero_Francesca_Louvre.webp" alt="Sigismondo"></a>
-      <a href="https://www.flickr.com/photos/156266132@N07/53820719804/"><img src="images/Euripedes_Louvre.webp" alt="Eurípides"></a>
-      <a href="https://www.flickr.com/photos/156266132@N07/53820380261/"><img src="images/Bachus_Louvre.webp" alt="Baco"></a>
-      <a href="https://www.flickr.com/photos/156266132@N07/53820381471/"><img src="images/Rafael_St_Michael_Louvre.webp" alt="San Miguel"></a>
-      <p><a href="https://www.flickr.com/photos/156266132@N07/">Ver más fotos en Flickr</a></p>
+      <article>
+        <h2>Mi más reciente traducción</h2>
+        <p><strong>El número cristiano y sus implicaciones</strong> de Keith Hopkins</p>
+        <p>Este artículo es un experimento tanto en método como en sustancia...</p>
+        <p><a href="/blog/entradas/el-n%C3%BAmero-cristiano-y-sus-implicaciones/">Continúa leyendo en la nueva bitácora</a>.</p>
+      </article>
     </section>
   </main>
 
@@ -159,7 +138,6 @@
     <p>© 2025 Eduardo Alemán — <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
       <img src="images/cc.svg" alt="CC" /><img src="images/by.svg" alt="BY" /><img src="images/nc.svg" alt="NC" /><img src="images/nd.svg" alt="ND" />
     </p>
-    
   </footer>
 </body>
 </html>
