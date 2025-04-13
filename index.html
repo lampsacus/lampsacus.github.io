@@ -71,11 +71,9 @@
       filter: contrast(1.1) saturate(1.05) brightness(1.02);
       background: repeating-linear-gradient(45deg, #fff, #fff 2px, #f0f0f0 2px, #f0f0f0 4px);
     }
-    
-  background-color: #f8f8f8;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  margin-bottom: 2rem;
+    .favorite-sites {
+      padding: 1rem;
+    }
     .favorite-sites h2 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
@@ -88,12 +86,13 @@
       margin-bottom: 0.5rem;
       font-size: 1rem;
     }
-    
-  display: inline-block;
-  transition: all 0.2s ease;
-    
-  transform: translateX(4px);
-  transition: all 0.2s ease;
+    .favorite-sites a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+    .favorite-sites a:hover {
+      text-decoration: underline;
+    }
     .article-section {
       max-width: 100%;
       padding: 2rem;
@@ -151,16 +150,7 @@
       height: 20px;
       margin-left: 4px;
     }
-  .favorite-sites h3 {
-  background-color: #ececec;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-
+  </style>
 </head>
 <body>
   <header>
