@@ -14,8 +14,8 @@
       margin: 0;
       padding: 0;
     }
-    header, footer {
-      max-width: 1400px;
+    header, footer, main {
+      max-width: 1200px;
       margin: auto;
       padding: 2rem;
     }
@@ -23,11 +23,14 @@
       border-bottom: 3px double #aaa;
       text-align: center;
     }
-    header h1 { font-size: 3rem; margin-bottom: 1.5rem; }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
     nav ul {
       display: flex;
       justify-content: center;
-      gap: 3rem;
+      gap: 2rem;
       list-style: none;
       padding: 0;
       margin: 0;
@@ -40,17 +43,11 @@
     }
     main {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, auto);
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 2rem;
-      max-width: 1400px;
-      margin: auto;
-      padding: 2rem;
     }
     section {
       padding: 1rem;
-    }
-    .center-image, .flicker, .favorite-sites, .article-section {
       background-color: #fff;
       border: 1px solid #ddd;
       box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
@@ -60,6 +57,7 @@
       height: auto;
       border: 1px solid #ccc;
       box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+      margin-bottom: 0.5rem;
     }
     .image-center { text-align: center; margin-bottom: 1rem; }
     .image-center figcaption {
@@ -72,9 +70,15 @@
       font-size: 1.5rem;
       margin-bottom: 1rem;
     }
+    .favorite-sites ul {
+      padding-left: 1.2rem;
+    }
+    .favorite-sites li, .article-section p, .article-section li {
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+    }
     .article-section p, .article-section li {
       text-align: justify;
-      font-size: 1.05rem;
     }
     footer {
       border-top: 3px double #aaa;
@@ -103,9 +107,9 @@
   <main>
     <section class="center-image">
       <img src="/images/eduardo-delfos-art.png" alt="Eduardo Alemán frente al templo de Delfos">
-      <p style="font-style: italic; color: #555; margin-top: 0.5rem;">Recreada por ChatGPT 4o</p>
+      <p style="font-style: italic; color: #555;">Recreada por ChatGPT 4o</p>
       <img src="https://ealeman.com/bitac/peregrinajes/assets/images/el_autor_en_las_ruinas_del_%20templo%20_de_apolo_en_delfos.jpg" alt="El autor en las ruinas del templo de Apolo en Delfos">
-      <p style="font-style: italic; color: #555; margin-top: 0.5rem;">
+      <p style="font-style: italic; color: #555;">
         El autor frente a las ruinas del templo de Apolo en Delfos, Grecia. En el frontispicio o pronaos de este templo estaba inscrito el famoso aforismo griego <em>"Conócete a ti mismo"</em>.
       </p>
     </section>
@@ -117,18 +121,18 @@
         <li><a href="https://www.metmuseum.org/" target="_blank">🎨 Metropolitan Museum of Art</a></li>
         <li><a href="https://www.louvre.fr/en" target="_blank">🏛️ Musée du Louvre</a></li>
         <li><a href="https://www.britishmuseum.org/" target="_blank">🗿 British Museum</a></li>
-        <li><a href="https://www.museodelprado.es/" target="_blank">🖌️ Museo del Prado</a></li>
+        <li><a href="https://www.museodelprado.es/" target="_blank">🖼️ Museo del Prado</a></li>
       </ul>
       <h3>📚 Filosofía y Humanidades</h3>
       <ul>
         <li><a href="https://plato.stanford.edu/" target="_blank">📚 Stanford Encyclopedia of Philosophy</a></li>
-        <li><a href="https://www.perseus.tufts.edu/" target="_blank">🏺 Perseus Digital Library</a></li>
+        <li><a href="https://www.perseus.tufts.edu/" target="_blank">🧚 Perseus Digital Library</a></li>
         <li><a href="https://www.britannica.com/" target="_blank">📖 Encyclopædia Britannica</a></li>
         <li><a href="https://iep.utm.edu/" target="_blank">🧠 Internet Encyclopedia of Philosophy</a></li>
       </ul>
-      <h3>📘 Literatura y Archivos Digitales</h3>
+      <h3>💘 Literatura y Archivos Digitales</h3>
       <ul>
-        <li><a href="https://www.cervantesvirtual.com/" target="_blank">📘 Biblioteca Virtual Miguel de Cervantes</a></li>
+        <li><a href="https://www.cervantesvirtual.com/" target="_blank">💘 Biblioteca Virtual Miguel de Cervantes</a></li>
         <li><a href="https://bibliotecadigital.bnp.gob.pe/" target="_blank">📖 Biblioteca Nacional del Perú</a></li>
         <li><a href="https://www.archive.org/" target="_blank">🌐 Internet Archive</a></li>
         <li><a href="https://www.gutenberg.org/" target="_blank">📗 Project Gutenberg</a></li>
@@ -138,12 +142,16 @@
 
     <section class="flicker">
       <a data-flickr-embed="true" href="https://www.flickr.com/photos/156266132@N07/albums/72177720316057724" title="Greece">
-        <img src="https://live.staticflickr.com/65535/53636874845_c171214460.jpg" width="640" height="480" alt="Greece"/>
+        <img src="https://live.staticflickr.com/65535/53636874845_c171214460.jpg" width="100%" alt="Greece"/>
       </a>
-      <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
     </section>
-    <a data-flickr-embed="true" href="https://www.flickr.com/photos/156266132@N07/albums/72177720315884091" title="Paris"><img src="https://live.staticflickr.com/65535/53625633092_c09a21e6c3_z.jpg" width="640" height="480" alt="Paris"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+    <section class="flicker">
+      <a data-flickr-embed="true" href="https://www.flickr.com/photos/156266132@N07/albums/72177720315884091" title="Paris">
+        <img src="https://live.staticflickr.com/65535/53625633092_c09a21e6c3_z.jpg" width="100%" alt="Paris"/>
+      </a>
+    </section>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   </main>
 
   <footer>
