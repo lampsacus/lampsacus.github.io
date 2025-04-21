@@ -9,318 +9,613 @@
 
 <url>
   <loc>https://ealeman.com/</loc>
-  <lastmod>2024-06-29T04:59:00+00:00</lastmod>
+  <lastmod>2025-04-21T01:19:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/en/</loc>
-  <lastmod>2024-06-29T04:59:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/bitac/p2/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/bitac/p3/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/blog/post/el-numero-cristiano-y-sus-implicaciones/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://ealeman.com/blog/buscar/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/debate-presidencial/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/archivos/</loc>
+  <lastmod>2025-04-21T00:24:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/el-ion-de-platon-la-traduccion-de-shelley/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/la-naturaleza-de-la-computaci%C3%B3n/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/fraile-tomas-de-aquino/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/problema-halt/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/interpretando-a-platon/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/funciones_primitivas_recursivas/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/obituario-goodyear/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/periodoluminosidad/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/xxi-la-estructura-de-los-anales/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/comparaci%C3%B3n-entre-la-mec%C3%A1nica-cl%C3%A1sica-y-la-cu%C3%A1ntica/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/el-%C3%BAltimo-emperador-pagano/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/identidad-de-euler/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/palimpsesto/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/el-pensar-del-ser-en-heidegger/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/procopio-y-el-siglo-sexto/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/de-platon-a-penrose/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/amanecer-de-todo/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/la-polis-hansen/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/page/2/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/peregrinajes/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/bitac/techne/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/blog/categories/actualidad/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/categories/alma/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/anales/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/anarquismo/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/antig%C3%BCedad/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/categories/biden/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/categories/antropolog%C3%ADa/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/arist%C3%B3teles/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/arquelog%C3%ADa/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/astronom%C3%ADa/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/cefeidas/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/ciudad-estado/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/computaci%C3%B3n/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/conciencia/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/consciencia/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/constantinopla/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/cristianismo/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/cristianismo-primitivo/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/cultura-de-ciudad-estado/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/david-graeber/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/david-wengrow/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/diccionario/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/e-n-tigerstedt/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/blog/categories/ee-uu/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://ealeman.com/blog/categories/elecciones/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/emperadores/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/ensayos/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/escol%C3%A1stica/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/estrellas-variables/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/euler/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/f-r-d-goodyear/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/filosof%C3%ADa/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/f%C3%ADsica/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/grecia/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/guerra-del-peloponeso/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/h-c-teitler/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/hamilton/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/hamiltoniano/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/heidegger/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/henrietta-leavitt/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/herman-hansen-de-mogen/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/historia/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/historia-de-la-ciencia/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/historia-de-las-ideas/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/inteligencia-artificial/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/jaime-a-weisheipl/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/john-lauritsen/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/juliano/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/justiniano/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/keith-hopkins/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/k%C3%B6nigsberg/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/libro-1/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/l%C3%B3gica/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/matem%C3%A1ticas/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/mec%C3%A1nica-cl%C3%A1sica/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/mec%C3%A1nica-cu%C3%A1ntica/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/medici%C3%B3n-de-distancias/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/medioevo/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/mente/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/ontolog%C3%ADa/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/oxirrinco/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/papiros/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/paul-woodruff/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/penrose/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/percy-bysshe-shelley/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/periodo-luminosidad/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/plat%C3%B3n/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/categories/pol%C3%ADtica/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/categories/polis/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/prehistoria/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/procopio/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/roma/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/ronald-syme/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/t%C3%A1cito/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/teor%C3%ADa-de-grafos/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/tom%C3%A1s-de-aquino/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ealeman.com/blog/categories/traducci%C3%B3n/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/categories/trump/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/categories/tuc%C3%ADdides/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/anafora/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/guerra-del-peloponeso-libro-1-tuc%C3%ADdides/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/ablativo/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/el-n%C3%BAmero-cristiano-y-sus-implicaciones/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/acusativo/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/interpretando-a-plat%C3%B3n/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/blog/post/aoristo/</loc>
-  <lastmod>2024-06-29T09:16:25+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/guerra-del-peloponeso-tuc%C3%ADdides/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/entrada/2022/la-identidad-de-euler/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/el-i%C3%B3n-de-plat%C3%B3n-la-traducci%C3%B3n-de-shelley/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/notas/2022/exportando-wordpress-a-markdown/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/fraile-tom%C3%A1s-de-aquino/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/notas/2022/tema-xmin/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/xxi-la-estructura-de-los-anales/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/notas/2022/06-21-instalar-y-configurar-apache2-y-php7/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/el-%C3%BAltimo-emperador-pagano/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/notas/2022/06-18-actualizando-a-ubuntu-22-04/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/procopio-y-el-siglo-sexto/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/entrada/2022/las-meditaciones-de-marcus-aurelius-excerpta-en-ingles/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/obituario-goodyear/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/entrada/2022/el-pragmatismo-y-la-filosofia/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/diccionario/palimpsesto/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://ealeman.com/bitac/techne/entrada/2020/la-palabra-griega-%E1%BC%80%CE%BB%CE%AE%CE%B8%CE%B5%CE%B9%CE%B1-verdad/</loc>
-  <lastmod>2024-06-27T03:05:10+00:00</lastmod>
+  <loc>https://ealeman.com/blog/entradas/diccionario/edici%C3%B3n-cr%C3%ADtica/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
   <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/fuentes-primarias/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/editio-princeps/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/c%C3%B3dices/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/papiros-de-oxirrinco/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/an%C3%A1fora/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/bibliograf%C3%ADa/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/apex/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/aoristo/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/alternancia/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/aliteraci%C3%B3n/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/legiones-romanas/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/fuentes-secundarias/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/ablativo/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/diccionario/acusativo/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/page/3/</loc>
+  <lastmod>2025-04-21T00:24:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/categories/diccionario/page/2/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/page/2/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/page/4/</loc>
+  <lastmod>2025-04-21T00:24:56+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/page/3/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ealeman.com/blog/entradas/page/4/</loc>
+  <lastmod>2025-04-21T00:24:55+00:00</lastmod>
+  <priority>0.26</priority>
 </url>
 
 
