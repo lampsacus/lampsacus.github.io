@@ -6,26 +6,31 @@
   <title>Eduardo Alemán</title>
   <style>
     html { scroll-behavior: smooth; }
+
     body {
-      font-family: 'Georgia', serif;
+      font-family: Georgia, serif;
       background-color: #fdfdfd;
       color: #111;
       margin: 0;
       padding: 0;
     }
+
     header, footer, main {
       max-width: 1200px;
       margin: auto;
       padding: 2rem;
     }
+
     header {
       border-bottom: 3px double #aaa;
       text-align: center;
     }
+
     header h1 {
       font-size: 3rem;
       margin-bottom: 1.5rem;
     }
+
     nav ul {
       display: flex;
       justify-content: center;
@@ -34,57 +39,61 @@
       padding: 0;
       margin: 0;
     }
+
     nav a {
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1rem;
       color: #222;
     }
+
     main {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 2rem;
     }
+
     section {
       padding: 1rem;
       background-color: #fff;
       border: 1px solid #ddd;
       box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
     }
-    .center-image img, .image-center img {
+
+    figure {
+      text-align: center;
+      margin: 0;
+    }
+
+    figure img {
       max-width: 100%;
       height: auto;
       border: 1px solid #ccc;
-      box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
       margin-bottom: 0.5rem;
     }
-    .image-center { text-align: center; margin-bottom: 1rem; }
-    .image-center figcaption {
+
+    figure figcaption {
       font-style: italic;
       font-size: 0.95rem;
       color: #555;
+      line-height: 1.6;
       margin-top: 0.5rem;
     }
-    .favorite-sites h2, .article-section h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
-    .favorite-sites ul {
-      padding-left: 1.2rem;
-    }
-    .favorite-sites li, .article-section p, .article-section li {
+
+    .lecturas p {
       font-size: 1.05rem;
       margin-bottom: 0.5rem;
-    }
-    .article-section p, .article-section li {
       text-align: justify;
     }
+
     footer {
       border-top: 3px double #aaa;
       text-align: center;
       font-size: 1rem;
       color: #444;
     }
+
     footer img {
       vertical-align: middle;
       height: 20px;
@@ -103,23 +112,21 @@
   </header>
 
   <main>
-     <section class="center-image">
-      <img src="images/el_autor_en_las_ruinas_del_ templo _de_apolo_en_delfos.webp" alt="El autor en las ruinas del templo de Apolo en Delfos">
-      
+    <section>
+      <figure>
+        <img src="images/el_autor_en_las_ruinas_del_templo_de_apolo_en_delfos.webp" alt="El autor en las ruinas del templo de Apolo en Delfos">
+        <figcaption>
+          El autor frente a las ruinas del Templo de Apolo en Delfos, Grecia. En el frontispicio o <em>pronaos</em> del templo, justo en la entrada al <em>adyton</em> —el espacio más sagrado del santuario donde la Pitia pronunciaba sus enigmáticos oráculos— estaba inscrito uno de los más célebres aforismos de la antigüedad: <strong>“Γνῶθι σεαυτόν”</strong> (<em>Gnōthi seautón</em>), que en griego significa <strong>“Conócete a ti mismo”</strong>. Esta frase no solo funcionaba como advertencia para los peregrinos que buscaban respuestas del dios, sino que también reflejaba la esencia del pensamiento filosófico griego: el reconocimiento de los límites humanos y la búsqueda del autoconocimiento como primer paso hacia la sabiduría.
+        </figcaption>
+      </figure>
     </section>
 
-    <section class="middle">
-     <figcaption style="font-size: 0.95em; font-style: italic; color: #555; line-height: 1.6;">
-  El autor frente a las ruinas del Templo de Apolo en Delfos, Grecia. En el frontispicio o <em>pronaos</em> del templo, justo en la entrada al <em>adyton</em> —el espacio más sagrado del santuario donde la Pitia pronunciaba sus enigmáticos oráculos— estaba inscrito uno de los más célebres aforismos de la antigüedad: <strong>“Γνῶθι σεαυτόν”</strong> (<em>Gnōthi seautón</em>), que en griego significa <strong>“Conócete a ti mismo”</strong>. Esta frase no solo funcionaba como advertencia para los peregrinos que buscaban respuestas del dios, sino que también reflejaba la esencia del pensamiento filosófico griego: el reconocimiento de los límites humanos y la búsqueda del autoconocimiento como primer paso hacia la sabiduría.
-</figcaption>
-    </section>
-     <section class="lecturas">
-       <p>Lecturas en primavera</p>
-<p>Moore, Cristopher, and Mertens, Stephan. The Nature of Computation. United Kingdom, OUP Oxford, 2011.</p>
-       <p>Heidegger, Martin. Ser y tiempo. Chile, Editorial Universitaria de Chile, 2022.</p>
-       <p>Chomsky, Noam. The Fateful Triangle: The United States, Israel, and the Palestinians. United States, Haymarket Books, 2014.</p>
-       <p>Proust, Marcel, and Manzano, Carlos. En busca del tiempo perdido. Spain, RBA Libros, 2013.</p>
-       
+    <section class="lecturas">
+      <p><strong>Lecturas en primavera</strong></p>
+      <p>Moore, Cristopher, and Mertens, Stephan. <em>The Nature of Computation</em>. OUP Oxford, 2011.</p>
+      <p>Heidegger, Martin. <em>Ser y tiempo</em>. Editorial Universitaria de Chile, 2022.</p>
+      <p>Chomsky, Noam. <em>The Fateful Triangle: The United States, Israel, and the Palestinians</em>. Haymarket Books, 2014.</p>
+      <p>Proust, Marcel, and Manzano, Carlos. <em>En busca del tiempo perdido</em>. RBA Libros, 2013.</p>
     </section>
   </main>
 
