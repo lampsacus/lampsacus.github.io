@@ -2686,3 +2686,9 @@ input, select, textarea {
 			}
 
 	}
+/* Asegura que el banner tenga el mismo ancho que otras secciones */
+#banner.box.container {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
