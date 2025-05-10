@@ -2686,9 +2686,21 @@ input, select, textarea {
 			}
 
 	}
-/* Asegura que el banner tenga el mismo ancho que otras secciones */
+/* Alineación visual del banner con el resto de la página */
 #banner.box.container {
+  width: 100%;
   max-width: 90%;
-  width: 90%;
+  padding: 5em 30px;
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
 }
+
+/* Ajuste para pantallas pequeñas */
+@media screen and (max-width: 736px) {
+  #banner.box.container {
+    padding: 3em 15px;
+    max-width: 100%;
+  }
+}
+
