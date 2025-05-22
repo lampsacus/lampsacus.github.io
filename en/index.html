@@ -1,152 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eduardo Alemán</title>
-  <style>
-    html { scroll-behavior: smooth; }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduardo Alemán</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
 
-    body {
-      font-family: Georgia, serif;
-      background-color: #fdfdfd;
-      color: #111;
-      margin: 0;
-      padding: 0;
-    }
+      body {
+        font-family: Georgia, serif;
+        background-color: #fdfdfd;
+        color: #111;
+        margin: 0;
+        padding: 0;
+      }
 
-    header, footer, main {
-      max-width: 1200px;
-      margin: auto;
-      padding: 2rem;
-    }
+      header,
+      footer,
+      main {
+        max-width: 1200px;
+        margin: auto;
+        padding: 2rem;
+      }
 
-    header {
-      border-bottom: 3px double #aaa;
-      text-align: center;
-    }
+      header {
+        border-bottom: 3px double #aaa;
+        text-align: center;
+      }
 
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-    }
+      header h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+      }
 
-    nav ul {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
 
-    nav a {
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1rem;
-      color: #222;
-    }
+      nav a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #222;
+      }
 
-    main {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-    }
+      main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
 
-    section {
-      padding: 1rem;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
-    }
+      section {
+        padding: 1rem;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+      }
 
-    figure {
-      text-align: center;
-      margin: 0;
-    }
+      figure {
+        text-align: center;
+        margin: 0;
+      }
 
-    figure img {
-      max-width: 100%;
-      height: auto;
-      border: 1px solid #ccc;
-      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 0.5rem;
-    }
+      figure img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0.5rem;
+      }
 
-    figure figcaption {
-      font-style: italic;
-      font-size: 0.95rem;
-      color: #555;
-      line-height: 1.6;
-      margin-top: 0.5rem;
-    }
+      figure figcaption {
+        font-style: italic;
+        font-size: 0.95rem;
+        color: #555;
+        line-height: 1.6;
+        margin-top: 0.5rem;
+      }
 
-    .lecturas p {
-      font-size: 1.05rem;
-      margin-bottom: 0.5rem;
-      text-align: justify;
-    }
+      .lecturas p {
+        font-size: 1.05rem;
+        margin-bottom: 0.5rem;
+        text-align: justify;
+      }
 
-    footer {
-      border-top: 3px double #aaa;
-      text-align: center;
-      font-size: 1rem;
-      color: #444;
-    }
+      footer {
+        border-top: 3px double #aaa;
+        text-align: center;
+        font-size: 1rem;
+        color: #444;
+      }
 
-    footer img {
-      vertical-align: middle;
-      height: 20px;
-      margin-left: 4px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Eduardo Alemán</h1>
-    <nav>
-      <ul>
-        <li><a href="https://ealeman.com">es</a></li>
-        <li><a href="https://github.com/lampsacus"><img src="/images/github-mark.svg" width="20" height="20" alt="Go to the author's GitHub repository"></a></li>
-      </ul>
-    </nav>
-  </header>
+      footer img {
+        vertical-align: middle;
+        height: 20px;
+        margin-left: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Eduardo Alemán</h1>
+      <nav>
+        <ul>
+          <li><a href="https://ealeman.com">es</a></li>
+          <li>
+            <a href="https://github.com/lampsacus"
+              ><img
+                src="/images/github-mark.svg"
+                width="20"
+                height="20"
+                alt="Go to the author's GitHub repository"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <section>
-      <figure>
-        <img src="/images/en_delfos.webp" alt="The author at the ruins of the Temple of Apollo in Delphi">
-        <figcaption>
-          The author in front of the ruins of the Temple of Apollo in Delphi, Greece. On the front of the temple, or <em>pronaos</em>, right at the entrance to the <em>adyton</em> —the most sacred space of the sanctuary where the Pythia delivered her enigmatic oracles— was inscribed one of the most famous aphorisms of antiquity: <strong>“Γνῶθι σεαυτόν”</strong> (<em>Gnōthi seautón</em>), which in Greek means <strong>“Know thyself”</strong>. 
-        </figcaption>
-      </figure>
-    </section>
+    <main>
+      <section>
+        <figure>
+          <img
+            src="/images/en_delfos.webp"
+            alt="The author at the ruins of the Temple of Apollo in Delphi"
+          />
+          <figcaption>
+            The author in front of the ruins of the Temple of Apollo in Delphi,
+            Greece. On the front of the temple, or <em>pronaos</em>, right at
+            the entrance to the <em>adyton</em> —the most sacred space of the
+            sanctuary where the Pythia delivered her enigmatic oracles— was
+            inscribed one of the most famous aphorisms of antiquity:
+            <strong>“Γνῶθι σεαυτόν”</strong> (<em>Gnōthi seautón</em>), which in
+            Greek means <strong>“Know thyself”</strong>.
+          </figcaption>
+        </figure>
+      </section>
 
-    <section class="lecturas">
-      <h3>Sites (all in Spanish)</h3>
-      <ul>
-        <li><a href="/blog/">Blog</a></li> 
-        <li><a href="/filosofia/">Philosophy</a></li>
-        <li><a href="/tacito/">Tacitus</a></li>
-        <li><a href="/tucidides/">Thucydides</a></li>
-      </ul>
-       <h3>Contact Information</h3>
-       <ul>
-        <li><a href="https://github.com/lampsacus/lampsacus.github.io">Profile in GitHub</a></li>
-        <li><a href="mailto:aleman@ealeman.com">aleman@ealeman.com</a></li>
-        <li><a href="https://keys.openpgp.org/search?q=aleman%40ealeman.com">Public Encryption Key</a></li>
-      </ul>
-    </section>
-  </main>
+      <section class="lecturas">
+        <h3>Sites (all in Spanish)</h3>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/tacito/">Tacitus</a></li>
+          <li><a href="/tucidides/">Thucydides</a></li>
+        </ul>
+        <h3>Contact Information</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/lampsacus/lampsacus.github.io"
+              >Profile in GitHub</a
+            >
+          </li>
+          <li><a href="mailto:aleman@ealeman.com">aleman@ealeman.com</a></li>
+          <li>
+            <a href="https://keys.openpgp.org/search?q=aleman%40ealeman.com"
+              >Public Encryption Key</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
 
-  <footer>
-    <p>© 2025 Eduardo Alemán —
-      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
-      <img src="/images/cc.svg" alt="CC" />
-      <img src="/images/by.svg" alt="BY" />
-      <img src="/images/nc.svg" alt="NC" />
-      <img src="/images/nd.svg" alt="ND" />
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p>
+        © 2025 Eduardo Alemán —
+        <a
+          href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+          target="_blank"
+          >CC BY-NC-ND 4.0</a
+        >
+        <img src="/images/cc.svg" alt="CC" />
+        <img src="/images/by.svg" alt="BY" />
+        <img src="/images/nc.svg" alt="NC" />
+        <img src="/images/nd.svg" alt="ND" />
+      </p>
+    </footer>
+  </body>
 </html>
