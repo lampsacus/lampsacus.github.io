@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ealeman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ealeman.com
+  * I am ealeman (https://keybase.io/ealeman) on keybase.
+  * I have a public key ASCeWwP-IYyJZ_N-HJyPH2Na1hKLnKuzt_2gwuZ0tSughAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209e5b03fe218c8967f37e1c9c8f1f635ad6128b9cabb3b7fda0c2e674b52ba0840a",
+      "host": "keybase.io",
+      "kid": "01209e5b03fe218c8967f37e1c9c8f1f635ad6128b9cabb3b7fda0c2e674b52ba0840a",
+      "uid": "a3e839646c9bf4146ca11cf0e8e3df19",
+      "username": "ealeman"
+    },
+    "merkle_root": {
+      "ctime": 1748124123,
+      "hash": "5da31754013f16012a411c21c77e8e558ad527e3c6406590473f2a44119b40660eb6aca875efcd923e0faad1f1c1b7f54da86720fefebebfcf8f664bc45486d2",
+      "hash_meta": "d17e9d214a95b5478450168e11fb4307bee87078875c8132da039435d3c980c8",
+      "seqno": 26823606
+    },
+    "service": {
+      "entropy": "7poRyQCdE4KycXqKZS2Km9ok",
+      "hostname": "ealeman.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.1"
+  },
+  "ctime": 1748124156,
+  "expire_in": 504576000,
+  "prev": "c700050e8df6fc0c6a7ac888e57c287bcb28a6bf5edf09f17e55425119995368",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnlsD/iGMiWfzfhycjx9jWtYSi5yrs7f9oMLmdLUroIQKp3BheWxvYWTESpcCBcQgxwAFDo32/AxqesiI5Xwoe8sopr9e3wnxflVCURmZU2jEIPTZwdgqho84063VGbt4Xqxss3I+D7dMUbsKsq6iYVkeAgHCo3NpZ8RAulUDwfTrogYPDzGHiWolbdxYSzERT3tDunut8s/ATmr6K1J2ujnGeWhqIIAq04laDh9ELQV1Ho9I1z4Vd2B6DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIASSUrnnTjW+ATRVncMqb03Y6hqOBWaUZ6WQXKRUNTKco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ealeman
+
+==================================================================
