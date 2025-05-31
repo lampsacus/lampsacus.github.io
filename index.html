@@ -51,10 +51,17 @@
         color: #222;
       }
 
+      nav img {
+        width: 20px;
+        height: 20px;
+        aspect-ratio: 1 / 1;
+      }
+
       main {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
+        min-height: 80vh;
       }
 
       section {
@@ -75,6 +82,7 @@
         border: 1px solid #ccc;
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
         margin-bottom: 0.5rem;
+        aspect-ratio: 4 / 3;
       }
 
       figure figcaption {
@@ -91,6 +99,10 @@
         text-align: justify;
       }
 
+      .lecturas h3 {
+        min-height: 2.5rem;
+      }
+
       footer {
         border-top: 3px double #aaa;
         text-align: center;
@@ -101,6 +113,7 @@
       footer img {
         vertical-align: middle;
         height: 20px;
+        aspect-ratio: 1 / 1;
         margin-left: 4px;
       }
     </style>
@@ -115,36 +128,32 @@
             <a href="/blog/"
               ><img
                 src="/images/blog-icon.svg"
-                width="20"
-                height="20"
                 alt="Ir al blog de Eduardo Alemán"
+                loading="lazy"
             /></a>
           </li>
           <li>
             <a href="https://github.com/lampsacus/lampsacus.github.io"
               ><img
                 src="/images/github-mark.svg"
-                width="20"
-                height="20"
                 alt="Ir al repositorio del autor en GitHub"
+                loading="lazy"
             /></a>
           </li>
           <li>
             <a href="https://keybase.io/ealeman"
               ><img
                 src="/images/keybase-mark.svg"
-                width="20"
-                height="20"
                 alt="Ir a keybase"
+                loading="lazy"
             /></a>
           </li>
           <li>
             <a href="nano.txt"
               ><img
                 src="/images/nano-xno-logo.svg"
-                width="20"
-                height="20"
                 alt="Ver mi dirección nano"
+                loading="lazy"
             /></a>
           </li>
         </ul>
@@ -157,6 +166,9 @@
           <img
             src="/images/en_delfos.webp"
             alt="El autor en las ruinas del templo de Apolo en Delfos"
+            width="800"
+            height="600"
+            loading="lazy"
           />
           <figcaption>
             El autor frente a las ruinas del Templo de Apolo en Delfos, Grecia.
@@ -177,9 +189,10 @@
           educación. Desde una vocación ciudadana y en mi tiempo libre,
           participo en iniciativas de Humanidades Digitales, con especial
           interés en filología computacional, edición crítica, historia
-          colaborativa y el acceso abierto a archivos digitales. También traduzco
-          recursos clave del inglés al español para ampliar su alcance en el
-          mundo hispanohablante, como el <em>Text Encoding Initiative Repository</em>.
+          colaborativa y el acceso abierto a archivos digitales. También
+          traduzco recursos clave del inglés al español para ampliar su alcance
+          en el mundo hispanohablante, como el
+          <em>Text Encoding Initiative Repository</em>.
         </p>
         <p>
           Actualmente trabajo en la digitalización y publicación en formatos
@@ -187,7 +200,8 @@
           <a href="/tacito/"><em>Anales</em> de Tácito</a> (ed. Moralejo, Gredos
           1979) y la
           <a href="/tucidides/"
-            ><em>Historia de la guerra del Peloponeso</em> de Tucídides</a>
+            ><em>Historia de la guerra del Peloponeso</em> de Tucídides</a
+          >
           (trad. Torres Esbarranch, Gredos 1990). Ambos proyectos implican una
           labor de transcripción, corrección y adaptación desde PDF, con el fin
           de preservar la fidelidad al original. Los textos se presentan en la
@@ -221,10 +235,10 @@
           target="_blank"
           >CC BY-NC-ND 4.0</a
         >
-        <img src="images/cc.svg" alt="CC" />
-        <img src="images/by.svg" alt="BY" />
-        <img src="images/nc.svg" alt="NC" />
-        <img src="images/nd.svg" alt="ND" />
+        <img src="images/cc.svg" alt="CC" loading="lazy" />
+        <img src="images/by.svg" alt="BY" loading="lazy" />
+        <img src="images/nc.svg" alt="NC" loading="lazy" />
+        <img src="images/nd.svg" alt="ND" loading="lazy" />
       </p>
     </footer>
   </body>
