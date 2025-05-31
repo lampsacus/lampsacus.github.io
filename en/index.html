@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eduardo Alemán</title>
     <style>
-      html { scroll-behavior: smooth; }
+      html {
+        scroll-behavior: smooth;
+      }
       body {
         font-family: Georgia, serif;
         background-color: #fdfdfd;
@@ -13,7 +15,9 @@
         margin: 0;
         padding: 0;
       }
-      header, footer, main {
+      header,
+      footer,
+      main {
         max-width: 1200px;
         margin: auto;
         padding: 2rem;
@@ -106,7 +110,116 @@
     </style>
   </head>
   <body>
-    <!-- Contenido omitido por brevedad -->
-    <!-- Usa este archivo como plantilla base accesible en español -->
+    <header>
+      <h1>Eduardo Alemán</h1>
+      <nav>
+        <ul>
+          <li><a href="https://ealeman.com/en/">en</a></li>
+          <li>
+            <a href="/blog/" aria-label="Ir al blog"
+              ><img src="/images/blog-icon.svg" alt="" loading="lazy"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/lampsacus/lampsacus.github.io"
+              aria-label="GitHub"
+              ><img src="/images/github-mark.svg" alt="" loading="lazy"
+            /></a>
+          </li>
+          <li>
+            <a href="https://keybase.io/ealeman" aria-label="Keybase"
+              ><img src="/images/keybase-mark.svg" alt="" loading="lazy"
+            /></a>
+          </li>
+          <li>
+            <a href="nano.txt" aria-label="Dirección Nano"
+              ><img src="/images/nano-xno-logo.svg" alt="" loading="lazy"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <figure>
+          <img
+            src="/images/en_delfos.webp"
+            alt="El autor en las ruinas del templo de Apolo en Delfos"
+            width="800"
+            height="600"
+            loading="lazy"
+          />
+          <figcaption>
+            El autor frente a las ruinas del Templo de Apolo en Delfos, Grecia.
+            En el frontispicio o <em>pronaos</em> del templo, justo en la
+            entrada al <em>adyton</em> —el espacio más sagrado del santuario
+            donde la Pitia pronunciaba sus enigmáticos oráculos— estaba inscrito
+            uno de los más célebres aforismos de la antigüedad:
+            <strong>“Γνῶθι σεαυτόν”</strong> (<em>Gnōthi seautón</em>), que en
+            griego significa <strong>“Conócete a ti mismo”</strong>.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="lecturas">
+        <h2>About</h2>
+        <p>
+          Soy maestro de profesión, con formación universitaria en filosofía y
+          educación. Desde una vocación ciudadana y en mi tiempo libre,
+          participo en iniciativas de Humanidades Digitales, con especial
+          interés en filología computacional, edición crítica, historia
+          colaborativa y el acceso abierto a archivos digitales. También
+          traduzco recursos clave del inglés al español para ampliar su alcance
+          en el mundo hispanohablante, como el
+          <em>Text Encoding Initiative Repository</em>.
+        </p>
+        <p>
+          Actualmente trabajo en la digitalización y publicación en formatos
+          abiertos de textos clásicos como los
+          <a href="/tacito/"><em>Tacitus’ Annals</em></a> (ed. Moralejo, Gredos
+          1979) y la
+          <a href="/tucidides/"
+            ><em>Thucydides’ History of the Peloponnesian War</em></a
+          >
+          (trad. Torres Esbarranch, Gredos 1990). Ambos proyectos implican una
+          labor de transcripción, corrección y adaptación desde PDF, con el fin
+          de preservar la fidelidad al original. Los textos se presentan en la
+          Web por primera vez en versiones navegables y reutilizables,
+          utilizando herramientas como Pandoc, Python, Hugo, Markdown y Git.
+        </p>
+
+        <h2>Photos</h2>
+        <ul>
+          <li><a href="https://unsplash.com/@ealeman">Unsplash</a></li>
+          <li><a href="https://www.flickr.com/photos/ealeman/">Flickr</a></li>
+        </ul>
+
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:aleman@ealeman.com">aleman@ealeman.com</a></li>
+          <li>
+            <a href="https://keys.openpgp.org/search?q=aleman%40ealeman.com"
+              >Public encryption key</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>
+        © 2025 Eduardo Alemán —
+        <a
+          href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+          target="_blank"
+          >CC BY-NC-ND 4.0</a
+        >
+        <img src="/images/cc.svg" alt="CC" loading="lazy" />
+        <img src="/images/by.svg" alt="BY" loading="lazy" />
+        <img src="/images/nc.svg" alt="NC" loading="lazy" />
+        <img src="/images/nd.svg" alt="ND" loading="lazy" />
+      </p>
+    </footer>
   </body>
 </html>
