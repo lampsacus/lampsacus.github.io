@@ -1,179 +1,222 @@
 <!DOCTYPE html>
 
 <html lang="es">
+
 <head>
-<meta content="Eduardo Alemán - Humanidades Digitales, textos clásicos y conocimiento abierto." name="description"/><meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Eduardo Alemán</title>
-<style>
-      html { scroll-behavior: smooth; }
-      body {
-        font-family: Georgia, serif;
-        background-color: #fdfdfd;
-        color: #111;
-        margin: 0;
-        padding: 0;
-      }
-      header, footer, main {
-        max-width: 1200px;
-        margin: auto;
-        padding: 2rem;
-      }
-      header {
-        border-bottom: 3px double #aaa;
-        text-align: center;
-      }
-      header h1 {
-        font-size: 3rem;
-        margin-bottom: 1.5rem;
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-        gap: 1.5rem;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      nav a {
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 1.1rem;
-        color: #222;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 48px;
-        min-height: 48px;
-        padding: 8px;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 1.1rem;
-        color: #222;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 48px;
-        min-height: 48px;
-      }
-      nav img {
-        width: 20px;
-        height: 20px;
-        aspect-ratio: 1 / 1;
-      }
-      main {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 2rem;
-        min-height: 80vh;
-      }
-      section {
-        padding: 1rem;
-        background-color: #fff;
-        border: 1px solid #ddd;
-        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
-      }
-      figure {
-        text-align: center;
-        margin: 0;
-      }
-      figure img {
-        display: block;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 4 / 3;
-        object-fit: cover;
-        max-width: 100%;
-        height: auto;
-        border: 1px solid #ccc;
-        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-        margin-bottom: 0.5rem;
-        aspect-ratio: 4 / 3;
-      }
-      figure figcaption {
-        font-style: italic;
-        font-size: 0.95rem;
-        color: #555;
-        line-height: 1.6;
-        margin-top: 0.5rem;
-      }
-      .lecturas p {
-        font-size: 1.05rem;
-        margin-bottom: 0.5rem;
-        text-align: justify;
-      }
-      .lecturas h2 {
-        font-size: 1.5rem;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-      }
-      footer {
-        border-top: 3px double #aaa;
-        text-align: center;
-        font-size: 1rem;
-        color: #444;
-      }
-      footer img {
-        vertical-align: middle;
-        height: 20px;
-        aspect-ratio: 1 / 1;
-        margin-left: 4px;
-      }
-    
-      .touch-link {
-        display: inline-block;
-        min-width: 48px;
-        min-height: 48px;
-        padding: 10px 12px;
-        margin: 4px 0;
-      }
-</style>
+  <meta content="Eduardo Alemán - Humanidades Digitales, textos clásicos y conocimiento abierto." name="description" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Eduardo Alemán</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdfdfd;
+      color: #111;
+      margin: 0;
+      padding: 0;
+    }
+
+    header,
+    footer,
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    header {
+      border-bottom: 3px double #aaa;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #222;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      min-height: 48px;
+      padding: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #222;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      min-height: 48px;
+    }
+
+    nav img {
+      width: 20px;
+      height: 20px;
+      aspect-ratio: 1 / 1;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      min-height: 80vh;
+    }
+
+    section {
+      padding: 1rem;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    figure {
+      text-align: center;
+      margin: 0;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 0.5rem;
+      aspect-ratio: 4 / 3;
+    }
+
+    figure figcaption {
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.6;
+      margin-top: 0.5rem;
+    }
+
+    .lecturas p {
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+      text-align: justify;
+    }
+
+    .lecturas h2 {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      border-top: 3px double #aaa;
+      text-align: center;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    footer img {
+      vertical-align: middle;
+      height: 20px;
+      aspect-ratio: 1 / 1;
+      margin-left: 4px;
+    }
+
+    .touch-link {
+      display: inline-block;
+      min-width: 48px;
+      min-height: 48px;
+      padding: 10px 12px;
+      margin: 4px 0;
+    }
+  </style>
 </head>
+
 <body>
-<header>
-<h1>Eduardo Alemán</h1>
-<nav>
-<ul>
-<li><a href="https://ealeman.com/en/">en</a></li>
-<li><a aria-label="Ir al blog" href="/blog/"><img alt="" loading="lazy" src="/images/blog-icon.svg"/></a></li>
-<li><a aria-label="GitHub" href="https://github.com/lampsacus/lampsacus.github.io"><img alt="" loading="lazy" src="/images/github-mark.svg"/></a></li>
-<li><a aria-label="Keybase" href="https://keybase.io/ealeman"><img alt="" loading="lazy" src="/images/keybase-mark.svg"/></a></li>
-<li><a aria-label="Dirección Nano" href="nano.txt"><img alt="" loading="lazy" src="/images/nano-xno-logo.svg"/></a></li>
-</ul>
-</nav>
-</header>
-<main>
-<section>
-<figure>
-<img alt="El autor en las ruinas del templo de Apolo en Delfos" height="600" loading="lazy" src="/images/en_delfos.webp" width="800"/>
-<figcaption>
-            El autor frente a las ruinas del Templo de Apolo en Delfos, Grecia. En el frontispicio o <em>pronaos</em> del templo, justo en la entrada al <em>adyton</em> —el espacio más sagrado del santuario donde la Pitia pronunciaba sus enigmáticos oráculos— estaba inscrito uno de los más célebres aforismos de la antigüedad: <strong>“Γνῶθι σεαυτόν”</strong> (<em>Gnōthi seautón</em>), que en griego significa <strong>“Conócete a ti mismo”</strong>.
-          </figcaption>
-</figure>
-</section>
-<section class="lecturas">
-<h2>Sobre mí</h2>
-<p>Soy maestro de profesión, con formación universitaria en filosofía y educación. Desde una vocación ciudadana y en mi tiempo libre, participo en iniciativas de Humanidades Digitales, con especial interés en filología computacional, edición crítica, historia colaborativa y el acceso abierto a archivos digitales. También traduzco recursos clave del inglés al español para ampliar su alcance en el mundo hispanohablante, como el <em>Text Encoding Initiative Repository</em>.</p>
-<p>Actualmente trabajo en la digitalización y publicación en formatos abiertos de textos clásicos como los <a href="/tacito/"><em>Anales</em> de Tácito</a> (ed. Moralejo, Gredos 1979) y la <a href="/tucidides/"><em>Historia de la guerra del Peloponeso</em> de Tucídides</a> (trad. Torres Esbarranch, Gredos 1990). Ambos proyectos implican una labor de transcripción, corrección y adaptación desde PDF, con el fin de preservar la fidelidad al original. Los textos se presentan en la Web por primera vez en versiones navegables y reutilizables, utilizando herramientas como Pandoc, Python, Hugo, Markdown y Git.</p>
-<h2>Fotos</h2>
-<ul>
-<li><a class="touch-link" href="https://unsplash.com/@ealeman">Unsplash</a> • <a class="touch-link" href="https://www.flickr.com/photos/ealeman/">Flickr</a></li>
-</ul>
-<h2>Contactarse</h2>
-<ul>
-<li><a class="touch-link" href="mailto:aleman@ealeman.com">aleman@ealeman.com</a> • <a class="touch-link" href="https://keys.openpgp.org/search?q=aleman%40ealeman.com">Clave de cifrado pública</a></li>
-</ul>
-</section>
-</main>
-<footer>
-<p>
-        © 2025 Eduardo Alemán —
-        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
-<img alt="CC" loading="lazy" src="/images/cc.svg"/>
-<img alt="BY" loading="lazy" src="/images/by.svg"/>
-<img alt="NC" loading="lazy" src="/images/nc.svg"/>
-<img alt="ND" loading="lazy" src="/images/nd.svg"/>
-</p>
-</footer>
+  <header>
+    <h1>Eduardo Alemán</h1>
+    <nav>
+      <ul>
+        <li><a href="https://ealeman.com/en/">en</a></li>
+        <li><a aria-label="Ir al blog" href="/blog/"><img alt="" loading="lazy" src="/images/blog-icon.svg" /></a></li>
+        <li><a aria-label="GitHub" href="https://github.com/lampsacus/lampsacus.github.io"><img alt="" loading="lazy"
+              src="/images/github-mark.svg" /></a></li>
+        <li><a aria-label="Keybase" href="https://keybase.io/ealeman"><img alt="" loading="lazy"
+              src="/images/keybase-mark.svg" /></a></li>
+        <li><a aria-label="Dirección Nano" href="nano.txt"><img alt="" loading="lazy"
+              src="/images/nano-xno-logo.svg" /></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <figure>
+        <img alt="El autor en las ruinas del templo de Apolo en Delfos" height="600" loading="lazy"
+          src="/images/en_delfos.webp" width="800" />
+        <figcaption>
+          El autor frente a las ruinas del Templo de Apolo en Delfos, Grecia. En el frontispicio o <em>pronaos</em> del
+          templo, justo en la entrada al <em>adyton</em> —el espacio más sagrado del santuario donde la Pitia
+          pronunciaba sus enigmáticos oráculos— estaba inscrito uno de los más célebres aforismos de la antigüedad:
+          <strong>“Γνῶθι σεαυτόν”</strong> (<em>Gnōthi seautón</em>), que en griego significa <strong>“Conócete a ti
+            mismo”</strong>.
+        </figcaption>
+      </figure>
+    </section>
+    <section class="lecturas">
+      <h2>Sobre mí</h2>
+      <p>Soy maestro de profesión, con formación universitaria en filosofía y educación. Desde una vocación ciudadana y
+        en mi tiempo libre, participo en iniciativas de Humanidades Digitales, con especial interés en filología
+        computacional, edición crítica, historia colaborativa y el acceso abierto a archivos digitales. También traduzco
+        recursos clave del inglés al español para ampliar su alcance en el mundo hispanohablante, como el <em>Text
+          Encoding Initiative Repository</em>.</p>
+      <p>Actualmente trabajo en la digitalización y publicación en formatos abiertos de textos clásicos como los <a
+          href="/tacito/"><em>Anales</em> de Tácito</a> (ed. Moralejo, Gredos 1979) y la <a
+          href="/tucidides/"><em>Historia de la guerra del Peloponeso</em> de Tucídides</a> (trad. Torres Esbarranch,
+        Gredos 1990). Ambos proyectos implican una labor de transcripción, corrección y adaptación desde PDF, con el fin
+        de preservar la fidelidad al original. Los textos se presentan en la Web por primera vez en versiones navegables
+        y reutilizables, utilizando herramientas como Pandoc, Python, Hugo, Markdown y Git.</p>
+      <h2>Fotos</h2>
+      <ul>
+        <li><a class="touch-link" href="https://unsplash.com/@ealeman">Unsplash</a> • <a class="touch-link"
+            href="https://www.flickr.com/photos/ealeman/">Flickr</a></li>
+      </ul>
+      <h2>Contactarse</h2>
+      <ul>
+        <li><a class="touch-link" href="mailto:aleman@ealeman.com">aleman@ealeman.com</a> • <a class="touch-link"
+            href="https://keys.openpgp.org/search?q=aleman%40ealeman.com">Clave de cifrado pública</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>
+      © 2025 Eduardo Alemán —
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+      <img alt="CC" loading="lazy" src="/images/cc.svg" />
+      <img alt="BY" loading="lazy" src="/images/by.svg" />
+      <img alt="NC" loading="lazy" src="/images/nc.svg" />
+      <img alt="ND" loading="lazy" src="/images/nd.svg" />
+    </p>
+  </footer>
 </body>
+
 </html>
