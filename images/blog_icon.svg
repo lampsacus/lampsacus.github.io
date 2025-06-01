@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="512"
-   height="512"
-   viewBox="0 0 120 120"
+   width="508.24661"
+   height="327.22726"
+   viewBox="0 0 119.1203 76.69389"
    role="img"
    aria-label="Ícono Blog cursivo estilizado"
    version="1.1"
    id="svg4"
-   sodipodi:docname="blog_icon_adjusted.svg"
+   sodipodi:docname="blog_icon.svg"
    xml:space="preserve"
    inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -16,13 +16,13 @@
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs4"><inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 60 : 1"
+       inkscape:vp_x="0 : 16.69389 : 1"
        inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="120 : 60 : 1"
-       inkscape:persp3d-origin="60 : 40 : 1"
+       inkscape:vp_z="120 : 16.69389 : 1"
+       inkscape:persp3d-origin="60 : -3.3061099 : 1"
        id="perspective1" /><clipPath
        id="dad6a06833"><path
-         d="M 260.363281 164.363281 L 507.863281 164.363281 L 507.863281 411.863281 L 260.363281 411.863281 Z M 260.363281 164.363281 "
+         d="m 260.36328,164.36328 h 247.5 v 247.5 h -247.5 z m 0,0"
          id="path1" /></clipPath></defs><sodipodi:namedview
      id="namedview4"
      pagecolor="#ffffff"
@@ -33,10 +33,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.1490485"
-     inkscape:cx="291.98071"
-     inkscape:cy="306.77556"
+     inkscape:cx="243.24474"
+     inkscape:cy="216.70104"
      inkscape:window-width="1216"
-     inkscape:window-height="868"
+     inkscape:window-height="867"
      inkscape:window-x="10"
      inkscape:window-y="38"
      inkscape:window-maximized="0"
@@ -47,7 +47,7 @@
        r="14"
        id="circle4" /></clipPath><!-- Lápiz reconocible --><!-- Texto "Blog" con fuente estilizada, cursiva y segura para SVG --><g
      id="g9"
-     transform="translate(-0.20397329,-10.606602)"><rect
+     transform="matrix(1.1039698,0,0,1.0532213,-6.9032198,-36.017433)"><rect
        style="fill:#aa4400;stroke-width:1.63679"
        id="rect7"
        width="107.90177"
