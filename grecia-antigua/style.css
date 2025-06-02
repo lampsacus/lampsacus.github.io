@@ -38,7 +38,7 @@ body {
 }
 
 /* Ajuste específico para los puntos de las cabeceras de periodo */
-.period-header.left::after, 
+.period-header.left::after,
 .period-header.right::after {
      top: 1.5rem; /* Ajuste para alinear mejor con el título de la cabecera */
 }
@@ -69,7 +69,7 @@ body {
         left: 20px; /* Mueve la línea a la izquierda */
     }
 
-    .timeline-item.left, 
+    .timeline-item.left,
     .timeline-item.right {
         width: 100%;
         left: 0;
@@ -78,98 +78,16 @@ body {
         text-align: left !important; /* Forzar texto a la izquierda */
     }
 
-    .timeline-item.left::after, 
+    .timeline-item.left::after,
     .timeline-item.right::after {
         left: 8px; /* Ajustado para la nueva posición de la línea */
     }
 
     /* Asegurar que los bordes laterales de las tarjetas se apliquen correctamente en móvil */
-    .timeline-item.left .event-content, 
+    .timeline-item.left .event-content,
     .timeline-item.right .event-content,
     .period-header-content { /* Aplicar también a period-header-content */
         border-left-width: 4px !important; /* Forzar borde izquierdo */
         border-right-width: 0 !important; /* Quitar borde derecho */
     }
-}
-
-/* Estilos para el Modal */
-.modal {
-    display: none; /* Oculto por defecto */
-    position: fixed;
-    z-index: 100; /* Asegurar que esté por encima de otros contenidos */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto; /* Permitir scroll si el contenido es muy largo */
-    background-color: rgba(0,0,0,0.5); /* Fondo oscuro semitransparente */
-    animation: fadeIn 0.3s ease-out;
-}
-
-.modal-content {
-    background-color: #fefefe; /* Fondo blanco para el contenido del modal */
-    margin: 10% auto; /* Centrado vertical y horizontal */
-    padding: 25px;
-    border: 1px solid #888; /* Borde sutil */
-    width: 80%; /* Ancho responsivo */
-    max-width: 600px; /* Ancho máximo */
-    border-radius: 8px; /* Esquinas redondeadas */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Sombra para dar profundidad */
-    animation: slideIn 0.3s ease-out;
-}
-
-/* Animaciones para el modal */
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-@keyframes slideIn {
-    from {transform: translateY(-50px); opacity: 0;}
-    to {transform: translateY(0); opacity: 1;}
-}
-
-/* Estilo del botón de cerrar modal */
-.close-button {
-    color: #aaa;
-    float: right; /* Alineado a la derecha */
-    font-size: 28px;
-    font-weight: bold;
-    transition: color 0.2s;
-}
-.close-button:hover,
-.close-button:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* Contenedor para la respuesta de Gemini */
-#geminiResponseContainer {
-    min-height: 50px; /* Altura mínima para que el loader se vea bien */
-    background-color: #f9fafb; /* Tailwind gray-50 */
-    border: 1px solid #e5e7eb; /* Tailwind gray-200 */
-    border-radius: 6px;
-    padding: 12px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    white-space: pre-wrap; /* Respetar saltos de línea y espacios en la respuesta */
-    max-height: 300px; /* Altura máxima con scroll */
-    overflow-y: auto; /* Scroll vertical si es necesario */
-}
-
-/* Estilo del loader (spinner) */
-.loader {
-    border: 4px solid #f3f3f3; /* Gris claro */
-    border-top: 4px solid #3498db; /* Azul */
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    animation: spin 1s linear infinite;
-    margin: 10px auto; /* Centrado */
-}
-
-/* Animación del loader */
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
 }

@@ -1,7 +1,7 @@
 // --- DATOS DE LA LÍNEA DE TIEMPO ---
 const timelineItemsData = [
     // Cabecera de Periodo
-    { type: 'period-header', name: 'Edad del Bronce', dates: 'c. 3000 – c. 1100 a.C.', periodClass: 'minoan' }, // Usamos minoan como color genérico para la edad de bronce
+    { type: 'period-header', name: 'Edad del Bronce', dates: 'c. 3000 – c. 1100 a.C.', periodClass: 'minoan' },
     {
         type: 'event', date: "c. 3000 – 1450 a.C.", title: "Civilización Minoica",
         description: "Desarrollo en Creta. Palacios como Cnosos. Escritura Lineal A. Talasocracia (dominio marítimo). Famosos por sus frescos y cerámica.",
@@ -117,175 +117,63 @@ const timelineItemsData = [
     }
 ];
 
-// --- LÓGICA DE LA LÍNEA DE TIEMPO Y GEMINI ---
+// --- LÓGICA DE LA LÍNEA DE TIEMPO ---
 document.addEventListener('DOMContentLoaded', function() {
     const timelineContainer = document.getElementById('timelineContainer');
-    const modal = document.getElementById('geminiModal');
-    const modalTitle = document.getElementById('modalTitle');
-    const responseContainer = document.getElementById('geminiResponseContainer');
-    const askMoreSection = document.getElementById('askMoreSection');
-    const userQuestionInput = document.getElementById('userQuestionInput');
-    const submitUserQuestionButton = document.getElementById('submitUserQuestionButton');
-    const closeButton = document.querySelector('.close-button'); // Obtener el botón de cerrar
+    const currentYearSpan = document.getElementById('currentYear');
 
-    let currentEventForModal = null; 
+    if (currentYearSpan) {
+        currentYearSpan.textContent = new Date().getFullYear();
+    }
 
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-
-    // Mapeo de periodos a clases de Tailwind para los bordes y puntos (usado en JS para aplicar clases)
+    // Mapeo de periodos a clases de Tailwind para los bordes y puntos
     const periodColors = {
-        minoan: 'border-sky-500', 
-        mycenaean: 'border-blue-400', 
+        minoan: 'border-sky-500',
+        mycenaean: 'border-blue-400',
         'dark-age': 'border-slate-400',
-        archaic: 'border-yellow-400', 
-        classical: 'border-green-400', 
+        archaic: 'border-yellow-400',
+        classical: 'border-green-400',
         hellenistic: 'border-violet-400'
     };
     const periodTextColors = { // Para el texto de la fecha/título si se desea diferenciar más
-        minoan: 'text-sky-600', 
-        mycenaean: 'text-blue-500', 
+        minoan: 'text-sky-600',
+        mycenaean: 'text-blue-500',
         'dark-age': 'text-slate-600',
-        archaic: 'text-yellow-600', 
-        classical: 'text-green-600', 
+        archaic: 'text-yellow-600',
+        classical: 'text-green-600',
         hellenistic: 'text-violet-600'
     };
-
-    // Función para llamar a la API de Gemini
-    async function callGemini(prompt) {
-        responseContainer.innerHTML = '<div class="loader"></div> <p class="text-center text-slate-500">Consultando a Gemini...</p>';
-        askMoreSection.classList.add('hidden'); 
-
-        const apiKey = ""; // Dejar vacío, Canvas lo gestionará
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
-        
-        let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
-        const payload = { contents: chatHistory };
-
-        try {
-            const response = await fetch(apiUrl, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
-            });
-            if (!response.ok) {
-                const errorBody = await response.text();
-                throw new Error(`Error de la API: ${response.status} ${response.statusText}. Cuerpo: ${errorBody}`);
-            }
-            const result = await response.json();
-
-            if (result.candidates && result.candidates.length > 0 &&
-                result.candidates[0].content && result.candidates[0].content.parts &&
-                result.candidates[0].content.parts.length > 0) {
-                const text = result.candidates[0].content.parts[0].text;
-                responseContainer.innerHTML = `<p>${text.replace(/\n/g, '<br>')}</p>`;
-                return text; 
-            } else {
-                console.error("Respuesta inesperada de la API:", result);
-                responseContainer.textContent = "No se pudo obtener una respuesta válida de Gemini. Intenta de nuevo.";
-            }
-        } catch (error) {
-            console.error("Error llamando a Gemini:", error);
-            responseContainer.textContent = `Error al contactar a Gemini: ${error.message}. Por favor, revisa la consola para más detalles.`;
-        }
-        return null; 
-    }
-
-    function openModal() {
-        if (modal) modal.style.display = "block";
-    }
-
-    function closeModalFunction() { // Renombrada para evitar conflicto con variable global
-        if (modal) modal.style.display = "none";
-        if (responseContainer) responseContainer.innerHTML = ""; 
-        if (userQuestionInput) userQuestionInput.value = ""; 
-        if (askMoreSection) askMoreSection.classList.add('hidden');
-        currentEventForModal = null;
-    }
-
-    // Asignar evento al botón de cerrar
-    if (closeButton) {
-        closeButton.onclick = closeModalFunction;
-    }
-
-    // Cerrar modal si se hace clic fuera del contenido
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            closeModalFunction();
-        }
-    }
-
-    function handleLearnMore(eventData) {
-        currentEventForModal = eventData; 
-        if (modalTitle) modalTitle.textContent = `✨ Saber Más: ${eventData.title}`;
-        openModal();
-        const prompt = `Proporciona un dato interesante o un detalle adicional conciso (2-3 frases) sobre el evento de la Antigua Grecia: "${eventData.title} (${eventData.date}) - ${eventData.description}". Este dato es para una línea de tiempo visual.`;
-        callGemini(prompt).then(() => {
-             if (askMoreSection) askMoreSection.classList.remove('hidden');
-        });
-    }
-    
-    if (submitUserQuestionButton) {
-        submitUserQuestionButton.onclick = function() {
-            const userQuestion = userQuestionInput ? userQuestionInput.value.trim() : "";
-            if (userQuestion && currentEventForModal) {
-                if (modalTitle) modalTitle.textContent = `Respondiendo sobre: ${currentEventForModal.title}`;
-                const prompt = `Con respecto al evento de la Antigua Grecia "${currentEventForModal.title} (${currentEventForModal.date})", responde la siguiente pregunta: "${userQuestion}". Proporciona una respuesta concisa e informativa.`;
-                callGemini(prompt);
-                if (userQuestionInput) userQuestionInput.value = ""; 
-            } else if (!userQuestion && responseContainer) {
-                 responseContainer.innerHTML = "<p class='text-red-500'>Por favor, escribe una pregunta.</p>" + (responseContainer.innerHTML || "");
-            }
-        };
-    }
-
-
-    function handleSummarizePeriod(periodData) {
-        if (modalTitle) modalTitle.textContent = `✨ Resumen del ${periodData.name}`;
-        openModal();
-        const prompt = `Proporciona un resumen conciso (alrededor de 100-150 palabras) del periodo "${periodData.name} (${periodData.dates})" en la historia de la Antigua Grecia. Destaca sus principales características, desarrollos clave y significado general. Este resumen es para una línea de tiempo visual.`;
-        callGemini(prompt);
-        if (askMoreSection) askMoreSection.classList.add('hidden');
-    }
 
     // --- GENERACIÓN DINÁMICA DE LA LÍNEA DE TIEMPO ---
     if (timelineContainer) {
         timelineItemsData.forEach((item, index) => {
             const itemElement = document.createElement('div');
-            itemElement.classList.add('timeline-item', 'mb-8', 'relative'); 
+            itemElement.classList.add('timeline-item', 'mb-8', 'relative');
 
             const side = index % 2 === 0 ? 'left' : 'right';
             itemElement.classList.add(side);
-            
+
             const itemPeriodClass = item.period || item.periodClass;
-            const borderColorClass = periodColors[itemPeriodClass] || 'border-gray-400'; // Clase de Tailwind para el borde
-            const textColorClass = periodTextColors[itemPeriodClass] || 'text-gray-700'; // Clase de Tailwind para el texto
-            
-            // Añadir clase específica del periodo para que el CSS del ::after tome el color del borde
-            itemElement.classList.add(`period-${itemPeriodClass}`); 
+            const borderColorClass = periodColors[itemPeriodClass] || 'border-gray-400';
+            const textColorClass = periodTextColors[itemPeriodClass] || 'text-gray-700';
+
+            itemElement.classList.add(`period-${itemPeriodClass}`);
 
             if (item.type === 'period-header') {
                 itemElement.classList.add('w-full', 'md:w-3/4', 'mx-auto', 'period-header');
                  if (side === 'left') {
-                    itemElement.classList.add('md:mr-auto', 'md:ml-0'); 
+                    itemElement.classList.add('md:mr-auto', 'md:ml-0');
                 } else {
-                    itemElement.classList.add('md:ml-auto', 'md:mr-0'); 
+                    itemElement.classList.add('md:ml-auto', 'md:mr-0');
                 }
                 itemElement.innerHTML = `
                     <div class="period-header-content bg-white p-4 rounded-lg shadow-lg ${borderColorClass} ${side === 'left' ? 'border-r-4 md:border-r-0 md:border-l-4' : 'border-l-4'} text-center md:text-left">
                         <h2 class="text-2xl md:text-3xl font-bold ${textColorClass} mb-1">${item.name}</h2>
-                        <p class="text-slate-500 text-sm md:text-base mb-3">${item.dates.replace(/–/g, '-')}</p>
-                        <button class="summarize-period-btn bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md text-sm transition-colors duration-150">
-                            ✨ Resumir este Periodo
-                        </button>
+                        <p class="text-slate-500 text-sm md:text-base">${item.dates.replace(/–/g, '-')}</p>
                     </div>
                 `;
-                const summarizeBtn = itemElement.querySelector('.summarize-period-btn');
-                if (summarizeBtn) {
-                    summarizeBtn.addEventListener('click', () => handleSummarizePeriod(item));
-                }
-
             } else { // Es un evento
-                itemElement.classList.add('w-full', 'md:w-1/2'); 
+                itemElement.classList.add('w-full', 'md:w-1/2');
                 if (side === 'left') {
                     itemElement.classList.add('md:pr-8', 'text-left', 'md:text-right');
                 } else {
@@ -295,16 +183,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="event-content bg-white p-6 rounded-lg shadow-xl transition-all duration-300 hover:shadow-2xl ${borderColorClass} ${side === 'left' ? 'border-r-4 md:border-r-4' : 'border-l-4 md:border-l-4'}">
                         <p class="text-sm font-semibold ${textColorClass} mb-1">${item.date.replace(/–/g, '-')}</p>
                         <h2 class="text-xl md:text-2xl font-bold text-slate-700 mb-2">${item.title}</h2>
-                        <p class="text-slate-600 text-sm md:text-base mb-3">${item.description}</p>
-                        <button class="learn-more-btn bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-3 rounded-md text-sm transition-colors duration-150">
-                            ✨ Saber Más
-                        </button>
+                        <p class="text-slate-600 text-sm md:text-base">${item.description}</p>
                     </div>
                 `;
-                const learnMoreBtn = itemElement.querySelector('.learn-more-btn');
-                if (learnMoreBtn) {
-                    learnMoreBtn.addEventListener('click', () => handleLearnMore(item));
-                }
             }
             timelineContainer.appendChild(itemElement);
         });
