@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea de Tiempo: Antigua Grecia con IA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-100 text-slate-800">
+    <header class="bg-slate-800 text-white py-8 shadow-lg">
+        <h1 class="text-4xl md:text-5xl font-bold text-center">Línea de Tiempo: Antigua Grecia con IA</h1>
+        <p class="text-center text-slate-300 mt-2">Desde la Edad del Bronce hasta el Período Helenístico</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="relative timeline-container" id="timelineContainer">
+            </div>
+    </main>
+
+    <div id="geminiModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modalTitle" class="text-2xl font-bold text-slate-700 mb-3">Información Adicional</h2>
+            <div id="geminiResponseContainer">
+                </div>
+            <div id="askMoreSection" class="mt-4 hidden">
+                <textarea id="userQuestionInput" class="w-full p-2 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500" rows="3" placeholder="Escribe tu pregunta aquí..."></textarea>
+                <button id="submitUserQuestionButton" class="mt-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-150 flex items-center justify-center">
+                    ✨ Preguntar a Gemini
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-slate-800 text-white text-center py-6 mt-12">
+        <p>&copy; <span id="currentYear"></span> Línea de Tiempo Interactiva. Creada con HTML, Tailwind CSS y JavaScript. Funciones de IA por Gemini.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
