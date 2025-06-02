@@ -1,0 +1,192 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.timeline-container {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+/* La línea central de la línea de tiempo */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background-color: #555;
+    transform: translateX(-50%);
+}
+
+.timeline-event {
+    padding: 20px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+    opacity: 0; /* Para animación */
+    transform: translateY(50px); /* Para animación */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.timeline-event.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Cajas a la izquierda */
+.timeline-event.left {
+    left: 0;
+    padding-right: calc(50% + 30px); /* Espacio para la línea y el círculo */
+    text-align: right;
+}
+
+/* Cajas a la derecha */
+.timeline-event.right {
+    left: 50%;
+    padding-left: calc(50% + 30px); /* Espacio para la línea y el círculo */
+    text-align: left;
+}
+
+/* Círculo en la línea de tiempo */
+.timeline-event::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid; /* El color del borde se establecerá con JS */
+    top: 30px;
+    z-index: 1;
+}
+
+.timeline-event.left::after {
+    right: -12px; /* (20+4*2)/2 - 4 = 12 */
+}
+
+.timeline-event.right::after {
+    left: -12px; /* (20+4*2)/2 - 4 = 12 */
+}
+
+.event-content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.event-content h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.event-content .date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.event-content p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+/* Colores de los periodos */
+.minoan { border-color: #17a2b8 !important; } /* Azul claro */
+.mycenaean { border-color: #007bff !important; } /* Azul */
+.dark-age { border-color: #6c757d !important; } /* Gris */
+.archaic { border-color: #ffc107 !important; } /* Amarillo */
+.classical { border-color: #28a745 !important; } /* Verde */
+.hellenistic { border-color: #6f42c1 !important; } /* Púrpura */
+
+.minoan .event-content { border-left: 5px solid #17a2b8; }
+.mycenaean .event-content { border-left: 5px solid #007bff; }
+.dark-age .event-content { border-left: 5px solid #6c757d; }
+.archaic .event-content { border-left: 5px solid #ffc107; }
+.classical .event-content { border-left: 5px solid #28a745; }
+.hellenistic .event-content { border-left: 5px solid #6f42c1; }
+
+.timeline-event.right .event-content {
+    border-left: none;
+    border-right: 5px solid; /* Hereda el color del borde del padre */
+}
+.minoan.right .event-content { border-right-color: #17a2b8; }
+.mycenaean.right .event-content { border-right-color: #007bff; }
+.dark-age.right .event-content { border-right-color: #6c757d; }
+.archaic.right .event-content { border-right-color: #ffc107; }
+.classical.right .event-content { border-right-color: #28a745; }
+.hellenistic.right .event-content { border-right-color: #6f42c1; }
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .timeline-container::before {
+        left: 30px; /* Mueve la línea a la izquierda */
+    }
+
+    .timeline-event {
+        width: 100%;
+        padding-left: 70px; /* Espacio para la línea y el círculo */
+        padding-right: 25px;
+    }
+
+    .timeline-event.left, .timeline-event.right {
+        left: 0%;
+        padding-left: 70px;
+        padding-right: 25px;
+        text-align: left; /* Todo el texto a la izquierda */
+    }
+    
+    .timeline-event.left::after, .timeline-event.right::after {
+        left: 18px; /* (20+4*2)/2 - 4, ajustado para la nueva posición de la línea */
+    }
+
+    .timeline-event.left .event-content,
+    .timeline-event.right .event-content {
+        border-left: 5px solid; /* Hereda el color */
+        border-right: none;
+    }
+    .minoan .event-content { border-left-color: #17a2b8; }
+    .mycenaean .event-content { border-left-color: #007bff; }
+    .dark-age .event-content { border-left-color: #6c757d; }
+    .archaic .event-content { border-left-color: #ffc107; }
+    .classical .event-content { border-left-color: #28a745; }
+    .hellenistic .event-content { border-left-color: #6f42c1; }
+}
