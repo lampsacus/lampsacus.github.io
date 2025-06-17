@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
+  <meta content="Eduardo Alemán - Digital Humanities, classical texts, and open knowledge." name="description" />
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Eduardo Alemán - Digital Humanities, Classical Texts, and Open Knowledge." />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Eduardo Alemán</title>
   <style>
     html {
@@ -56,16 +56,6 @@
       justify-content: center;
       min-width: 48px;
       min-height: 48px;
-      padding: 1px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1rem;
-      color: #222;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 48px;
-      min-height: 48px;
     }
 
     nav img {
@@ -99,6 +89,7 @@
       height: auto;
       aspect-ratio: 4 / 3;
       object-fit: cover;
+      max-width: 100%;
       border: 1px solid #ccc;
       box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
       margin-bottom: 0.5rem;
@@ -124,14 +115,6 @@
       margin-bottom: 0.5rem;
     }
 
-    .touch-link {
-      display: inline-block;
-      min-width: 48px;
-      min-height: 48px;
-      padding: 10px 12px;
-      margin: 4px 0;
-    }
-
     footer {
       border-top: 3px double #aaa;
       text-align: center;
@@ -144,6 +127,14 @@
       height: 20px;
       aspect-ratio: 1 / 1;
       margin-left: 4px;
+    }
+
+    .touch-link {
+      display: inline-block;
+      min-width: 48px;
+      min-height: 48px;
+      padding: 10px 12px;
+      margin: 4px 0;
     }
 
     table,
@@ -165,14 +156,10 @@
     <h1>Eduardo Alemán</h1>
     <nav>
       <ul>
-        <li><a aria-label="En español" href="https://ealeman.com/"><img
-              alt="Spanish flag and link to section in Spanish" loading="lazy" src="/images/es.svg" /></a></li>
-        <li><a aria-label="Keybase" href="https://keybase.io/ealeman"><img alt="Keybase icon and link" loading="lazy"
-              src="/images/keybase_mark.svg" /></a></li>
-        <li><a aria-label="Link to blog" href="/blog/en/"><img alt="Blog icon and link" loading="lazy"
-              src="/images/blog_icon.svg" /></a></li>
-        <li><a aria-label="GitHub" href="https://github.com/lampsacus/lampsacus.github.io"><img
-              alt="GitHub icon and link" loading="lazy" src="/images/github_mark.svg" /></a></li>
+        <li><a aria-label="Versión en español" href="https://ealeman.com/"><img alt="Flag of Spain and Spanish version" loading="lazy" src="/images/es.svg" /></a></li>
+        <li><a aria-label="Keybase" href="https://keybase.io/ealeman"><img alt="Keybase icon and link" loading="lazy" src="/images/keybase_mark.svg" /></a></li>
+        <li><a aria-label="Blog" href="/blog/"><img alt="Blog icon and link" loading="lazy" src="/images/blog_icon.svg" /></a></li>
+        <li><a aria-label="GitHub" href="https://github.com/lampsacus/lampsacus.github.io"><img alt="GitHub icon and link" loading="lazy" src="/images/github_mark.svg" /></a></li>
       </ul>
     </nav>
   </header>
@@ -180,78 +167,44 @@
   <main>
     <section>
       <figure>
-        <img src="/images/en_delfos.webp" alt="The author at the ruins of the Temple of Apollo in Delphi" width="600"
-          height="200" loading="lazy" />
+        <img alt="The author at the ruins of Apollo’s temple in Delphi" height="200" loading="lazy" src="/images/en_delfos.webp" width="600" />
         <figcaption>
-          <p>
-            The author in front of the ruins of the Temple of Apollo at
-            Delphi, Greece—a place that, even in its fragmentary state,
-            preserves intact the aura of wisdom and mystery that characterized
-            it in ancient times. This sanctuary, nestled on the slopes of
-            Mount Parnassus and considered by the Greeks as ὀμφᾰλός (omphalós,
-            the navel of the world), was one of the most influential
-            spiritual, religious and philosophical centers of the Hellenistic
-            world.
-          </p>
-
-          <p>
-            On the façade of the temple, on the πρόναος (prónaos) or
-            entrance portico, just before entering the τὸ ἄδυτον (ádyton) —the
-            most sacred space in the enclosure, where the Pythia, priestess of
-            Apollo, pronounced her enigmatic oracles— one of the most famous
-            maxims of Antiquity was inscribed: Γνῶθι σεαυτόν (Gnōthi seautón),
-            which means “Know thyself.”
-          </p>
+          <p>The author in front of the ruins of the Temple of Apollo in Delphi, Greece—a place which, even in its fragmented state, still preserves the aura of wisdom and mystery that once characterized it. This sanctuary, set on the slopes of Mount Parnassus and considered by the Greeks as the ὀμφᾰλός (omphalós, the navel of the world), was one of the most influential spiritual, religious, and philosophical centers of the Hellenic world.</p>
+          <p>Inscribed on the pronaos (πρόναος), the entrance portico of the temple, just before entering the τὸ ἄδυτον (ádyton)—its innermost sanctum where the Pythia, Apollo's priestess, uttered her enigmatic oracles—was one of the most famous maxims of antiquity: Γνῶθι σεαυτόν (Gnōthi seautón), meaning “Know thyself.”</p>
         </figcaption>
       </figure>
     </section>
 
     <section class="lecturas" id="bio">
-      <h2>About Me</h2>
+      <h2>About me</h2>
+      <p>Thank you for visiting my site. I was born in Cuba and live in California. I'm a teacher by profession, with university training in philosophy and education. I'm interested in the intersection of technology and the Humanities, combining my pedagogical vocation with participation in Digital Humanities initiatives. In my free time, I collaborate on citizen projects focused on computational philology, critical editing, history, and open access to digital archives.</p>
+      <p>I develop digitization and transcription projects for classical works translated into Spanish, such as Tacitus’ <i>Annals</i> (ed. Moralejo, Gredos 1979) and Thucydides’ <i>History of the Peloponnesian War</i> (trans. Torres Esbarranch, Gredos 1990). These involve careful correction and conversion from PDF to markdown. The results are published—perhaps for the first time on the Web—as navigable and reusable editions using tools like Pandoc, Python, Hugo, Markdown, Git, Visual Studio Code, TXM, and more.</p>
+      <p>Another interest of mine is translating key resources from English into Spanish to broaden access in the Spanish-speaking world. This includes the Text Encoding Initiative (TEI) repository, which is vital for anyone working in the digital preservation of texts. I'm currently studying XML-TEI and translating parts of the TEI Guidelines.</p>
+      <p>Translation and transcription enrich one’s own learning while contributing to the preservation, portability, and dissemination of classical works and digital resources in Spanish. These practices not only support the spread of knowledge, but also promote open access to culture and education more broadly.</p>
 
-      <p>Thank you for visiting my site. I was born in Cuba and live in California. I am a teacher by profession, with
-        university training in philosophy and education.
-        I am interested in the intersection of technology and the Humanities, and I combine my teaching vocation with my
-        participation in Digital Humanities initiatives.
-        In my free time, I collaborate on citizen projects focused on computational philology, critical editing,
-        history, and the promotion of open access to digital archives.</p>
-
-      <p>From a pedagogical perspective, I develop projects for the digitization, transcription, and publication in open
-        formats of classical works translated into Spanish, such as the Annals of Tacitus (ed. Moralejo, Gredos 1979)
-        and the History of the Peloponnesian War by Thucydides (trans. Torres Esbarranch, Gredos 1990). These projects
-        involve detailed correction and adaptation from PDF, with the aim of preserving fidelity to the original
-        translation. The results are published, I believe for the first time on the Web, as browsable and reusable
-        editions, using tools such as Pandoc, Python, Hugo, Markdown, Git, Visual Studio Code, TXM, among others. You
-        can visit the two projects mentioned above by clicking on the section below.</p>
-
-      <p>Another of my interests is the translation and dissemination of key resources from English to Spanish, with the
-        aim of increasing their accessibility in the Spanish-speaking world. Among these resources is the Text Encoding
-        Initiative (TEI) repository, whose documentation and tools are essential for those working in digital text
-        preservation. I have recently begun to study the fundamentals of XML-TEI.
-        I am also beginning to translate its Guidelines.</p>
-      <p>
-      <p>Translating and transcribing texts enriches one's learning while contributing to the maintenance, organization,
-        portability, preservation, and dissemination of classic works and digital resources in Spanish. These activities
-        not only encourage the dissemination of
-        knowledge, but also promote open access to culture and education in general.</p>
-      </p>
       <br />
+
       <table style="width: 100%; margin: auto;">
         <tr>
-          <th>Thucydides and Tacitus</th>
+          <th>Main project</th>
         </tr>
         <tr>
           <td>
-            <nobr><a aria-label="Thucydides" href="https://ealeman.com/tucidides/"><img alt="Thucydides icon and link"
-                  loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Thucydides_pushkin01.jpg" /
-                  width=25px; height=25px; aspect-ratio=1/1;></a> <a aria-label="Tacitus"
-                href="https://ealeman.com/tacito/"><img alt="Tacitus icon and link" loading="lazy"
-                  src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Gaius_Cornelius_Tacitus.jpg" / width=25px;
-                  height=25px; aspect-ratio=1/1;></a></nobr>
+            <a aria-label="Corpus Abierto website" href="https://corpusabierto.com/" class="touch-link">
+              <img
+                src="https://corpusabierto.com/favicon.svg"
+                alt="Corpus Abierto logo and link to the site"
+                loading="lazy"
+                width="25"
+                height="25"
+                style="aspect-ratio:1/1; vertical-align:middle;" />
+              <span style="margin-left: 0.5rem;">Corpus Abierto</span>
+            </a>
           </td>
         </tr>
       </table>
-      <br>
+
+      <br />
 
       <table style="width: 100%; margin: auto;">
         <tr>
@@ -259,36 +212,33 @@
         </tr>
         <tr>
           <td>
-            <nobr><a aria-label="Flickr" href="https://www.flickr.com/photos/ealeman/albums/"><img
-                  alt="Flickr icon and link" loading="lazy" src="/images/flickr_icon.svg" / width=25px; height=25px;
-                  aspect-ratio=1/1;></a> <a aria-label="Unsplash" href="https://unsplash.com/@ealeman"><img
-                  alt="Unsplash icon and link" loading="lazy" src="/images/unsplash_icon.svg" / width=25px; height=25px;
-                  aspect-ratio=1/1;></a></nobr>
+            <a aria-label="Flickr" href="https://www.flickr.com/photos/ealeman/albums/" class="touch-link"><img alt="Flickr icon and link" loading="lazy" src="/images/flickr_icon.svg" width="25" height="25" style="aspect-ratio:1/1; vertical-align:middle;" /></a>
+            <a aria-label="Unsplash" href="https://unsplash.com/@ealeman" class="touch-link"><img alt="Unsplash icon and link" loading="lazy" src="/images/unsplash_icon.svg" width="25" height="25" style="aspect-ratio:1/1; vertical-align:middle;" /></a>
           </td>
         </tr>
       </table>
-      <br>
+
+      <br />
+
       <table style="width: 100%; margin: auto;">
-        <th>Contact</th>
+        <tr>
+          <th>Contact</th>
+        </tr>
         <tr>
           <td>
-            <nobr><a href="mailto:aleman@ealeman.com"><img alt="Email icon and mailto link" loading="lazy"
-                  src="/images/icon_email.svg" / width=25px; height=25px; aspect-ratio=1/1;></a> <a
-                aria-label="GPG public key" href="https://keys.openpgp.org/search?q=aleman%40ealeman.com"><img
-                  alt="Open GPG icon and link" loading="lazy" src="/images/openpgp_logo.svg" / width=25px; height=25px;
-                  aspect-ratio=1/1;></nobr>
+            <a href="mailto:aleman@ealeman.com" class="touch-link"><img alt="Email icon and mailto link" loading="lazy" src="/images/icon_email.svg" width="25" height="25" style="aspect-ratio:1/1; vertical-align:middle;" /></a>
+            <a aria-label="Public GPG key" href="https://keys.openpgp.org/search?q=aleman%40ealeman.com" class="touch-link"><img alt="OpenPGP icon and link" loading="lazy" src="/images/openpgp_logo.svg" width="25" height="25" style="aspect-ratio:1/1; vertical-align:middle;" /></a>
           </td>
         </tr>
       </table>
-      </p>
+
     </section>
   </main>
+
   <footer>
     <p>
       © 2025 Eduardo Alemán —
-      <a aria-label="Creative Commons license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
-        target="_blank">CC BY-NC-ND 4.0</a>
-      &nbsp;
+      <a aria-label="Creative Commons license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
       <img alt="CC" loading="lazy" src="/images/cc.svg" />
       <img alt="BY" loading="lazy" src="/images/by.svg" />
       <img alt="NC" loading="lazy" src="/images/nc.svg" />
@@ -296,5 +246,4 @@
     </p>
   </footer>
 </body>
-
 </html>
