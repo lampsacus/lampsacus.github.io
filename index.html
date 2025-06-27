@@ -1,272 +1,185 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta content="Eduardo Alemán - Humanidades Digitales, textos clásicos y conocimiento abierto." name="description" />
   <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eduardo Alemán - Humanidades Digitales y proyectos de textos clásicos." />
   <title>Eduardo Alemán</title>
   <style>
-    html {
-      scroll-behavior: smooth;
+    /* — RESET & VARIABLES — */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fdfdfd;
+      --fg: #111;
+      --primary: #2c3e50;
+      --accent: #2980b9;
+      --border: #ddd;
+      --shadow: rgba(0, 0, 0, 0.05);
+      --radius: 8px;
+      --spacing: 1rem;
+      --maxW: 1200px;
     }
-
     body {
       font-family: Georgia, serif;
-      background-color: #fdfdfd;
-      color: #111;
-      margin: 0;
-      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.5;
+      scroll-behavior: smooth;
     }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
 
-    header,
-    footer,
-    main {
-      max-width: 1200px;
+    /* — LAYOUT PRINCIPAL — */
+    .container {
+      max-width: var(--maxW);
       margin: auto;
-      padding: 2rem;
+      padding: var(--spacing);
     }
-
-    header {
-      border-bottom: 3px double #aaa;
+    header, footer {
+      background: #fff;
       text-align: center;
+      padding: var(--spacing);
+      border-color: var(--border);
     }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-    }
+    header { border-bottom: 2px solid var(--border); }
+    footer { border-top: 2px solid var(--border); font-size: .875rem; color: #555; }
 
     nav ul {
       display: flex;
       justify-content: center;
-      gap: 1.5rem;
+      gap: var(--spacing);
       list-style: none;
-      padding: 0;
-      margin: 0;
     }
-
-    nav a {
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1rem;
-      color: #222;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 48px;
-      min-height: 48px;
-    }
-
-    nav img {
-      width: 20px;
-      height: 20px;
-      aspect-ratio: 1 / 1;
-    }
+    nav img { width: 24px; height: 24px; }
 
     main {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 2rem;
-      min-height: 80vh;
+      padding: var(--spacing);
     }
-
     section {
-      padding: 1rem;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+      background: #fff;
+      padding: var(--spacing);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 2px 2px 8px var(--shadow);
     }
 
-    figure {
+    /* — TIPOGRAFÍA — */
+    h1 { font-size: 2.5rem; color: var(--primary); margin-bottom: .5rem; }
+    h2 { font-size: 1.75rem; color: var(--primary); margin-bottom: .5rem; }
+
+    /* — LISTAS ESCANEABLES — */
+    ul.scannable { list-style: none; }
+    ul.scannable li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: .5rem;
+    }
+    ul.scannable li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    /* — GRID DE TARJETAS — */
+    .grid-cols {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: var(--spacing);
+    }
+    .card {
       text-align: center;
-      margin: 0;
+      padding: var(--spacing);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      transition: transform .2s;
     }
-
-    figure img {
-      display: block;
-      width: 100%;
-      height: auto;
-      aspect-ratio: 4 / 3;
-      object-fit: cover;
-      max-width: 100%;
-      border: 1px solid #ccc;
-      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 0.5rem;
-    }
-
-    figure figcaption {
-      font-style: italic;
-      font-size: 0.95rem;
-      color: #555;
-      line-height: 1.6;
-      margin-top: 0.5rem;
-    }
-
-    .lecturas p {
-      font-size: 1.05rem;
-      margin-bottom: 0.5rem;
-      text-align: justify;
-    }
-
-    .lecturas h2 {
-      font-size: 1.5rem;
-      margin-top: 1rem;
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      border-top: 3px double #aaa;
-      text-align: center;
-      font-size: 1rem;
-      color: #444;
-    }
-
-    footer img {
-      vertical-align: middle;
-      height: 20px;
-      aspect-ratio: 1 / 1;
-      margin-left: 4px;
-    }
-
-    .touch-link {
-      display: inline-block;
-      min-width: 48px;
-      min-height: 48px;
-      padding: 10px 12px;
-      margin: 4px 0;
-    }
-
-    table,
-    th,
-    td {
-      text-align: left;
-      border-collapse: collapse;
-    }
-
-    th {
-      text-align: left;
-      width: fit-content;
-    }
+    .card:hover { transform: translateY(-4px); }
+    .card img { max-width: 100%; height: auto; border-radius: var(--radius); }
+    .card p { margin-top: .5rem; font-size: .9rem; }
   </style>
 </head>
-
 <body>
-  <header>
+
+  <header class="container">
     <h1>Eduardo Alemán</h1>
     <nav>
       <ul>
-        <li>
-          <a aria-label="En Inglés" href="https://ealeman.com/en/"><img
-              alt="Bandera de Gran Bretaña y enlace a la sección en inglés" loading="lazy" src="/images/en.svg" /></a>
-        </li>
-        <li>
-          <a aria-label="Keybase" href="https://keybase.io/ealeman"><img alt="Ícono de Keybase y enlace" loading="lazy"
-              src="/images/keybase_mark.svg" /></a>
-        </li>
-        <li>
-          <a aria-label="Ir al blog" href="/blog/"><img alt="Ícono del blog y enlace" loading="lazy"
-              src="/images/blog_icon.svg" /></a>
-        </li>
-        <li>
-          <a aria-label="GitHub" href="https://github.com/lampsacus/lampsacus.github.io"><img
-              alt="Ícono de GitHub y enlace" loading="lazy" src="/images/github_mark.svg" /></a>
-        </li>
+        <li><a href="https://ealeman.com/en/"       aria-label="En Inglés"><img src="/images/en.svg"            alt="English" /></a></li>
+        <li><a href="https://keybase.io/ealeman"    aria-label="Keybase"><img src="/images/keybase_mark.svg"  alt="Keybase" /></a></li>
+        <li><a href="/blog/"                        aria-label="Blog"><img src="/images/blog_icon.svg"      alt="Blog" /></a></li>
+        <li><a href="https://github.com/lampsacus/lampsacus.github.io" aria-label="GitHub"><img src="/images/github_mark.svg" alt="GitHub" /></a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
-      <figure>
-        <img alt="El autor en las ruinas del templo de Apolo en Delfos" height="200" loading="lazy"
-          src="/images/en_delfos.webp" width="600" />
-        <figcaption>
-          <p>
-            El autor frente a las ruinas del Templo de Apolo en Delfos, Grecia
-            —un lugar que, aun en su estado fragmentario, conserva intacto el
-            aura de sabiduría y misterio que lo caracterizó en la Antigüedad.
-            Este santuario, enclavado en las laderas del monte Parnaso y
-            considerado por los griegos como ὀμφᾰλός (omphalós, el ombligo del
-            mundo), fue uno de los centros espirituales, religiosos y
-            filosóficos más influyentes del mundo helénico.
-          </p>
-          <p>
-            En la fachada del templo, en el πρόναος (prónaos) o pórtico de
-            entrada, justo antes de penetrar en el τὸ ἄδυτον (ádyton) —el
-            espacio más sagrado del recinto, donde la Pitia, sacerdotisa de
-            Apolo, pronunciaba sus oráculos enigmáticos— se hallaba inscrita
-            una de las máximas más célebres de la Antigüedad: Γνῶθι σεαυτόν
-            (Gnōthi seautón), que significa “Conócete a ti mismo”.
-          </p>
-        </figcaption>
-      </figure>
-    </section>
-    <section class="lecturas" id="bio">
+
+  <main class="container">
+    <!-- BIO -->
+    <section id="bio">
       <h2>Sobre mí</h2>
-      <p> Gracias por visitar mi sitio. Nací en Cuba y vivo en California. Soy maestro de profesión, con formación universitaria en filosofía y educación. Me intereso en la intersección de la tecnología con las Humanidades, y combino mi vocación pedagógica con una participación en iniciativas de Humanidades Digitales. En mi tiempo libre, colaboro en proyectos ciudadanos orientados a la filología computacional, la historia, la traducción y la promoción del acceso abierto a archivos digitales. </p>
-      <p> Desde una vocación pedagógica y en mi tiempo libro desarrollo proyectos de traducción, digitalización, transcripción y publicación en formatos abiertos de obras clásicas traducidas al español, como los <a aria-label="Anales de Tácito" href="https://ealeman.com/tacito/" class="touch-link"><i>Anales</i></a> de Tácito (ed. Moralejo, Gredos 1979) y la <a aria-label="Historia de la guerra del Peloponeso" href="https://ealeman.com/tucidides/"><i>Historia de la guerra del Peloponeso</i></a> de Tucídides (trad. Torres Esbarranch, Gredos 1990). Estos trabajos implican una labor detallada de corrección y adaptación desde PDF, con el objetivo de preservar la fidelidad a la traducción original. Los resultados se publican, creo que por primera vez en la Web, como ediciones navegables y reutilizables. </p>
+      <ul class="scannable">
+        <li>Nacido en Cuba, residente en California.</li>
+        <li>Maestro de profesión (Filosofía y Educación).</li>
+        <li>Apasionado por tecnología + Humanidades Digitales.</li>
+        <li>Colaboro en filología computacional y acceso abierto.</li>
+      </ul>
+    </section>
 
-      <br />
+    <!-- LECTURAS -->
+    <section id="lecturas">
+      <h2>Trabajos Destacados</h2>
+      <ul class="scannable">
+        <li><a href="https://ealeman.com/tacito/">Anales de <em>Tácito</em></a> (Gredos 1979)</li>
+        <li><a href="https://ealeman.com/tucidides/">Historia de la Guerra del Peloponeso</a> (Gredos 1990)</li>
+      </ul>
+    </section>
 
-      <table style="width: 100%; margin: auto">
-        <tr>
-          <th>Proyectos en curso</th>
-        </tr>
-        <tr>
-          <td>
-            <a aria-label="CorpusAbierto" href="https://corpusabierto.com/" class="touch-link"><img
-                alt="Ícono de CorpusAbierto" loading="lazy" src="/images/corpus_abierto_icon.svg" width="100" height="100"
-                style="aspect-ratio: 1/1; vertical-align: middle" /></a>
-          </td>
-        </tr>
-      </table>
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="grid-cols">
+        <a href="https://corpusabierto.com/" class="card">
+          <img src="/images/corpus_abierto_icon.svg" alt="CorpusAbierto" />
+          <p>CorpusAbierto<br><small>Edición navegable de textos clásicos</small></p>
+        </a>
+      </div>
+    </section>
 
-      <table style="width: 100%; margin: auto">
-        <tr>
-          <th>Fotos</th>
-        </tr>
-        <tr>
-          <td>
-            <a aria-label="Flickr" href="https://www.flickr.com/photos/ealeman/albums/" class="touch-link"><img
-                alt="Ícono de Flickr y enlace" loading="lazy" src="/images/flickr_icon.svg" width="25" height="25"
-                style="aspect-ratio: 1/1; vertical-align: middle" /></a>
-            <a aria-label="Unsplash" href="https://unsplash.com/@ealeman" class="touch-link"><img
-                alt="Ícono de Unsplash y enlace" loading="lazy" src="/images/unsplash_icon.svg" width="25" height="25"
-                style="aspect-ratio: 1/1; vertical-align: middle" /></a>
-          </td>
-        </tr>
-      </table>
+    <!-- GALERÍA -->
+    <section id="galeria">
+      <h2>Fotos</h2>
+      <div class="grid-cols">
+        <a href="https://www.flickr.com/photos/ealeman/albums/" class="card">
+          <img src="/images/flickr_icon.svg" alt="Flickr" /><p>Flickr</p>
+        </a>
+        <a href="https://unsplash.com/@ealeman" class="card">
+          <img src="/images/unsplash_icon.svg" alt="Unsplash" /><p>Unsplash</p>
+        </a>
+      </div>
+    </section>
 
-      <br />
-
-      <table style="width: 100%; margin: auto">
-        <tr>
-          <th>Contactarse</th>
-        </tr>
-        <tr>
-          <td>
-            <a href="mailto:aleman@ealeman.com" class="touch-link"><img alt="Ícono de email y enlace mailto"
-                loading="lazy" src="/images/icon_email.svg" width="25" height="25"
-                style="aspect-ratio: 1/1; vertical-align: middle" /></a>
-            <a aria-label="Llave pública de GPG" href="https://keys.openpgp.org/search?q=aleman%40ealeman.com"
-              class="touch-link"><img alt="Ícono de Open GPG y enlace" loading="lazy" src="/images/openpgp_logo.svg"
-                width="25" height="25" style="aspect-ratio: 1/1; vertical-align: middle" /></a>
-          </td>
-        </tr>
-      </table>
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <div class="grid-cols">
+        <a href="mailto:aleman@ealeman.com" class="card">
+          <img src="/images/icon_email.svg" alt="Email" /><p>Email</p>
+        </a>
+        <a href="https://keys.openpgp.org/search?q=aleman%40ealeman.com" class="card">
+          <img src="/images/openpgp_logo.svg" alt="GPG Key" /><p>GPG Key</p>
+        </a>
+      </div>
     </section>
   </main>
-  <footer>
-    <p>
-      © 2025 Eduardo Alemán —
-      <a aria-label="Licencia de Creative Commons" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
-        target="_blank">CC BY-NC-ND 4.0</a>
-      <img alt="CC" loading="lazy" src="/images/cc.svg" />
-      <img alt="BY" loading="lazy" src="/images/by.svg" />
-      <img alt="NC" loading="lazy" src="/images/nc.svg" />
-      <img alt="ND" loading="lazy" src="/images/nd.svg" />
-    </p>
-  </footer>
-</body>
 
+  <footer class="container">
+    <p>© 2025 Eduardo Alemán — <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></p>
+  </footer>
+
+</body>
 </html>
