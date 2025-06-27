@@ -26,10 +26,7 @@
       line-height: 1.5;
       scroll-behavior: smooth;
     }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
+    a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
     .container {
@@ -96,12 +93,16 @@
       transition: transform .2s;
     }
     .card:hover { transform: translateY(-4px); }
+
+    /* Aquí está el cambio clave */
     .card img { 
       width: 125px;
       height: 125px;
-      object-fit: cover;
+      object-fit: contain;
+      object-position: center;
       border-radius: var(--radius);
     }
+
     .card p { margin-top: .5rem; font-size: .9rem; }
   </style>
 </head>
