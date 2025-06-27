@@ -32,7 +32,6 @@
     }
     a:hover { text-decoration: underline; }
 
-    /* — LAYOUT PRINCIPAL — */
     .container {
       max-width: var(--maxW);
       margin: auto;
@@ -68,11 +67,9 @@
       box-shadow: 2px 2px 8px var(--shadow);
     }
 
-    /* — TIPOGRAFÍA — */
     h1 { font-size: 2.5rem; color: var(--primary); margin-bottom: .5rem; }
     h2 { font-size: 1.75rem; color: var(--primary); margin-bottom: .5rem; }
 
-    /* — LISTAS ESCANEABLES — */
     ul.scannable { list-style: none; }
     ul.scannable li {
       position: relative;
@@ -86,7 +83,6 @@
       color: var(--accent);
     }
 
-    /* — GRID DE TARJETAS — */
     .grid-cols {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -100,7 +96,12 @@
       transition: transform .2s;
     }
     .card:hover { transform: translateY(-4px); }
-    .card img { max-width: 100%; height: auto; border-radius: var(--radius); }
+    .card img { 
+      width: 125px;
+      height: 125px;
+      object-fit: cover;
+      border-radius: var(--radius);
+    }
     .card p { margin-top: .5rem; font-size: .9rem; }
   </style>
 </head>
@@ -110,16 +111,16 @@
     <h1>Eduardo Alemán</h1>
     <nav>
       <ul>
-        <li><a href="https://ealeman.com/en/"       aria-label="En Inglés"><img src="/images/en.svg"            alt="English" /></a></li>
-        <li><a href="https://keybase.io/ealeman"    aria-label="Keybase"><img src="/images/keybase_mark.svg"  alt="Keybase" /></a></li>
-        <li><a href="/blog/"                        aria-label="Blog"><img src="/images/blog_icon.svg"      alt="Blog" /></a></li>
+        <li><a href="https://ealeman.com/en/" aria-label="En Inglés"><img src="/images/en.svg" alt="English" /></a></li>
+        <li><a href="https://keybase.io/ealeman" aria-label="Keybase"><img src="/images/keybase_mark.svg" alt="Keybase" /></a></li>
+        <li><a href="/blog/" aria-label="Blog"><img src="/images/blog_icon.svg" alt="Blog" /></a></li>
         <li><a href="https://github.com/lampsacus/lampsacus.github.io" aria-label="GitHub"><img src="/images/github_mark.svg" alt="GitHub" /></a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container">
-    <!-- BIO -->
+    <!-- Sobre mí -->
     <section id="bio">
       <h2>Sobre mí</h2>
       <ul class="scannable">
@@ -130,12 +131,12 @@
       </ul>
     </section>
 
-    <!-- LECTURAS -->
+    <!-- Trabajos Destacados -->
     <section id="lecturas">
       <h2>Trabajos Destacados</h2>
       <ul class="scannable">
-        <li><a href="https://ealeman.com/tacito/">Anales de <em>Tácito</em></a> (Gredos 1979)</li>
-        <li><a href="https://ealeman.com/tucidides/">Historia de la Guerra del Peloponeso</a> (Gredos 1990)</li>
+        <li><a href="https://ealeman.com/tacito/"><em>Anales</em> de Tacitus</a> (Gredos 1979)</li>
+        <li><a href="https://ealeman.com/tucidides/"><em>Historia de la Guerra del Peloponeso</em> de Thucydides</a> (Gredos 1990)</li>
       </ul>
     </section>
 
@@ -163,7 +164,7 @@
       </div>
     </section>
 
-    <!-- CONTACTO -->
+    <!-- CONTACTARSE -->
     <section id="contacto">
       <h2>Contacto</h2>
       <div class="grid-cols">
