@@ -6,72 +6,81 @@
   <meta name="description" content="Eduardo Alemán - Humanidades Digitales y proyectos de textos clásicos." />
   <title>Eduardo Alemán</title>
   <style>
-    /* — RESET & VARIABLES — */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --bg: #fdfdfd;
-      --fg: #111;
-      --primary: #2c3e50;
+      --fg: #2c3e50;
       --accent: #2980b9;
-      --border: #ddd;
-      --shadow: rgba(0, 0, 0, 0.05);
-      --radius: 8px;
-      --spacing: 1rem;
-      --maxW: 1200px;
+      --border: #e0e0e0;
+      --shadow: rgba(0, 0, 0, 0.04);
+      --radius: 6px;
+      --spacing-md: 0.8rem;
+      --spacing-sm: 0.4rem;
     }
     body {
-      font-family: Georgia, serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--fg);
-      line-height: 1.5;
-      scroll-behavior: smooth;
+      line-height: 1.4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: var(--spacing-md);
     }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
     .container {
-      max-width: var(--maxW);
-      margin: auto;
-      padding: var(--spacing);
-    }
-    header, footer {
+      max-width: 600px;
+      width: 100%;
       background: #fff;
-      text-align: center;
-      padding: var(--spacing);
-      border-color: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 4px 12px var(--shadow);
+      padding: 1.5rem;
     }
-    header { border-bottom: 2px solid var(--border); }
-    footer { border-top: 2px solid var(--border); font-size: .875rem; color: #555; }
+
+    header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: var(--spacing-sm);
+    }
+    header p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
 
     nav ul {
       display: flex;
       justify-content: center;
-      gap: var(--spacing);
+      gap: 1.5rem;
       list-style: none;
-    }
-    nav img { width: 24px; height: 24px; }
-
-    main {
-      display: grid;
-      gap: 2rem;
-      padding: var(--spacing);
-    }
-    section {
-      background: #fff;
-      padding: var(--spacing);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: 2px 2px 8px var(--shadow);
+      font-size: 0.9rem;
     }
 
-    h1 { font-size: 2.5rem; color: var(--primary); margin-bottom: .5rem; }
-    h2 { font-size: 1.75rem; color: var(--primary); margin-bottom: .5rem; }
+    h2 {
+      font-size: 1.1rem;
+      color: var(--accent);
+      margin-bottom: var(--spacing-md);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
 
-    ul.scannable { list-style: none; }
+    ul.scannable {
+      list-style: none;
+      font-size: 0.95rem;
+    }
     ul.scannable li {
       position: relative;
-      padding-left: 1.5rem;
-      margin-bottom: .5rem;
+      padding-left: 1.2rem;
+      margin-bottom: var(--spacing-sm);
     }
     ul.scannable li::before {
       content: '•';
@@ -80,125 +89,85 @@
       color: var(--accent);
     }
 
-    .grid-cols {
+    .grid-links {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: var(--spacing);
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: var(--spacing-md);
     }
     .card {
       text-align: center;
-      padding: var(--spacing);
+      padding: var(--spacing-md);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      transition: transform .2s;
+      transition: background .2s;
+      font-size: 0.9rem;
     }
-    .card:hover { transform: translateY(-4px); }
-
-    /* Aquí está el cambio clave */
-    .card img { 
-      width: 150px;
-      height: 150px;
-      object-fit: contain;
-      object-position: center;
-      border-radius: var(--radius);
+    .card:hover {
+      background: #f9f9f9;
+      transform: translateY(-2px);
+    }
+    .card img {
+      width: 32px;
+      height: 32px;
+      margin-bottom: var(--spacing-sm);
     }
 
-    .card p { margin-top: .5rem; font-size: .9rem; }
+    footer {
+      font-size: .8rem;
+      color: #777;
+      text-align: center;
+      margin-top: 1.5rem;
+    }
   </style>
 </head>
 <body>
 
-  <header class="container">
-  <h1>Eduardo Alemán</h1>
-  <nav>
-    <ul>
-      <!-- Switch de idioma: texto "en" -->
-      <li>
-        <a href="https://ealeman.com/en/" aria-label="Cambiar a Inglés">
-          <span class="lang-switch">en</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://keybase.io/ealeman" aria-label="Keybase">
-          <img src="/images/keybase_mark.svg" alt="Keybase" width="24" height="24" />
-        </a>
-      </li>
-      <li>
-        <a href="/blog/" aria-label="Blog">
-          <img src="/images/blog_icon.svg" alt="Blog" width="24" height="24" />
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/lampsacus/lampsacus.github.io" aria-label="GitHub">
-          <img src="/images/github_mark.svg" alt="GitHub" width="24" height="24" />
-        </a>
-      </li>
-    </ul>
-  </nav>
-</header>
+  <div class="container">
+    <header>
+      <h1>Eduardo Alemán</h1>
+      <p>Filosofía, Educación y Humanidades Digitales.</p>
+      <nav>
+        <ul>
+          <li><a href="https://ealeman.com/en/">English</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="https://github.com/lampsacus/lampsacus.github.io">GitHub</a></li>
+          <li><a href="mailto:aleman@ealeman.com">Email</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <main>
+      <section id="bio">
+        <h2>Sobre Mí</h2>
+        <ul class="scannable">
+          <li>Nacido en Cuba, residente en California.</li>
+          <li>Maestro de profesión y entusiasta de la tecnología.</li>
+          <li>Colaboro en proyectos de filología computacional.</li>
+        </ul>
+      </section>
 
-  <main class="container">
-    <!-- Sobre mí -->
-    <section id="bio">
-      <h2>Sobre mí</h2>
-      <ul class="scannable">
-        <li>Nacido en Cuba, residente en California.</li>
-        <li>Maestro de profesión (Filosofía y Educación).</li>
-        <li>Apasionado por tecnología + Humanidades Digitales.</li>
-        <li>Colaboro en filología computacional y acceso abierto.</li>
-      </ul>
-    </section>
+      <section id="proyectos">
+        <h2>Proyectos y Textos</h2>
+        <div class="grid-links">
+            <a href="https://ealeman.com/tacito/" class="card"><em>Anales</em> de Tácito</a>
+            <a href="https://ealeman.com/tucidides/" class="card">Guerra del Peloponeso</a>
+        </div>
+      </section>
 
-    <!-- Trabajos Destacados -->
-    <section id="lecturas">
-      <h2>Otros sitios</h2>
-      <ul class="scannable">
-        <li>Transcripción y conversión a markdown del libro I de los<a href="https://ealeman.com/tacito/"> <em>Anales</em> de Tacitus</a> (Gredos 1979)</li>
-        <li>Transcripción y conversión a markdown del libro I de la<a href="https://ealeman.com/tucidides/"> <em>Historia de la Guerra del Peloponeso</em> de Thucydides</a> (Gredos 1990)</li>
-      </ul>
-    </section>
+      <section id="enlaces">
+        <h2>Enlaces</h2>
+        <div class="grid-links">
+          <a href="https://www.flickr.com/photos/ealeman/albums/" class="card"><img src="/images/flickr_icon.svg" alt="Flickr" /><p>Flickr</p></a>
+          <a href="https://unsplash.com/@ealeman" class="card"><img src="/images/unsplash_icon.svg" alt="Unsplash" /><p>Unsplash</p></a>
+          <a href="https://keybase.io/ealeman" class="card"><img src="/images/keybase_mark.svg" alt="Keybase" /><p>Keybase</p></a>
+          <a href="https://keys.openpgp.org/search?q=aleman%40ealeman.com" class="card"><img src="/images/openpgp_logo.svg" alt="GPG Key" /><p>GPG Key</p></a>
+        </div>
+      </section>
+    </main>
+  </div>
 
-    <!-- PROYECTOS -->
-    <section id="proyectos">
-      <h2>Proyecto actual</h2>
-      <div class="grid-cols">
-        <a href="https://corpusabierto.com/" class="card">
-          <img src="/images/corpus_abierto_icon.svg" alt="CorpusAbierto" />
-          <p>CorpusAbierto<br><small>Edición navegable de textos clásicos</small></p>
-        </a>
-      </div>
-    </section>
-
-    <!-- GALERÍA -->
-    <section id="galeria">
-      <h2>Fotos</h2>
-      <div class="grid-cols">
-        <a href="https://www.flickr.com/photos/ealeman/albums/" class="card">
-          <img src="/images/flickr_icon.svg" alt="Flickr" /><p>Flickr</p>
-        </a>
-        <a href="https://unsplash.com/@ealeman" class="card">
-          <img src="/images/unsplash_icon.svg" alt="Unsplash" /><p>Unsplash</p>
-        </a>
-      </div>
-    </section>
-
-    <!-- CONTACTARSE -->
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <div class="grid-cols">
-        <a href="mailto:aleman@ealeman.com" class="card">
-          <img src="/images/icon_email.svg" alt="Email" /><p>Email</p>
-        </a>
-        <a href="https://keys.openpgp.org/search?q=aleman%40ealeman.com" class="card">
-          <img src="/images/openpgp_logo.svg" alt="GPG Key" /><p>GPG Key</p>
-        </a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="container">
-    <p>© 2025 Eduardo Alemán — <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></p>
+  <footer>
+    <p>© 2025 Eduardo Alemán — CC BY-NC-ND 4.0</p>
   </footer>
 
 </body>
