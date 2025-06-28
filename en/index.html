@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Eduardo Alemán - Digital Humanities and classical text projects." />
+  <meta name="description" content="Eduardo Alemán – Digital Humanities and classical texts projects." />
   <title>Eduardo Alemán</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -54,7 +54,7 @@
     }
     header p {
       font-size: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: var(--spacing-sm);
     }
 
     nav ul {
@@ -111,6 +111,9 @@
       height: 32px;
       margin-bottom: var(--spacing-sm);
     }
+    .card p {
+      margin-top: var(--spacing-sm);
+    }
 
     footer {
       font-size: .8rem;
@@ -125,10 +128,10 @@
   <div class="container">
     <header>
       <h1>Eduardo Alemán</h1>
-      <p>Philosophy, Education, and Digital Humanities.</p>
+      <p>Digital Humanities and classical texts projects.</p>
       <nav>
         <ul>
-          <li><a href="/">Español</a></li>
+          <li><a href="https://ealeman.com/">Español</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="https://github.com/lampsacus/lampsacus.github.io">GitHub</a></li>
           <li><a href="mailto:aleman@ealeman.com">Email</a></li>
@@ -142,19 +145,23 @@
         <ul class="scannable">
           <li>Born in Cuba, based in California.</li>
           <li>Teacher by profession and technology enthusiast.</li>
-          <li>I collaborate on computational philology projects.</li>
+          <li>Contributor to digital philology projects.</li>
         </ul>
       </section>
 
-      <section id="proyectos">
+      <section id="projects">
         <h2>Projects & Texts</h2>
         <div class="grid-links">
-            <a href="https://ealeman.com/tacito/" class="card"><em>Annals</em> of Tacitus</a>
-            <a href="https://ealeman.com/tucidides/" class="card">Thucydides <em>History of the Peloponnesian War</em></a>
+          <a href="https://ealeman.com/tacito/" class="card"><em>Tacitus’ Annals</em></a>
+          <a href="https://ealeman.com/tucidides/" class="card"><em>Tucydides’ Peloponnesian War</em></a>
+          <a href="https://corpusabierto.com/" class="card">
+            <img src="/images/corpus.svg" alt="CorpusAbierto" />
+            <p>CorpusAbierto<br><small>Open, annotated, navigable classical texts</small></p>
+          </a>
         </div>
       </section>
 
-      <section id="enlaces">
+      <section id="links">
         <h2>Links</h2>
         <div class="grid-links">
           <a href="https://www.flickr.com/photos/ealeman/albums/" class="card"><img src="/images/flickr_icon.svg" alt="Flickr" /><p>Flickr</p></a>
@@ -167,7 +174,7 @@
   </div>
 
   <footer>
-    <p>© 2025 Eduardo Alemán — CC BY-NC-ND 4.0</p>
+    <p>© 2025 Eduardo Alemán — CC BY‑NC‑ND 4.0</p>
   </footer>
 
 </body>
